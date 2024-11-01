@@ -644,12 +644,14 @@ time {
   border-radius: 10px;
   padding: 25px 15px;
   margin-left: 16px;
+  overflow-x: scroll;
 }
 .home-content-board-card:first-child {
   margin-left: 0;
 }
 .home-content-board-card__text {
   font-weight: 400;
+  white-space: nowrap;
 }
 .home-content-board-card__time {
   font-size: 0.75rem;
