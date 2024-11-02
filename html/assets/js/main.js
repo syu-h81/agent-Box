@@ -13,4 +13,9 @@ $(function() {
       $subListItem.addClass('open').slideDown(300);
     }
   });
+
+  //アカウント管理のポップアップ機能
+  $('.home-search-box__admin').on('click', function() {
+    $('.home-search-box__admin__popup__inner').fadeToggle();
+  });
 });
