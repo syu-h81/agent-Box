@@ -44,7 +44,7 @@
       <header class="header">
         <div class="header-inner">
           <h1 class="header-logo">
-            <img src="assets/images/header-logo.png" alt="">
+            <a href="index.php"><img src="assets/images/header-logo.png" alt=""></a>
           </h1>
           <nav class="header-nav">
             <ul class="header-nav__list">
@@ -92,7 +92,7 @@
                   設定
                 </div>
                 <ul class="header-nav__subList">
-                  <li class="header-nav__subList__item"><a href="">アカウント管理</a></li>
+                  <li class="header-nav__subList__item"><a href="account-manage-admin.php">アカウント管理</a></li>
                   <li class="header-nav__subList__item"><a href="">項目管理</a></li>
                   <li class="header-nav__subList__item"><a href="">テンプレート管理</a></li>
                   <li class="header-nav__subList__item"><a href="">カレンダー連携</a></li>

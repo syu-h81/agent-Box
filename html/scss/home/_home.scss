@@ -1,7 +1,4 @@
 .home {
-  &-inner {
-    padding-top: 20px;
-  }
   &-search {
     &__inner {
       display: flex;
@@ -374,6 +371,46 @@
             }
           }
         }
+      }
+    }
+  }
+  /* アカウント管理ページ(管理者)のcss */
+  &-account-manage {
+    &__inner {
+      padding-top: 46px;
+    }
+    &__block {
+      background-color: #fff;
+      height: 100vh;
+      border-radius: 10px;
+      padding: 24px;
+    }
+    &__heading__inner {
+      padding-bottom: 20px;
+    }
+    &-admin {
+      &__inner {
+        border-top: 1px solid;
+        padding-top: 20px;
+      }
+      &__table {
+        margin-top: 40px;
+      }
+      &__th,
+      &__td {
+        padding-top: 30px;
+        &__name {
+          padding-top: 0;
+        }
+      }
+      &__th {
+        width: 160px;
+        font-size: 0.75rem;
+      }
+      &__td {
+        font-family: "Jost", sans-serif;
+        font-size: 1.1875rem;
+        letter-spacing: 0.5px;
       }
     }
   }
