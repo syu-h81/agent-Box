@@ -17,7 +17,7 @@
     &__item {
       font-size: 15px;
       font-weight: 500;
-      padding-top: 40px;
+      padding-top: 20px;
       letter-spacing: 1px;
       &:first-child {
         padding-top: 0;
@@ -25,6 +25,10 @@
       &__accordion {
         display: flex;
         align-items: center;
+        background: #F3F6FF;
+        padding: 12px;
+        border-radius: 10px;
+        color: #3A87FD;
         position: relative;
         cursor: pointer;
         &::after {
@@ -33,13 +37,13 @@
           display:block;
           width:8px;
           height:8px;
-          border-top: #272727 2px solid;
-          border-right: #272727 2px solid;
+          border-top: #3A87FD 2px solid;
+          border-right: #3A87FD 2px solid;
           -webkit-transform: rotate(135deg);
           -ms-transform: rotate(135deg);
           transform: rotate(135deg);
           position:absolute;
-          right: 2%;
+          right: 6%;
           top: 0;
           bottom: 15%;
           margin: auto;
@@ -66,7 +70,6 @@
       margin-left: 30px;
     }
     &__help {
-      text-align: center;
       font-size: 0.875rem;
       font-weight: 500;
       position: absolute;
