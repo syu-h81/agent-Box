@@ -112,9 +112,6 @@
                 <div class="home-search-box__search">
                   <input type="search" placeholder="株式会社ANCa内を検索">
                 </div>
-                <div class="home-search-box__history">
-                  <img src="assets/images/history-icon.png" alt="">
-                </div>
                 <div class="home-search-box__msg">
                   <img src="assets/images/msg-icon.png" alt="">
                 </div>        
@@ -213,7 +210,7 @@
                       <div class="home-content-sidebar-schedule__inner">
                         <div class="home-content-sidebar-schedule__title__inner">
                           <h3 class="sidebar-title">説明会日程</h3>
-                          <a href="" class="home-content-sidebar-schedule__view__inner">
+                          <a href="session-schedule.php" class="home-content-sidebar-schedule__view__inner">
                             <span>view all</span>
                             <div class="home-content-sidebar-schedule__view__arrow"></div>
                           </a>
