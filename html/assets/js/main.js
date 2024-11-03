@@ -18,4 +18,12 @@ $(function() {
   $('.home-search-box__admin').on('click', function() {
     $('.home-search-box__admin__popup__inner').fadeToggle();
   });
+
+  //メッセージ一覧のタブ機能
+  $('.home-msg-list-top__tab').on('click', function() {
+    $('.home-msg-list-top__tab').removeClass('active');
+    $(this).addClass('active');
+    var index = $(this).index();
+    $('.home-msg-list-msg').hide().eq(index).show();
+ });
 });
