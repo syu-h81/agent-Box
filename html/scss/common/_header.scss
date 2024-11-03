@@ -25,20 +25,23 @@
       &__accordion {
         display: flex;
         align-items: center;
-        background: #F3F6FF;
-        padding: 12px;
+        padding: 8px 12px;
         border-radius: 10px;
-        color: #3A87FD;
         position: relative;
         cursor: pointer;
+        &.active {
+          background: #F3F6FF;
+          color: #3A87FD;
+          padding: 12px;
+        }
         &::after {
           content:"";
           position: absolute;
           display:block;
           width:8px;
           height:8px;
-          border-top: #3A87FD 2px solid;
-          border-right: #3A87FD 2px solid;
+          border-top: #272727 2px solid;
+          border-right: #272727 2px solid;
           -webkit-transform: rotate(135deg);
           -ms-transform: rotate(135deg);
           transform: rotate(135deg);
@@ -49,7 +52,10 @@
           margin: auto;
         }
         &.active::after {
+          border-top: #3A87FD 2px solid;
+          border-right: #3A87FD 2px solid;
           transform: rotate(-45deg);
+          bottom: 10%;
           transition: .3s;
         }
         &__first {

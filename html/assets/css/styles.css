@@ -447,12 +447,15 @@ time {
 .header-nav__item__accordion {
   display: flex;
   align-items: center;
-  background: #F3F6FF;
-  padding: 12px;
+  padding: 8px 12px;
   border-radius: 10px;
-  color: #3A87FD;
   position: relative;
   cursor: pointer;
+}
+.header-nav__item__accordion.active {
+  background: #F3F6FF;
+  color: #3A87FD;
+  padding: 12px;
 }
 .header-nav__item__accordion::after {
   content: "";
@@ -460,8 +463,8 @@ time {
   display: block;
   width: 8px;
   height: 8px;
-  border-top: #3A87FD 2px solid;
-  border-right: #3A87FD 2px solid;
+  border-top: #272727 2px solid;
+  border-right: #272727 2px solid;
   transform: rotate(135deg);
   position: absolute;
   right: 6%;
@@ -470,7 +473,10 @@ time {
   margin: auto;
 }
 .header-nav__item__accordion.active::after {
+  border-top: #3A87FD 2px solid;
+  border-right: #3A87FD 2px solid;
   transform: rotate(-45deg);
+  bottom: 10%;
   transition: 0.3s;
 }
 .header-nav__item__accordion__first::after {
