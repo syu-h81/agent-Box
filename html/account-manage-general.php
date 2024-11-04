@@ -108,9 +108,9 @@
                 <div class="home-search-box__search">
                   <input type="search" placeholder="株式会社ANCa内を検索">
                 </div>
-                <div class="home-search-box__msg">
+                <a href="message-list.php" class="home-search-box__msg">
                   <img src="assets/images/msg-icon.png" alt="">
-                </div>        
+                </a>        
               </div>
               <div class="home-search-box__admin">
                 <span class="home-search-box__admin__title">管理者</span>

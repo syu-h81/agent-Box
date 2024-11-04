@@ -559,7 +559,7 @@ time {
   letter-spacing: 1px;
   margin-left: 20px;
 }
-.home-search-box__history, .home-search-box__msg {
+.home-search-box__msg {
   width: 36px;
   height: 36px;
   background-color: #fff;
