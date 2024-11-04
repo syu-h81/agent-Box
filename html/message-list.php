@@ -1,19 +1,10 @@
-
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ホーム</title>
-</head>
-<body>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex,nofollow" />
-  <title></title>
+  <title>ホーム_メッセージ一覧</title>
 
   <!-- OGP -->
   <meta property="og:url" content=""> <!-- //ページのURLを設定 -->
@@ -100,7 +91,6 @@
                   <li class="header-nav__subList__item"><a href="account-message-general.php">アカウント管理</a></li>
                   <li class="header-nav__subList__item"><a href="">項目管理</a></li>
                   <li class="header-nav__subList__item"><a href="">テンプレート管理</a></li>
-                  <li class="header-nav__subList__item"><a href="">カレンダー連携</a></li>
                   <li class="header-nav__subList__item"><a href="">カレンダー連携</a></li>
                 </ul>
               </li>
@@ -776,7 +766,5 @@
     </footer>
   </div>
   <script src="assets/js/main.js"></script>
-</body>
-</html>
 </body>
 </html>

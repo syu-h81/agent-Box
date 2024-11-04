@@ -4,16 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ホーム</title>
-</head>
-<body>
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex,nofollow" />
-  <title></title>
+  <title>ホーム</title>
 
   <!-- OGP -->
   <meta property="og:url" content=""> <!-- //ページのURLを設定 -->
@@ -31,6 +23,9 @@
 
   <!-- Import CSS -->
   <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Import fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" type="text/css" />
 
   <!-- Import JS/jQuery Library -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -96,7 +91,6 @@
                   <li class="header-nav__subList__item"><a href="account-manage-admin.php">アカウント管理</a></li>
                   <li class="header-nav__subList__item"><a href="">項目管理</a></li>
                   <li class="header-nav__subList__item"><a href="">テンプレート管理</a></li>
-                  <li class="header-nav__subList__item"><a href="">カレンダー連携</a></li>
                   <li class="header-nav__subList__item"><a href="">カレンダー連携</a></li>
                 </ul>
               </li>
@@ -182,7 +176,7 @@
                       <div class="home-content-sidebar-new-recruit__inner">
                         <div class="home-content-sidebar-new-recruit__title__inner">
                           <h3 class="sidebar-title">新着求人案内</h3>
-                          <a href="" class="home-content-sidebar-new-recruit__view__inner">
+                          <a href="job-info.php" class="home-content-sidebar-new-recruit__view__inner">
                             <span>view all</span>
                             <div class="home-content-sidebar-new-recruit__view__arrow"></div>
                           </a>
@@ -278,7 +272,5 @@
     </footer>
   </div>
   <script src="assets/js/main.js"></script>
-</body>
-</html>
 </body>
 </html>

@@ -1,19 +1,10 @@
-
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ホーム</title>
-</head>
-<body>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex,nofollow" />
-  <title></title>
+  <title>ホーム_アカウント管理(管理者)</title>
 
   <!-- OGP -->
   <meta property="og:url" content=""> <!-- //ページのURLを設定 -->
@@ -32,6 +23,9 @@
 
   <!-- Import CSS -->
   <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Import fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" type="text/css" />
 
   <!-- Import JS/jQuery Library -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -98,7 +92,6 @@
                   <li class="header-nav__subList__item"><a href="">項目管理</a></li>
                   <li class="header-nav__subList__item"><a href="">テンプレート管理</a></li>
                   <li class="header-nav__subList__item"><a href="">カレンダー連携</a></li>
-                  <li class="header-nav__subList__item"><a href="">カレンダー連携</a></li>
                 </ul>
               </li>
             </ul>
@@ -113,9 +106,6 @@
               <div class="home-search-box">
                 <div class="home-search-box__search">
                   <input type="search" placeholder="株式会社ANCa内を検索">
-                </div>
-                <div class="home-search-box__history">
-                  <img src="assets/images/history-icon.png" alt="">
                 </div>
                 <div class="home-search-box__msg">
                   <img src="assets/images/msg-icon.png" alt="">
@@ -178,7 +168,5 @@
     </footer>
   </div>
   <script src="assets/js/main.js"></script>
-</body>
-</html>
 </body>
 </html>

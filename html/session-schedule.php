@@ -4,14 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ホーム</title>
-</head>
-<body>
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex,nofollow" />
   <title>ホーム_説明会日程一覧</title>
 
@@ -31,6 +23,9 @@
 
   <!-- Import CSS -->
   <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Import fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" type="text/css" />
 
   <!-- Import JS/jQuery Library -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -350,7 +345,5 @@
     </footer>
   </div>
   <script src="assets/js/main.js"></script>
-</body>
-</html>
 </body>
 </html>
