@@ -413,8 +413,10 @@ body {
 }
 
 time {
+  color: #A0A0A0;
   font-size: 0.75rem;
   font-weight: 500;
+  font-family: "Jost", sans-serif;
 }
 
 .header {
@@ -504,6 +506,7 @@ time {
 .home {
   /* アカウント管理ページ共通のcss */
   /* メッセージ一覧ページのcss */
+  /* 説明会日程一覧ページのcss */
 }
 .home-search__inner {
   display: flex;
@@ -1062,4 +1065,72 @@ time {
   color: #A0A0A0;
   font-family: "Jost", sans-serif;
   margin-right: 8px;
+}
+.home-session-schedule__inner {
+  padding-top: 40px;
+}
+.home-session-schedule__block {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 24px;
+}
+.home-session-schedule__card__inner {
+  display: grid;
+  row-gap: 20px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 40px;
+}
+.home-session-schedule__card {
+  border: 1.5px solid #3A87FD;
+  border-radius: 6px;
+  padding: 24px;
+}
+.home-session-schedule__card__title h3 {
+  margin-top: 8px;
+}
+.home-session-schedule__card__content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.home-session-schedule__card__content__img {
+  width: 100%;
+}
+.home-session-schedule__card__content__img img {
+  width: 100%;
+  height: auto;
+}
+.home-session-schedule__card__content__body {
+  width: 95%;
+  padding-left: 16px;
+}
+.home-session-schedule__card__content__body__calendar, .home-session-schedule__card__content__body__place, .home-session-schedule__card__content__body__occupation {
+  position: relative;
+  display: flex;
+  font-size: 0.75rem;
+  margin-top: 10px;
+}
+.home-session-schedule__card__content__body__calendar span, .home-session-schedule__card__content__body__place span, .home-session-schedule__card__content__body__occupation span {
+  margin-left: 6px;
+}
+.home-session-schedule__card__content__body__text {
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+  line-height: 22.2px;
+  margin-top: 8px;
+}
+.home-session-schedule__card__content__body__btn {
+  width: 120px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3A87FD;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 0.625rem;
+  margin-top: 16px;
+  margin-left: auto;
 }/*# sourceMappingURL=styles.css.map */
