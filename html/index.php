@@ -176,7 +176,7 @@
                       <div class="home-content-sidebar-new-recruit__inner">
                         <div class="home-content-sidebar-new-recruit__title__inner">
                           <h3 class="sidebar-title">新着求人案内</h3>
-                          <a href="job-info.php" class="home-content-sidebar-new-recruit__view__inner">
+                          <a href="new-job-info.php" class="home-content-sidebar-new-recruit__view__inner">
                             <span>view all</span>
                             <div class="home-content-sidebar-new-recruit__view__arrow"></div>
                           </a>

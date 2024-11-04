@@ -1,6 +1,8 @@
 .header {
-  width: 320px;
+  width: 240px;
   background-color: #fff;
+  position: fixed;
+  height: 100vh;
   &-inner {
     padding: 0 20px;
     padding-top: 30px;
@@ -81,7 +83,6 @@
       position: absolute;
       bottom: 50px;
       left: 100px;
-      text-align: center;
     }
   }
 }

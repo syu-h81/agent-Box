@@ -384,7 +384,8 @@ body {
 .main {
   background-color: #F3F5FC;
   padding: 30px;
-  width: 100%;
+  width: 84%;
+  margin-left: auto;
 }
 
 .wrapper {
@@ -420,8 +421,10 @@ time {
 }
 
 .header {
-  width: 320px;
+  width: 240px;
   background-color: #fff;
+  position: fixed;
+  height: 100vh;
 }
 .header-inner {
   padding: 0 20px;
@@ -500,13 +503,13 @@ time {
   position: absolute;
   bottom: 50px;
   left: 100px;
-  text-align: center;
 }
 
 .home {
   /* アカウント管理ページ共通のcss */
   /* メッセージ一覧ページのcss */
   /* 説明会日程一覧ページのcss */
+  /* 新着求人案内ページのcss */
 }
 .home-search__inner {
   display: flex;
@@ -722,6 +725,7 @@ time {
   white-space: nowrap;
 }
 .home-content-board-card__time {
+  color: #fff;
   font-size: 0.75rem;
   font-weight: 500;
   margin-top: 16px;
@@ -1122,6 +1126,79 @@ time {
   margin-top: 8px;
 }
 .home-session-schedule__card__content__body__btn {
+  width: 120px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3A87FD;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 0.625rem;
+  margin-top: 16px;
+  margin-left: auto;
+}
+.home-new-job-info__inner {
+  padding-top: 40px;
+}
+.home-new-job-info__block {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 24px;
+}
+.home-new-job-info__card__inner {
+  display: grid;
+  row-gap: 20px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 40px;
+}
+.home-new-job-info__card {
+  border: 1.5px solid #3A87FD;
+  border-radius: 6px;
+  padding: 24px;
+}
+.home-new-job-info__card__title h3 {
+  margin-top: 8px;
+}
+.home-new-job-info__card__title span {
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 16px;
+}
+.home-new-job-info__card__content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.home-new-job-info__card__content__img {
+  width: 100%;
+}
+.home-new-job-info__card__content__img img {
+  width: 100%;
+  height: auto;
+}
+.home-new-job-info__card__content__body {
+  width: 95%;
+  padding-left: 16px;
+}
+.home-new-job-info__card__content__body__place, .home-new-job-info__card__content__body__occupation {
+  position: relative;
+  display: flex;
+  font-size: 0.75rem;
+  margin-top: 10px;
+}
+.home-new-job-info__card__content__body__place span, .home-new-job-info__card__content__body__occupation span {
+  margin-left: 6px;
+}
+.home-new-job-info__card__content__body__text {
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+  line-height: 22.2px;
+  margin-top: 8px;
+}
+.home-new-job-info__card__content__body__btn {
   width: 120px;
   height: 30px;
   display: flex;

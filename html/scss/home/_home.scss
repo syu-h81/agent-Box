@@ -214,6 +214,7 @@
           white-space: nowrap;
         }
         &__time {
+          color: #fff;
           font-size: 0.75rem;
           font-weight: 500;
           margin-top: 16px;
@@ -624,6 +625,84 @@
           width: 95%;
           padding-left: 16px;
           &__calendar,
+          &__place,
+          &__occupation {
+            position: relative;
+            display: flex;
+            font-size: 0.75rem;
+            margin-top: 10px;
+            span {
+              margin-left: 6px;
+            }
+          }
+          &__text {
+            font-size: 0.75rem;
+            letter-spacing: 0.5px;
+            line-height: 22.2px;
+            margin-top: 8px;
+          }
+          &__btn {
+            width: 120px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #3A87FD;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 0.625rem;
+            margin-top: 16px;
+            margin-left: auto;
+          }
+        }
+      }
+    }
+  }
+  /* 新着求人案内ページのcss */
+  &-new-job-info {
+    &__inner {
+      padding-top: 40px;
+    }
+    &__block {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 24px;
+    }
+    &__card__inner {
+      display: grid;
+      row-gap: 20px;
+      column-gap: 20px;
+      grid-template-columns: repeat(2, 1fr);
+      padding-top: 40px;
+    }
+    &__card {
+      border: 1.5px solid #3A87FD;
+      border-radius: 6px;
+      padding: 24px;
+      &__title {
+        h3 {
+          margin-top: 8px;
+        }
+        span {
+          display: block;
+          font-size: 0.75rem;
+          margin-top: 16px;
+        }
+      }
+      &__content {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        &__img {
+          width: 100%;
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+        &__body {
+          width: 95%;
+          padding-left: 16px;
           &__place,
           &__occupation {
             position: relative;
