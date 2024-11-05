@@ -166,7 +166,7 @@
                           募集要項のテキスト入ります募集要項のテキスト入ります募集要項のテキスト入ります
                           </p>
                         </div>
-                        <a href="" class="home-new-job-info__card__content__body__btn">求人を見る</a>
+                        <a href="new-job-detail.php" class="home-new-job-info__card__content__body__btn">求人を見る</a>
                       </div>
                     </div>
                   </div>
@@ -195,7 +195,7 @@
                           募集要項のテキスト入ります募集要項のテキスト入ります募集要項のテキスト入ります
                           </p>
                         </div>
-                        <a href="" class="home-new-job-info__card__content__body__btn">求人を見る</a>
+                        <a href="new-job-detail.php" class="home-new-job-info__card__content__body__btn">求人を見る</a>
                       </div>
                     </div>
                   </div>
@@ -224,7 +224,7 @@
                           募集要項のテキスト入ります募集要項のテキスト入ります募集要項のテキスト入ります
                           </p>
                         </div>
-                        <a href="" class="home-new-job-info__card__content__body__btn">求人を見る</a>
+                        <a href="new-job-detail.php" class="home-new-job-info__card__content__body__btn">求人を見る</a>
                       </div>
                     </div>
                   </div>
@@ -253,7 +253,7 @@
                           募集要項のテキスト入ります募集要項のテキスト入ります募集要項のテキスト入ります
                           </p>
                         </div>
-                        <a href="" class="home-new-job-info__card__content__body__btn">求人を見る</a>
+                        <a href="new-job-detail.php" class="home-new-job-info__card__content__body__btn">求人を見る</a>
                       </div>
                     </div>
                   </div>
@@ -282,7 +282,7 @@
                           募集要項のテキスト入ります募集要項のテキスト入ります募集要項のテキスト入ります
                           </p>
                         </div>
-                        <a href="" class="home-new-job-info__card__content__body__btn">求人を見る</a>
+                        <a href="new-job-detail.php" class="home-new-job-info__card__content__body__btn">求人を見る</a>
                       </div>
                     </div>
                   </div>
@@ -311,7 +311,7 @@
                           募集要項のテキスト入ります募集要項のテキスト入ります募集要項のテキスト入ります
                           </p>
                         </div>
-                        <a href="" class="home-new-job-info__card__content__body__btn">求人を見る</a>
+                        <a href="new-job-detail.php" class="home-new-job-info__card__content__body__btn">求人を見る</a>
                       </div>
                     </div>
                   </div>
