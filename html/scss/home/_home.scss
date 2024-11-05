@@ -735,4 +735,290 @@
       }
     }
   }
+  /* 新着求人案内_詳細画面ページのcss */
+  &-new-job-detail {
+    &__inner {
+      padding-top: 40px;
+    }
+    &__block {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 24px;
+    }
+    &-top {
+      &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      &-tag {
+        &__date {
+          color: #A0A0A0;
+          font-size: 0.75rem;
+          span {
+            &:nth-child(2) {
+              margin: 0 8px;
+            }
+            time {
+              margin-left: 8px;
+            }
+          }
+        }
+        &__category {
+          display: flex;
+          align-items: center;
+          padding-top: 16px;
+          &__box {
+            border: 1px solid #3A87FD;
+            border-radius: 30px;
+            color: #3A87FD;
+            font-size: 0.625rem;
+            margin-left: 8px;
+            padding: 8px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:first-child {
+              margin-left: 0;
+            }
+          }
+        }
+      }
+      &-entry {
+        &__btn {
+          max-width: 206px;
+          background-color: #3A87FD;
+          border-radius: 5px;
+          color: #fff;
+          padding: 16px 64px;
+          margin-left: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        &__span {
+          padding-top: 16px;
+          span {
+            display: block;
+            color: #A0A0A0;
+            font-size: 0.75rem;
+            margin-top: 8px;
+          }
+        }
+      }
+    }
+    &-content {
+      padding-top: 56px;
+      display: flex;
+      &__title__inner {
+        max-width: 74%;
+        span {
+          display: block;
+          color: #A0A0A0;
+          font-size: 0.75rem;
+          margin-top: 24px;
+        }
+      }
+      &__img {
+        width: 50%;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      &-body {
+        padding-left: 48px;
+        &__summary {
+          &__title {
+            font-size: 1.171875rem;
+            letter-spacing: 1px;
+            padding-left: 16px;
+            position: relative;
+            &::before {
+              content: '';
+              position: absolute;
+              top: 3px;
+              left: 0;
+              width: 3px;
+              height: 20px;
+              background-color: #3A87FD;
+            }
+          }
+          &__place,
+          &__occupation,
+          &__position {
+            display: flex;
+            align-items: center;
+            padding-top: 24px;
+            span {
+              margin-left: 12px;
+            }
+          }
+        }
+        &__info {
+          padding-top: 48px;
+          &__title {
+            font-size: 1.171875rem;
+            letter-spacing: 1px;
+            padding-left: 16px;
+            position: relative;
+            &::before {
+              content: '';
+              position: absolute;
+              top: 3px;
+              left: 0;
+              width: 3px;
+              height: 20px;
+              background-color: #3A87FD;
+            }
+          }
+          &__url,
+          &__prime,
+          &__position,
+          &__service {
+            display: flex;
+            padding-top: 24px;
+            span {
+              margin-left: 12px;
+            }
+          }
+          &__service {
+            span {
+              line-height: 28px;
+            }
+          }
+        }
+      }
+      &-schedule {
+        &__inner {
+          padding-top: 48px;
+        }
+        &__title__inner {
+          font-size: 1.171875rem;
+          letter-spacing: 1px;
+          padding-left: 16px;
+          position: relative;
+          &::before {
+            content: '';
+            position: absolute;
+            top: 3px;
+            left: 0;
+            width: 3px;
+            height: 20px;
+            background-color: #3A87FD;
+          }
+        }
+        &-body {
+          display: flex;
+          &__calendar {
+            width: 50%;
+            img {
+              width: 100%;
+              height: auto;
+            }
+          }
+          &__date {
+            padding-left: 48px;
+            &__session,
+            &__selection {
+              &__title {
+                border: 1px solid #272727;
+                border-radius: 30px;
+                font-size: 0.625rem;
+                padding: 8px 24px;
+              }
+              &__date {
+                display: grid;
+                column-gap: 32px;
+                row-gap: 12px;
+                grid-template-columns: repeat(2, 1fr);
+                padding-top: 16px;
+              }
+            }
+            &__selection {
+              padding-top: 32px;
+            }
+            &__copyBtn {
+              max-width: 134px;
+              background-color: #3A87FD;
+              border-radius: 5px;
+              color: #fff;
+              font-size: 0.75rem;
+              padding: 8px 24px;
+              margin-top: 40px;
+              margin-left: auto;
+            }
+          }
+        }
+      }
+    }
+    &-info-block {
+      padding-top: 64px;
+      &__title__inner {
+        background-color: #272727;
+        border: 5px;
+        border-radius: 5px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        padding: 16px 24px;
+        h3 {
+          font-weight: 700;
+          margin: 0;
+        }
+      }
+      &__heading {
+        font-size: 1.171875rem;
+        letter-spacing: 1px;
+        padding-left: 16px;
+        margin-top: 56px;
+        position: relative;
+        &::before {
+          content: '';
+          position: absolute;
+          top: 3px;
+          left: 0;
+          width: 3px;
+          height: 20px;
+          background-color: #3A87FD;
+        }
+      }
+      &__list {
+        display: grid;
+        row-gap: 48px;
+        column-gap: 48px;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 48px;
+      }
+      &-item {
+        border-bottom: 0.5px solid #A0A0A0;
+        padding-bottom: 24px;
+        &__title__inner {
+          font-weight: 700;
+        }
+        &__text__inner {
+          line-height: 27.75px;
+          padding-top: 16px;
+        }
+      }
+    }
+    &-info {
+      &-flex {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 48px;
+      }
+      &-business__text__inner,
+      &-job__text__inner {
+        line-height: 27.75px;
+        padding-top: 40px;
+      }
+      &-selection,
+      &-fee {
+        &__list {
+          grid-template-columns: auto;
+        }
+      }
+    }
+  }
 }
