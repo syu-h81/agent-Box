@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex,nofollow" />
-  <title>ホーム_新着求人案内</title>
+  <title>ホーム_新着求人案内_詳細画面</title>
 
   <!-- OGP -->
   <meta property="og:url" content=""> <!-- //ページのURLを設定 -->
