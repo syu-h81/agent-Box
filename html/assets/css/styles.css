@@ -1042,7 +1042,7 @@ time {
 .home-msg-list-msg {
   margin-top: 40px;
   overflow-y: scroll;
-  height: 100vh;
+  height: 100%;
 }
 .home-msg-list-msg__content {
   display: flex;
@@ -1059,9 +1059,11 @@ time {
   font-family: "Jost", sans-serif;
 }
 .home-msg-list-msg__content__body {
-  overflow-x: scroll;
   white-space: nowrap;
   margin: 0 24px;
+}
+.home-msg-list-msg__content__body p {
+  overflow-x: scroll;
 }
 .home-msg-list-msg__content__body__address {
   display: flex;

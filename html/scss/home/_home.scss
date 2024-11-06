@@ -548,7 +548,7 @@
     &-msg {
       margin-top: 40px;
       overflow-y: scroll;
-      height: 100vh;
+      height: 100%;
       &__content {
         display: flex;
         justify-content: space-between;
@@ -563,9 +563,11 @@
           font-family: "Jost", sans-serif;
         }
         &__body {
-          overflow-x: scroll;
           white-space: nowrap;
           margin: 0 24px;
+          p {
+            overflow-x: scroll;
+          }
           &__address {
             display: flex;
             align-items: center;
