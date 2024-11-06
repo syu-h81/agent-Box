@@ -142,7 +142,7 @@
                     <div class="home-content-board__inner">
                       <div class="home-content-board__title__inner">
                         <h2>掲示板</h2>
-                        <a href="" class="home-content-board__view__inner">
+                        <a href="board-list.php" class="home-content-board__view__inner">
                           <span>view all</span>
                           <div class="home-content-board__view__arrow"></div>
                         </a>
