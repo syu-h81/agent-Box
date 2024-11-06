@@ -26,4 +26,12 @@ $(function() {
     var index = $(this).index();
     $('.home-msg-list-msg').hide().eq(index).show();
  });
+
+ //掲示板一覧のタブ機能
+ $('.home-board-list-top__tab').on('click', function() {
+  $('.home-board-list-top__tab').removeClass('active');
+  $(this).addClass('active');
+  var index = $(this).index();
+  $('.home-board-list-msg').hide().eq(index).show();
+});
 });
