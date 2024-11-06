@@ -947,6 +947,7 @@ time {
   height: 100vh;
   border-radius: 10px;
   padding: 24px;
+  overflow: hidden;
 }
 .home-msg-list__heading__inner {
   padding-bottom: 20px;
@@ -1040,7 +1041,7 @@ time {
 .home-msg-list-msg {
   margin-top: 40px;
   overflow-y: scroll;
-  height: 65vh;
+  height: 100vh;
 }
 .home-msg-list-msg__content {
   display: flex;

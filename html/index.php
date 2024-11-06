@@ -45,10 +45,10 @@
           <nav class="header-nav">
             <ul class="header-nav__list">
               <li class="header-nav__item">
-              <div id="accordion" class="header-nav__item__accordion header-nav__item__accordion__first">
+                <a href="index.php" id="accordion" class="header-nav__item__accordion header-nav__item__accordion__first">
                   <img src="assets/images/header-home-icon.png" alt="ホーム">
                   ホーム
-                </div>
+                </a>
               </li>
               <li class="header-nav__item">
                 <div id="accordion" class="header-nav__item__accordion">
