@@ -35,6 +35,17 @@ $(function() {
     $('.home-board-list-msg').hide().eq(index).show();
   });
 
+  //掲示板画面のタブ機能
+  $(document).ready(function() {
+    $('.home-board-screen-content__inner').hide().first().show();
+    $('.home-board-screen-top__tab').on('click', function() {
+      $('.home-board-screen-top__tab').removeClass('active');
+      $(this).addClass('active');
+      var index = $(this).index();
+      $('.home-board-screen-content__inner').hide().eq(index).show();
+    });
+  });
+
   //掲示板作成画面(マスター管理者)バイネームのポップアップ機能
   $('.by-name').on('click', function() {
     $('.by-name__inner').show();

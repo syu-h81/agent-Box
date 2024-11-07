@@ -518,6 +518,7 @@ time {
   /* 掲示板一覧ページのcss */
   /* 掲示板作成画面_マスター管理者ページのcss */
   /* 掲示板作成画面_管理者ページのcss */
+  /* 掲示板画面ページのcss */
 }
 .home-search__inner {
   display: flex;
@@ -1829,4 +1830,157 @@ time {
   background-color: #3A87FD;
   border-radius: 5px;
   padding: 16px 56px;
+}
+.home-board-screen__inner {
+  padding-top: 46px;
+}
+.home-board-screen__block {
+  background-color: #fff;
+  height: 100vh;
+  border-radius: 10px;
+  padding: 24px;
+  overflow: hidden;
+}
+.home-board-screen__heading__inner {
+  padding-bottom: 20px;
+}
+.home-board-screen-top__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.home-board-screen-top__tab {
+  color: #A0A0A0;
+  font-size: 0.75rem;
+  padding: 0 20px 10px 20px;
+  cursor: pointer;
+}
+.home-board-screen-top__tab:first-child {
+  margin-left: 0;
+}
+.home-board-screen-top__tab.active {
+  border-bottom: 2px solid #3A87FD;
+  color: #272727;
+}
+.home-board-screen-top__tab__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-board-screen-top__search__inner {
+  position: relative;
+}
+.home-board-screen-top__search__inner::before {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background: url(../images/search-icon.svg) no-repeat center center/auto 100%;
+  display: inline-block;
+  position: absolute;
+  top: 14px;
+  left: 10px;
+}
+.home-board-screen-top__search__inner input {
+  width: 370px;
+  height: 40px;
+  background-color: #fff;
+  border: 0.5px solid #A5A5A5;
+  border-radius: 55px;
+  -webkit-appearance: auto;
+     -moz-appearance: auto;
+          appearance: auto;
+  color: #A0A0A0;
+  font-size: 0.75rem;
+  padding-left: 40px;
+}
+.home-board-screen__inner {
+  padding-top: 40px;
+}
+.home-board-screen__block {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 24px;
+}
+.home-board-screen-content__inner {
+  display: flex;
+  gap: 52px;
+  padding-top: 40px;
+}
+.home-board-screen-content__list {
+  overflow-y: scroll;
+  scrollbar-color: #e6e6e6 #e6e6e6;
+  height: 80vh;
+  padding-right: 24px;
+}
+.home-board-screen-content-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #A0A0A0;
+  padding: 24px 0;
+}
+.home-board-screen-content-item:first-child {
+  padding-top: 0;
+}
+.home-board-screen-content-item__body__title {
+  overflow-x: scroll;
+  padding-top: 8px;
+  white-space: nowrap;
+}
+.home-board-screen-content-item__body__url {
+  display: flex;
+  align-items: center;
+  padding-top: 16px;
+}
+.home-board-screen-content-item__body__url a {
+  color: #3A87FD;
+  font-size: 0.75rem;
+  margin-left: 8px;
+}
+.home-board-screen-content-item__body__from {
+  padding-top: 16px;
+}
+.home-board-screen-content-item__body__from span {
+  color: #A0A0A0;
+  font-size: 0.75rem;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  margin-right: 8px;
+}
+.home-board-screen-content-body {
+  width: 70%;
+}
+.home-board-screen-content-body__address {
+  padding-bottom: 24px;
+  border-bottom: 1px solid #A0A0A0;
+}
+.home-board-screen-content-body__address__time {
+  position: relative;
+}
+.home-board-screen-content-body__address__time::before {
+  content: "";
+  position: absolute;
+  left: -22px;
+  top: 5px;
+  background-image: url("../images/next--next-arrow-right-keyboard.png");
+  width: 14px;
+  height: 9px;
+}
+.home-board-screen-content-body__address__title {
+  padding-top: 8px;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.home-board-screen-content-body__address__url {
+  padding-top: 16px;
+}
+.home-board-screen-content-body__address__url a {
+  color: #3A87FD;
+  font-size: 0.75rem;
+  margin-left: 8px;
+}
+.home-board-screen-content-body__content {
+  letter-spacing: 1px;
+  line-height: 27.75px;
+  padding-top: 40px;
 }/*# sourceMappingURL=styles.css.map */
