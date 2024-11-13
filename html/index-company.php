@@ -102,7 +102,7 @@
                 <div class="home-search-box__search">
                   <input type="search" placeholder="株式会社ANCa内を検索">
                 </div>
-                <a href="message-list.php" class="home-search-box__msg">
+                <a href="company-message-list.php" class="home-search-box__msg">
                   <img src="assets/images/msg-icon.png" alt="">
                 </a>        
               </div>
