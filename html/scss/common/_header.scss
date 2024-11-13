@@ -21,6 +21,7 @@
       font-weight: 500;
       padding-top: 20px;
       letter-spacing: 1px;
+      user-select: none;
       &:first-child {
         padding-top: 0;
       }
@@ -34,7 +35,6 @@
         &.active {
           background: #F3F6FF;
           color: #3A87FD;
-          padding: 12px;
         }
         &::after {
           content:"";

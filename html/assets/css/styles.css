@@ -379,6 +379,7 @@ body {
   color: #272727;
   font-size: 15px;
   font-family: "Noto Sans JP", sans-serif;
+  scrollbar-color: #e6e6e6 #e6e6e6;
 }
 
 .main {
@@ -445,6 +446,9 @@ time {
   font-weight: 500;
   padding-top: 20px;
   letter-spacing: 1px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .header-nav__item:first-child {
   padding-top: 0;
@@ -460,7 +464,6 @@ time {
 .header-nav__item__accordion.active {
   background: #F3F6FF;
   color: #3A87FD;
-  padding: 12px;
 }
 .header-nav__item__accordion::after {
   content: "";
@@ -510,6 +513,7 @@ time {
 }
 
 .home {
+  /* ホーム_企業アカウントページのcss */
   /* アカウント管理ページ共通のcss */
   /* メッセージ一覧ページのcss */
   /* 説明会日程一覧ページのcss */
@@ -602,6 +606,14 @@ time {
   top: 0;
   bottom: 15%;
   margin: auto;
+}
+.home-search-box__admin__company {
+  background-color: #72E5E0;
+  color: #272727;
+}
+.home-search-box__admin__company::after {
+  border-top: #1A3C71 2px solid;
+  border-right: #1A3C71 2px solid;
 }
 .home-search-box__admin__title {
   font-size: 0.625rem;
@@ -798,7 +810,7 @@ time {
 }
 .home-content-sidebar-new-recruit__card {
   margin-top: 20px;
-  border-top: 1px solid #A5A5A5;
+  border-top: 0.5px solid #A5A5A5;
 }
 .home-content-sidebar-new-recruit__card:first-child {
   border-top: 0;
@@ -881,6 +893,238 @@ time {
 }
 .home-content-sidebar-schedule__card__event__calendar span, .home-content-sidebar-schedule__card__event__place span, .home-content-sidebar-schedule__card__event__occupation span {
   margin-left: 6px;
+}
+.home-company-content__inner {
+  padding-top: 20px;
+}
+.home-company-content__flex {
+  display: flex;
+}
+.home-company-content-board {
+  color: #fff;
+}
+.home-company-content-board__inner {
+  max-width: 860px;
+  width: 100%;
+  background: linear-gradient(87.48deg, #5433FF -16.22%, #20BDFF 72.71%, #A5FECB 134.5%);
+  border-radius: 10px;
+  padding: 24px;
+}
+.home-company-content-board__title__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-company-content-board__title__inner h2 {
+  color: #fff;
+  font-size: 1.1875rem;
+  font-weight: 500;
+}
+.home-company-content-board__view__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-company-content-board__view__inner span {
+  font-size: 0.75rem;
+  color: #fff;
+}
+.home-company-content-board__view__arrow {
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 8px 10px;
+  margin-left: 6px;
+  position: relative;
+}
+.home-company-content-board__view__arrow::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-top: #000 0.5px solid;
+  border-right: #000 0.5px solid;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 8px;
+  top: 5px;
+  margin: auto;
+}
+.home-company-content-board-card__inner {
+  color: #fff;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-company-content-board-card {
+  border: 0.5px solid #fff;
+  border-radius: 10px;
+  padding: 25px 15px;
+  margin-left: 16px;
+  overflow-x: scroll;
+}
+.home-company-content-board-card:first-child {
+  margin-left: 0;
+}
+.home-company-content-board-card__text {
+  font-weight: 400;
+  white-space: nowrap;
+}
+.home-company-content-board-card__time {
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-top: 16px;
+  display: block;
+}
+.home-company-content-board-table {
+  width: 100%;
+}
+.home-company-content-board-table__inner {
+  margin-top: 14px;
+  overflow-y: scroll;
+  height: 680px;
+}
+.home-company-content-board-table__thead {
+  position: sticky;
+  top: 0;
+}
+.home-company-content-board-table__section__tr {
+  border-radius: 0 10px 0 0;
+}
+.home-company-content-board-table__th {
+  background-color: #3A87FD;
+  border-right: 0.5px solid #A0A0A0;
+  font-size: 0.75rem;
+  font-weight: 500;
+  height: 35px;
+  vertical-align: middle;
+  padding-left: 14px;
+}
+.home-company-content-board-table__th:first-child {
+  width: 150px;
+  border-radius: 10px 0 0 0;
+}
+.home-company-content-board-table__th:nth-child(2) {
+  width: 150px;
+}
+.home-company-content-board-table__th:last-child {
+  border-radius: 0 10px 0 0;
+  border-right: 0;
+}
+.home-company-content-board-table__td {
+  border: 0.5px solid #A0A0A0;
+  color: #272727;
+  font-size: 0.75rem;
+  padding: 16px;
+}
+.home-company-content-board-table__td a {
+  color: #3A87FD;
+}
+.home-company-content-sidebar {
+  width: 30%;
+}
+.home-company-content-sidebar__inner {
+  padding-left: 20px;
+}
+.home-company-content-sidebar-new-recruit__inner {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 24px;
+}
+.home-company-content-sidebar-new-recruit__title__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-company-content-sidebar-new-recruit__view__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-company-content-sidebar-new-recruit__view__inner span {
+  font-size: 0.75rem;
+}
+.home-company-content-sidebar-new-recruit__view__arrow {
+  background-color: #E6E6E6;
+  border-radius: 30px;
+  padding: 8px 10px;
+  margin-left: 6px;
+  position: relative;
+}
+.home-company-content-sidebar-new-recruit__view__arrow::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-top: #000 0.5px solid;
+  border-right: #000 0.5px solid;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 8px;
+  top: 5px;
+  margin: auto;
+}
+.home-company-content-sidebar-new-recruit__card {
+  margin-top: 20px;
+  border-top: 0.5px solid #A5A5A5;
+}
+.home-company-content-sidebar-new-recruit__card:first-child {
+  border-top: 0;
+}
+.home-company-content-sidebar-new-recruit__card time {
+  color: #A0A0A0;
+  display: block;
+  margin-top: 14px;
+}
+.home-company-content-sidebar-new-recruit__card__companyName {
+  font-weight: 500;
+  margin-top: 8px;
+}
+.home-company-content-sidebar-new-recruit__card__text {
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 16px;
+}
+.home-company-content-sidebar-new-recruit__card__text:last-child {
+  margin-top: 6px;
+}
+.home-company-content-sidebar-people__inner {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 16px;
+  padding: 24px;
+}
+.home-company-content-sidebar-people__title__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-company-content-sidebar-people__card__inner {
+  padding-top: 24px;
+}
+.home-company-content-sidebar-people__card {
+  border: 1.5px solid #3A87FD;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+}
+.home-company-content-sidebar-people__card::after {
+  margin-top: 0;
+}
+.home-company-content-sidebar-people__card__event__name {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-align: center;
+}
+.home-company-content-sidebar-people__card__event__people {
+  margin-top: 15px;
+  text-align: center;
+}
+.home-company-content-sidebar-people__card__event__people span {
+  font-size: 2.3125rem;
 }
 .home-account-manage {
   /* アカウント管理ページ()管理者のcss */
