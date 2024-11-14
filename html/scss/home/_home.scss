@@ -838,6 +838,136 @@
       }
     }
   }
+  /* 企業アカウント_メッセージ一覧ページのcss */
+  &-company-msg-list {
+    &__inner {
+      padding-top: 46px;
+    }
+    &__block {
+      background-color: #fff;
+      height: 100vh;
+      border-radius: 10px;
+      padding: 24px;
+      overflow: hidden;
+    }
+    &__heading__inner {
+      padding-bottom: 20px;
+    }
+    &-top {
+      &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 40px;
+      }
+      &__tab {
+        color: #A0A0A0;
+        font-size: 0.75rem;
+        padding: 0 20px 10px 20px;
+        margin-left: 40px;
+        cursor: pointer;
+        &:first-child {
+          margin-left: 0;
+        }
+        &.active {
+          border-bottom: 2px solid #3A87FD;
+          color: #272727;
+        }
+        &__inner {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+      }
+      &__search__inner {
+        position: relative;
+        &::before {
+          content: "";
+          width: 13px;
+          height: 13px;
+          background: url(../images/search-icon.svg) no-repeat center center / auto 100%;
+          display: inline-block;
+          position: absolute;
+          top: 14px;
+          left: 10px;
+        }
+        input {
+          width: 370px;
+          height: 40px;
+          background-color: #fff;
+          border: 0.5px solid #A5A5A5;
+          border-radius: 55px;      
+          appearance: auto;
+          color: #A0A0A0;
+          font-size: 0.75rem;
+          padding-left: 40px;
+        }
+      }
+    }
+    &-pageList {
+      padding: 0 10px;
+      &:first-child {
+        padding-right: 20px;
+        padding-left: 0;
+      }
+      &:last-child {
+        padding-left: 20px;
+      }
+      &__inner {
+        display: flex;
+        align-items: center;
+        padding-top: 24px;
+      }
+      &__link {
+        color: #A5A5A5;
+        font-family: "Jost", sans-serif;
+      }
+      &__prev__link,
+      &__next__link {
+        font-size: 0.75rem;
+      }
+    }
+    &-msg {
+      margin-top: 40px;
+      overflow-y: scroll;
+      height: 100%;
+      &__content {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #A0A0A0;
+        padding: 24px 0;
+        &:first-child {
+          padding-top: 0;
+        }
+        &__date {
+          color: #A0A0A0;
+          font-size: 0.75rem;
+          font-family: "Jost", sans-serif;
+        }
+        &__body {
+          white-space: nowrap;
+          margin: 0 24px;
+          p {
+            overflow-x: scroll;
+          }
+          &__address {
+            display: flex;
+            align-items: center;
+            font-size: 0.75rem;
+            padding-top: 16px;
+            &__to {
+              padding-left: 20px;
+            }
+            span {
+              color: #A0A0A0;
+              font-family: "Jost", sans-serif;
+              margin-right: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
   /* 説明会日程一覧ページのcss */
   &-session-schedule {
     &__inner {

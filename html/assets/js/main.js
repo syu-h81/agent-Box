@@ -27,6 +27,14 @@ $(function() {
     $('.home-msg-list-msg').hide().eq(index).show();
   });
 
+  //企業アカウント_メッセージ一覧のタブ機能
+  $('.home-company-msg-list-top__tab').on('click', function() {
+    $('.home-company-msg-list-top__tab').removeClass('active');
+    $(this).addClass('active');
+    var index = $(this).index();
+    $('.home-company-msg-list-msg').hide().eq(index).show();
+  });
+
   //掲示板一覧のタブ機能
   $('.home-board-list-top__tab').on('click', function() {
     $('.home-board-list-top__tab').removeClass('active');
