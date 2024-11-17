@@ -13,6 +13,51 @@ $(function() {
       $subListItem.addClass('open').slideDown(300);
     }
   });
+  //headerアイコンの変更
+  $('.header-nav__item__recruit').on('click', function() {
+    var $img = $(".header-nav__item__recruit img");
+    var originalSrc = "assets/images/header-recruit-icon.png"; // 元の画像パス
+    var newSrc = "assets/images/header-recruit-icon_2.png"; // 変更後の画像パス
+    // 現在の画像ソースを判定して切り替える
+    if ($img.attr("src") === newSrc) {
+        $img.attr("src", originalSrc); // 元の画像に戻す
+    } else {
+        $img.attr("src", newSrc); // 変更後の画像に切り替える
+    }
+  });
+  $('.header-nav__item__applicant').on('click', function() {
+    var $img = $(".header-nav__item__applicant img");
+    var originalSrc = "assets/images/header-applicant-icon.png"; // 元の画像パス
+    var newSrc = "assets/images/header-applicant-icon_2.png"; // 変更後の画像パス
+    // 現在の画像ソースを判定して切り替える
+    if ($img.attr("src") === newSrc) {
+        $img.attr("src", originalSrc); // 元の画像に戻す
+    } else {
+        $img.attr("src", newSrc); // 変更後の画像に切り替える
+    }
+  });
+  $('.header-nav__item__seeker').on('click', function() {
+    var $img = $(".header-nav__item__seeker img");
+    var originalSrc = "assets/images/header-seeker-icon.png"; // 元の画像パス
+    var newSrc = "assets/images/header-seeker-icon_2.png"; // 変更後の画像パス
+    // 現在の画像ソースを判定して切り替える
+    if ($img.attr("src") === newSrc) {
+        $img.attr("src", originalSrc); // 元の画像に戻す
+    } else {
+        $img.attr("src", newSrc); // 変更後の画像に切り替える
+    }
+  });
+  $('.header-nav__item__setting').on('click', function() {
+    var $img = $(".header-nav__item__setting img");
+    var originalSrc = "assets/images/header-setting-icon.png"; // 元の画像パス
+    var newSrc = "assets/images/header-setting-icon_2.png"; // 変更後の画像パス
+    // 現在の画像ソースを判定して切り替える
+    if ($img.attr("src") === newSrc) {
+        $img.attr("src", originalSrc); // 元の画像に戻す
+    } else {
+        $img.attr("src", newSrc); // 変更後の画像に切り替える
+    }
+  });
 
   //アカウント管理のポップアップ機能
   $('.home-search-box__admin').on('click', function() {
