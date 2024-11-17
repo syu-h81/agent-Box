@@ -48,6 +48,10 @@
         align-items: center;
         justify-content: center;
         margin-left: 16px;
+        &:hover {
+          opacity: 0.65;
+          transition: opacity 0.3s;
+        }
       }
       &__admin {
         width: 160px;
@@ -55,8 +59,13 @@
         background-color: #2D69C4;
         border-radius: 20px;
         color: #fff;
+        cursor: pointer;
         padding: 5px 20px;
         position: relative;
+        &:hover {
+          opacity: 0.65;
+          transition: opacity 0.3s;
+        }
         &::after {
           content:"";
           position: absolute;
@@ -96,8 +105,8 @@
           display: none;
           position: absolute;
           z-index: 1;
-          right: 0;
-          top: 50px;
+          right: 30px;
+          top: 80px;
           background-color: #F3F6FF;
           border-radius: 10px;
           box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1), inset 0px -1px 4px -2px rgba(0, 0, 0, 0.3);
@@ -172,6 +181,10 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        &:hover {
+          opacity: 0.65;
+          transition: opacity 0.3s;
+        }
         span {
           font-size: 0.75rem;
           color: #fff;
@@ -213,8 +226,13 @@
         padding: 25px 15px;
         margin-left: 16px;
         overflow-x: scroll;
+        cursor: pointer;
         &:first-child {
           margin-left: 0;
+        }
+        &:hover {
+          opacity: 0.65;
+          transition: opacity 0.3s;
         }
         &__text {
           font-weight: 400;
@@ -260,6 +278,10 @@
           display: flex;
           align-items: center;
           justify-content: space-between;
+          &:hover {
+            opacity: 0.65;
+            transition: opacity 0.3s;
+          }
           span {
             font-size: 0.75rem;
           }
@@ -288,10 +310,15 @@
           }
         }
         &__card {
+          display: block;
           margin-top: 20px;
           border-top: 0.5px solid #A5A5A5;
           &:first-child {
             border-top: 0;
+          }
+          &:hover {
+            opacity: 0.65;
+            transition: opacity 0.3s;
           }
           time {
             color: #A0A0A0;
@@ -325,6 +352,10 @@
           display: flex;
           align-items: center;
           justify-content: space-between;
+          &:hover {
+            opacity: 0.65;
+            transition: opacity 0.3s;
+          }
           span {
             font-size: 0.75rem;
           }
@@ -358,9 +389,14 @@
         &__card {
           border: 1.5px solid #3A87FD;
           border-radius: 10px;
+          display: block;
           padding: 15px;
           padding-right: 40px;
           margin-top: 15px;
+          &:hover {
+            opacity: 0.65;
+            transition: opacity 0.3s;
+          }
           &::after {
             margin-top: 0;
           }
@@ -413,6 +449,10 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        &:hover {
+          opacity: 0.65;
+          transition: opacity 0.3s;
+        }
         span {
           font-size: 0.75rem;
           color: #fff;
@@ -454,6 +494,10 @@
         padding: 25px 15px;
         margin-left: 16px;
         overflow-x: scroll;
+        &:hover {
+          opacity: 0.65;
+          transition: opacity 0.3s;
+        }
         &:first-child {
           margin-left: 0;
         }
@@ -534,6 +578,10 @@
           display: flex;
           align-items: center;
           justify-content: space-between;
+          &:hover {
+            opacity: 0.65;
+            transition: opacity 0.3s;
+          }
           span {
             font-size: 0.75rem;
           }
@@ -562,8 +610,13 @@
           }
         }
         &__card {
+          display: block;
           margin-top: 20px;
           border-top: 0.5px solid #A5A5A5;
+          &:hover {
+            opacity: 0.65;
+            transition: opacity 0.3s;
+          }
           &:first-child {
             border-top: 0;
           }

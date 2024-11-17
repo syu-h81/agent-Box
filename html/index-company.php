@@ -14,26 +14,26 @@
               <div class="home-search-box__admin home-search-box__admin__company">
                 <span class="home-search-box__admin__title">管理者</span>
                 <div class="home-search-box__admin__name">山田 太郎</div>
-                <div class="home-search-box__admin__popup__inner">
-                  <div class="home-search-box__admin__popup__content">
-                    <div class="home-search-box__admin__popup__content__info">
-                      <span class="home-search-box__admin__popup__content__info__title">管理者</span>
-                      <div class="home-search-box__admin__popup__content__info__name">山田 太郎</div>
-                      <div class="home-search-box__admin__popup__content__info__email">yamada@gmail.com</div>
+              </div>
+              <div class="home-search-box__admin__popup__inner">
+                <div class="home-search-box__admin__popup__content">
+                  <div class="home-search-box__admin__popup__content__info">
+                    <span class="home-search-box__admin__popup__content__info__title">管理者</span>
+                    <div class="home-search-box__admin__popup__content__info__name">山田 太郎</div>
+                    <div class="home-search-box__admin__popup__content__info__email">yamada@gmail.com</div>
+                  </div>
+                  <div class="home-search-box__admin__popup__content__btn">
+                    <div class="home-search-box__admin__popup__content__account__btn">
+                      <img src="assets/images/account-setting-icon.png" alt="">
+                      <a href="" class="home-search-box__admin__popup__content__account__btn__text">アカウント設定</a>
                     </div>
-                    <div class="home-search-box__admin__popup__content__btn">
-                      <div class="home-search-box__admin__popup__content__account__btn">
-                        <img src="assets/images/account-setting-icon.png" alt="">
-                        <a href="" class="home-search-box__admin__popup__content__account__btn__text">アカウント設定</a>
-                      </div>
-                      <div class="home-search-box__admin__popup__content__logout__btn">
-                        <img src="assets/images/logout-icon.png" alt="">
-                        <a href="" class="home-search-box__admin__popup__content__logout__btn__text">ログアウト</a>
-                      </div>
+                    <div class="home-search-box__admin__popup__content__logout__btn">
+                      <img src="assets/images/logout-icon.png" alt="">
+                      <a href="" class="home-search-box__admin__popup__content__logout__btn__text">ログアウト</a>
                     </div>
                   </div>
                 </div>
-              </div> 
+              </div>
             </div>
             <div class="home-company-content">
               <div class="home-company-content__inner">
@@ -528,64 +528,8 @@
                       </table>
                     </div>
                   </div>
-                  <aside class="home-company-content-sidebar">
-                    <div class="home-company-content-sidebar__inner">
-                      <div class="home-company-content-sidebar-new-recruit__inner">
-                        <div class="home-company-content-sidebar-new-recruit__title__inner">
-                          <h3 class="sidebar-title">新着メッセージ</h3>
-                          <a href="new-job-info.php" class="home-company-content-sidebar-new-recruit__view__inner">
-                            <span>view all</span>
-                            <div class="home-company-content-sidebar-new-recruit__view__arrow"></div>
-                          </a>
-                        </div>
-                        <div class="home-company-content-sidebar-new-recruit__card__inner">
-                          <div class="home-company-content-sidebar-new-recruit__card">
-                            <time>2024.07.22</time>
-                            <h4 class="home-company-content-sidebar-new-recruit__card__companyName">この文字はダミーですこの文字・・・</h4>
-                            <span class="home-company-content-sidebar-new-recruit__card__text">株式会社ANCa</span>
-                            <span class="home-company-content-sidebar-new-recruit__card__text">佐治佳奈子（000-0000-0000）</span>
-                          </div>
-                          <div class="home-company-content-sidebar-new-recruit__card">
-                            <time>2024.07.22</time>
-                            <h4 class="home-company-content-sidebar-new-recruit__card__companyName">この文字はダミーですこの文字・・・</h4>
-                            <span class="home-company-content-sidebar-new-recruit__card__text">株式会社ANCa</span>
-                            <span class="home-company-content-sidebar-new-recruit__card__text">佐治佳奈子（000-0000-0000）</span>
-                          </div>
-                          <div class="home-company-content-sidebar-new-recruit__card">
-                            <time>2024.07.22</time>
-                            <h4 class="home-company-content-sidebar-new-recruit__card__companyName">この文字はダミーですこの文字・・・</h4>
-                            <span class="home-company-content-sidebar-new-recruit__card__text">株式会社ANCa</span>
-                            <span class="home-company-content-sidebar-new-recruit__card__text">佐治佳奈子（000-0000-0000）</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="home-company-content-sidebar-people__inner">
-                        <div class="home-company-content-sidebar-people__title__inner">
-                          <h3 class="sidebar-title">応募選考管理</h3>
-                        </div>
-                        <div class="home-company-content-sidebar-people__card__inner">
-                          <div class="home-company-content-sidebar-people__card">
-                            <h4 class="home-company-content-sidebar-people__card__event__name">過去の決定人数決定人数の表示</h4>
-                            <div class="home-company-content-sidebar-people__card__event__people">
-                              <span>200</span>人
-                            </div>
-                          </div>
-                          <div class="home-company-content-sidebar-people__card">
-                            <h4 class="home-company-content-sidebar-people__card__event__name">過去の決定人数決定人数の表示</h4>
-                            <div class="home-company-content-sidebar-people__card__event__people">
-                              <span>200</span>人
-                            </div>
-                          </div>
-                          <div class="home-company-content-sidebar-people__card">
-                            <h4 class="home-company-content-sidebar-people__card__event__name">過去の決定人数決定人数の表示</h4>
-                            <div class="home-company-content-sidebar-people__card__event__people">
-                              <span>200</span>人
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </aside>
+                  <!--===== サイドバーの読み込み =====-->
+                  <?php require_once dirname(__FILE__).'/sidebar-company.php'; ?>
                 </div>
               </div>
             </div>
