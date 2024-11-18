@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex,nofollow" />
-  <title>ホーム_メッセージ一覧</title>
+  <title>ホーム_企業アカウント</title>
 
   <!-- OGP -->
   <meta property="og:url" content=""> <!-- //ページのURLを設定 -->
@@ -44,7 +44,7 @@
           </h1>
           <nav class="header-nav">
             <ul class="header-nav__list">
-              <li class="header-nav__item">
+              <li class="header-nav__item header-nav__item__company">
                 <a href="index.php" id="accordion" class="header-nav__item__accordion header-nav__item__accordion__first">
                   <img src="assets/images/header-home-icon.png" alt="ホーム">
                   ホーム

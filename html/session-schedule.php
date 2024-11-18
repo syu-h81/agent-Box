@@ -1,3 +1,4 @@
+      <?php $title="ホーム_説明会日程一覧" ?>
       <?php require_once dirname(__FILE__).'/header.php'; ?>
       <main class="main">
         <div class="main-container">

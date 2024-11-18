@@ -1,3 +1,4 @@
+      <?php $title="ホーム_新着求人案内" ?>
       <?php require_once dirname(__FILE__).'/header.php'; ?>
       <main class="main">
         <div class="main-container">

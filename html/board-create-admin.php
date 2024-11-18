@@ -1,3 +1,4 @@
+      <?php $title="ホーム_掲示板作成画面_管理者画面ver" ?>
       <?php require_once dirname(__FILE__).'/header.php'; ?>
       <main class="main">
         <div class="main-container">

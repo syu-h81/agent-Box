@@ -1,3 +1,4 @@
+      <?php $title="ホーム_アカウント管理(CA)" ?>
       <?php require_once dirname(__FILE__).'/header.php'; ?>
       <main class="main">
         <div class="main-container">

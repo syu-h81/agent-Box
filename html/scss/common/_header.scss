@@ -25,6 +25,19 @@
       &:first-child {
         padding-top: 0;
       }
+      &__company {
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          top: 6px;
+          right: 95px;
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          background-color: #3A87FD;
+        }
+      }
       &__accordion {
         display: flex;
         align-items: center;
