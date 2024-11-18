@@ -35,12 +35,12 @@
           </h1>
           <nav class="header-nav">
             <ul class="header-nav__list">
-              <li class="header-nav__item header-nav__item__home">
+              <a href="index.php" class="header-nav__item header-nav__item__home">
                 <div id="accordion" class="header-nav__item__accordion header-nav__item__accordion__first">
                   <img src="assets/images/header-home-icon.png" alt="ホーム">
                   ホーム
                 </div>
-              </li>
+              </a>
               <li class="header-nav__item header-nav__item__recruit">
                 <div id="accordion" class="header-nav__item__accordion">
                   <img src="assets/images/header-recruit-icon.png" alt="求人管理">

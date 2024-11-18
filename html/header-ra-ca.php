@@ -45,7 +45,7 @@
           <nav class="header-nav">
             <ul class="header-nav__list">
               <li class="header-nav__item">
-                <a href="index.php" id="accordion" class="header-nav__item__accordion header-nav__item__accordion__first">
+                <a href="index-ra-ca.php" id="accordion" class="header-nav__item__accordion header-nav__item__accordion__first">
                   <img src="assets/images/header-home-icon.png" alt="ホーム">
                   ホーム
                 </a>
