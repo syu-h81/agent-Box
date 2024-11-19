@@ -44,7 +44,7 @@
           </h1>
           <nav class="header-nav">
             <ul class="header-nav__list">
-              <li class="header-nav__item header-nav__item__company">
+              <li class="header-nav__item header-nav__item__company header-nav__item__home">
                 <a href="index-company.php" id="accordion" class="header-nav__item__accordion header-nav__item__accordion__first">
                   <img src="assets/images/header-home-icon.png" alt="ホーム">
                   ホーム
