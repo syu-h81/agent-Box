@@ -104,3 +104,14 @@ $(function() {
     $('.by-name__inner').show();
   });
 });
+
+$(document).ready(function() {
+  // 現在のURLのパスを取得
+  var path = window.location.pathname;
+  var currentPage = path.substring(path.lastIndexOf('/') + 1); // ファイル名を抽出
+  // index.htmlの時だけ文字の色を変更
+  if (currentPage === 'index.php' || currentPage === 'index-ra-ca.php' || currentPage === 'index-company.php' || currentPage === '') { // ルートアクセスも考慮
+    $('.header-nav__item__accordion__first').css('color', '#3A87FD'); // 文字の色を変更
+    $('.header-nav__item__accordion__first').css('background', '#F3F6FF');
+  }
+});
