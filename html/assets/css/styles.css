@@ -478,10 +478,6 @@ time {
   background: #F3F6FF;
   color: #3A87FD;
 }
-.header-nav__item__accordion__first.active {
-  background: #F3F6FF;
-  color: #3A87FD;
-}
 .header-nav__item__accordion::after {
   content: "";
   position: absolute;
@@ -503,6 +499,9 @@ time {
   transform: rotate(-45deg);
   bottom: 10%;
   transition: 0.3s;
+}
+.header-nav__item__accordion__first {
+  padding-left: 8px;
 }
 .header-nav__item__accordion__first::after {
   display: none;

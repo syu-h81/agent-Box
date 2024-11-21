@@ -15,22 +15,22 @@
           <div class="home-search-box__admin">
             <span class="home-search-box__admin__title">管理者</span>
             <div class="home-search-box__admin__name">山田 太郎</div>
-            <div class="home-search-box__admin__popup__inner">
-              <div class="home-search-box__admin__popup__content">
-                <div class="home-search-box__admin__popup__content__info">
-                  <span class="home-search-box__admin__popup__content__info__title">管理者</span>
-                  <div class="home-search-box__admin__popup__content__info__name">山田 太郎</div>
-                  <div class="home-search-box__admin__popup__content__info__email">yamada@gmail.com</div>
+          </div>
+          <div class="home-search-box__admin__popup__inner">
+            <div class="home-search-box__admin__popup__content">
+              <div class="home-search-box__admin__popup__content__info">
+                <span class="home-search-box__admin__popup__content__info__title">管理者</span>
+                <div class="home-search-box__admin__popup__content__info__name">山田 太郎</div>
+                <div class="home-search-box__admin__popup__content__info__email">yamada@gmail.com</div>
+              </div>
+              <div class="home-search-box__admin__popup__content__btn">
+                <div class="home-search-box__admin__popup__content__account__btn">
+                  <img src="assets/images/account-setting-icon.png" alt="">
+                  <a href="" class="home-search-box__admin__popup__content__account__btn__text">アカウント設定</a>
                 </div>
-                <div class="home-search-box__admin__popup__content__btn">
-                  <div class="home-search-box__admin__popup__content__account__btn">
-                    <img src="assets/images/account-setting-icon.png" alt="">
-                    <a href="" class="home-search-box__admin__popup__content__account__btn__text">アカウント設定</a>
-                  </div>
-                  <div class="home-search-box__admin__popup__content__logout__btn">
-                    <img src="assets/images/logout-icon.png" alt="">
-                    <a href="" class="home-search-box__admin__popup__content__logout__btn__text">ログアウト</a>
-                  </div>
+                <div class="home-search-box__admin__popup__content__logout__btn">
+                  <img src="assets/images/logout-icon.png" alt="">
+                  <a href="" class="home-search-box__admin__popup__content__logout__btn__text">ログアウト</a>
                 </div>
               </div>
             </div>

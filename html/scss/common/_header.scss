@@ -74,6 +74,7 @@
           transition: .3s;
         }
         &__first {
+          padding-left: 8px;
           &::after {
             display: none;
           }
