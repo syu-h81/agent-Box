@@ -52,31 +52,31 @@
                   </div>
                 </div>
                 <div class="home-msg-list-pageList__inner">
-                    <div class="home-msg-list-pageList">
-                      <a class="home-msg-list-pageList__prev__link" href="#unread-prev">＜</a>
-                    </div>
-                    <div class="home-msg-list-pageList">
-                      <a class="home-msg-list-pageList__link" href="#unread-1">1</a>
-                    </div>
-                    <div class="home-msg-list-pageList">
-                      <a class="home-msg-list-pageList__link" href="#unread-1">2</a>
-                    </div>
-                    <div class="home-msg-list-pageList">
-                      <a class="home-msg-list-pageList__link" href="#unread-3">3</a>
-                    </div>
-                    <div class="home-msg-list-pageList">
-                      <a class="home-msg-list-pageList__link" href="#unread-4">4</a>
-                    </div>
-                    <div class="home-msg-list-pageList">
-                      <a class="home-msg-list-pageList__link" href="#unread-5">5</a>
-                    </div>
-                    <div class="home-msg-list-pageList">
-                      <a class="home-msg-list-pageList__link" href="">...</a>
-                    </div>
-                    <div class="home-msg-list-pageList">
-                      <a class="home-msg-list-pageList__next__link" href="#unread-next">＞</a>
-                    </div>
+                  <div class="home-msg-list-pageList">
+                    <a class="home-msg-list-pageList__prev__link" href="#unread-prev">＜</a>
                   </div>
+                  <div class="home-msg-list-pageList">
+                    <a class="home-msg-list-pageList__link" href="#unread-1">1</a>
+                  </div>
+                  <div class="home-msg-list-pageList">
+                    <a class="home-msg-list-pageList__link" href="#unread-1">2</a>
+                  </div>
+                  <div class="home-msg-list-pageList">
+                    <a class="home-msg-list-pageList__link" href="#unread-3">3</a>
+                  </div>
+                  <div class="home-msg-list-pageList">
+                    <a class="home-msg-list-pageList__link" href="#unread-4">4</a>
+                  </div>
+                  <div class="home-msg-list-pageList">
+                    <a class="home-msg-list-pageList__link" href="#unread-5">5</a>
+                  </div>
+                  <div class="home-msg-list-pageList">
+                    <a class="home-msg-list-pageList__link" href="">...</a>
+                  </div>
+                  <div class="home-msg-list-pageList">
+                    <a class="home-msg-list-pageList__next__link" href="#unread-next">＞</a>
+                  </div>
+                </div>
                 <!-- ===== 受信トレイのコンテンツ ===== -->
                 <div class="home-msg-list-msg home-msg-list-msg-reception">
                   <div class="home-msg-list-msg__content">
@@ -655,7 +655,7 @@
                       <i class="fa-regular fa-star"></i>
                     </div>
                   </div>
-                </div>a
+                </div>
               </div>
             </div>
           </div>
