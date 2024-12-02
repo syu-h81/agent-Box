@@ -1735,13 +1735,33 @@
           margin-left: auto;
           white-space: nowrap;
         }
-        input {
+        #confirm-btn {
           max-width: 165px;
           color: #fff;
           background-color: #3A87FD;
           border-radius: 5px;
           padding: 16px 56px;
         }
+      }
+    }
+    &-confirm {
+      background-color: #fff;
+      padding: 24px 250px;
+      margin-top: 40px;
+      p {
+        font-size: 23.44px;
+      }
+      &__inner {
+        background-color: #666;
+        height: 120vh;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        display: none;
+        align-items: center;
+        justify-content: center;
       }
     }
   }
@@ -1815,7 +1835,7 @@
           margin-left: auto;
           white-space: nowrap;
         }
-        input {
+        #confirm-btn {
           max-width: 165px;
           color: #fff;
           background-color: #3A87FD;
@@ -1824,7 +1844,27 @@
         }
       }
     }
+    &-confirm {
+      background-color: #fff;
+      padding: 24px 250px;
+      p {
+        font-size: 23.44px;
+      }
+      &__inner {
+        background-color: #666;
+        height: 115vh;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        display: none;
+        align-items: center;
+        justify-content: center;
+      }
+    }
   }
+
   /* 掲示板画面ページのcss */
   &-board-screen {
     &__inner {

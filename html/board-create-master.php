@@ -116,9 +116,16 @@
                     </div>
                     <div class="home-board-create-master-content-submit">
                       <a href="">キャンセル</a>
-                      <input type="submit" value="公開">
+                      <button type="button" id="confirm-btn">公開</button>
                     </div>
                   </form>
+                </div>
+              </div>
+            </div>
+            <div class="home-board-create-master-confirm__inner">
+              <div class="home-board-create-master-confirm">
+                <div class="home-board-create-master-confirm__box">
+                  <p>掲示板への送信確認画面</p>
                 </div>
               </div>
             </div>

@@ -103,6 +103,25 @@ $(function() {
   $('.by-name').on('click', function() {
     $('.by-name__inner').show();
   });
+
+  //掲示板作成画面の送信確認画面の表示(マスター管理画面)
+  $('#confirm-btn').click(function () {
+    $('.home-board-create-master-confirm__inner').fadeIn();
+    $('.home-board-create-master-confirm__inner').css('display', 'flex')
+    setTimeout(function () {
+      $('.home-board-create-master-confirm__inner').fadeOut();
+    }, 3000);
+  });
+
+  //掲示板作成画面の送信確認画面の表示(管理者画面)
+  $('#confirm-btn').click(function () {
+    $('.home-board-create-admin-confirm__inner').fadeIn();
+    $('.home-board-create-admin-confirm__inner').css('display', 'flex')
+    setTimeout(function () {
+      $('.home-board-create-admin-confirm__inner').fadeOut();
+    }, 3000);
+  });
+
 });
 
 $(document).ready(function() {
