@@ -135,16 +135,8 @@ $(document).ready(function() {
   if (currentPage === 'index.php' || currentPage === 'index-ra-ca.php' || currentPage === 'index-company.php' || currentPage === '') { // ルートアクセスも考慮
     $('.header-nav__item__accordion__first').css({
       'color': '#3A87FD',
-      'background': '#F3F6FF',
-      'padding-top': '0',
-      'padding-bottom': '0',
-      'padding-left': '4px'
+      'background': '#F3F6FF'
     });
     $img.attr("src", newSrc);
-    $img.css({
-      'width': '35px',
-      'height': 'auto',
-      'margin-right': '5px'
-    });
   }
 });
