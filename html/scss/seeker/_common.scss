@@ -1,0 +1,36 @@
+.seeker {
+  &-inner {
+    background-color: #fff;
+    margin-top: 40px;
+    padding: 24px;
+  }
+  &-title-inner {
+    font-size: 1.4375rem;
+    font-weight: 500;
+  }
+  &-content-inner {
+    padding-top: 48px;
+  }
+  &-status {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+    &-before-support {
+      background-color: #FAF396;
+    }
+    &-support {
+      background-color: #FFAB01;
+    }
+    &-withdrawal {
+      background-color: #3A87FD;
+    }
+    &-joined {
+      background-color: #FE6250;
+    }
+    &-offer {
+      background-color: #FF8C82;
+    }
+  }
+}

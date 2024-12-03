@@ -1,5 +1,6 @@
 'use strict';
 
+/////// ホーム画面のjs実装 ///////
 $(function() {
   //header Navのアコーディオン機能
   $('.header-nav__item').on('click', function() {
@@ -122,6 +123,11 @@ $(function() {
     }, 3000);
   });
 
+  /////// 求職者管理のjs実装 ///////
+  //求職者一覧フィルターの機能
+  $('#filter, #close, #cancel').on('click', function() {
+    $('.seeker-list-content-filter__inner').fadeToggle();
+  });
 });
 
 $(document).ready(function() {
@@ -140,3 +146,13 @@ $(document).ready(function() {
     $img.attr("src", newSrc);
   }
 });
+
+//selectタグの初期値の文字色の変更
+function changeColor(e){
+  if( e.value == 0 ){
+      e.style.color = '';
+  }else{
+      e.style.color = '#272727';
+  }
+}
+
