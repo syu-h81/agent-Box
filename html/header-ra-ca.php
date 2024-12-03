@@ -78,7 +78,7 @@
                   求職者管理
                 </div>
                 <ul class="header-nav__subList">
-                  <li class="header-nav__subList__item"><a href="">求職者一覧</a></li>
+                  <li class="header-nav__subList__item"><a href="seeker-list.php">求職者一覧</a></li>
                   <li class="header-nav__subList__item"><a href="">保留求職者一覧</a></li>
                 </ul>
               </li>
