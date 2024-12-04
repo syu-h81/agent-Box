@@ -43,10 +43,10 @@
             </div>
             <div class="seeker-list-content__inner seeker-content-inner">
               <div class="seeker-list-content-register__inner">
-                <div class="seeker-list-content-register__btn">
+                <a href="seeker-register.php" class="seeker-list-content-register__btn">
                   <button type="button">求職者登録</button>
                   <span>+</span>
-                </div>
+                </a>
                 <div id="filter" class="seeker-list-content-register__filter__icon">
                   <img src="assets/images/filter.png" alt="">
                 </div>
