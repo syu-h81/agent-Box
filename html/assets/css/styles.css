@@ -2473,6 +2473,10 @@ time {
   font-size: 1.4375rem;
   font-weight: 500;
 }
+.seeker-title-inner span {
+  color: #A0A0A0;
+  font-size: 0.75rem;
+}
 .seeker-content-inner {
   padding-top: 48px;
 }
@@ -2792,4 +2796,608 @@ time {
 }
 .seeker-list-content-pageList__prev__link, .seeker-list-content-pageList__next__link {
   font-size: 0.75rem;
+}
+.seeker-register__inner {
+  display: flex;
+  gap: 16px;
+  background: none;
+  padding: 0;
+}
+.seeker-register__block {
+  width: 1800px;
+  background-color: #fff;
+  padding: 24px;
+}
+.seeker-register__title__inner {
+  display: flex;
+  align-items: end;
+  gap: 24px;
+}
+.seeker-register-content__link__inner {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+.seeker-register-content__link__btn {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #272727;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+  padding-left: 24px;
+  align-items: center;
+  font-size: 0.75rem;
+}
+.seeker-register-content-form__inner {
+  padding-top: 48px;
+}
+.seeker-register-content-form__name, .seeker-register-content-form__furigana, .seeker-register-content-form__date, .seeker-register-content-form__gender, .seeker-register-content-form__charge, .seeker-register-content-form__email, .seeker-register-content-form__phoneNumber, .seeker-register-content-form__academic, .seeker-register-content-form__faculty, .seeker-register-content-form__graduation, .seeker-register-content-form__literatureScience, .seeker-register-content-form__status, .seeker-register-content-form__notEstablished, .seeker-register-content-form__schedule, .seeker-register-content-form__info, .seeker-register-content-form__comment, .seeker-register-content-form__upload {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+.seeker-register-content-form__name__label, .seeker-register-content-form__furigana__label, .seeker-register-content-form__date__label, .seeker-register-content-form__gender__label, .seeker-register-content-form__charge__label, .seeker-register-content-form__email__label, .seeker-register-content-form__phoneNumber__label, .seeker-register-content-form__academic__label, .seeker-register-content-form__faculty__label, .seeker-register-content-form__graduation__label, .seeker-register-content-form__literatureScience__label, .seeker-register-content-form__status__label, .seeker-register-content-form__notEstablished__label, .seeker-register-content-form__schedule__label, .seeker-register-content-form__info__label, .seeker-register-content-form__comment__label, .seeker-register-content-form__upload__label {
+  width: 120px;
+  font-size: 0.75rem;
+}
+.seeker-register-content-form__name__input, .seeker-register-content-form__furigana__input, .seeker-register-content-form__date__input, .seeker-register-content-form__gender__input, .seeker-register-content-form__charge__input, .seeker-register-content-form__email__input, .seeker-register-content-form__phoneNumber__input, .seeker-register-content-form__academic__input, .seeker-register-content-form__faculty__input, .seeker-register-content-form__graduation__input, .seeker-register-content-form__literatureScience__input, .seeker-register-content-form__status__input, .seeker-register-content-form__notEstablished__input, .seeker-register-content-form__schedule__input, .seeker-register-content-form__info__input, .seeker-register-content-form__comment__input, .seeker-register-content-form__upload__input {
+  width: 100%;
+}
+.seeker-register-content-form__name input,
+.seeker-register-content-form__name select,
+.seeker-register-content-form__name textarea, .seeker-register-content-form__furigana input,
+.seeker-register-content-form__furigana select,
+.seeker-register-content-form__furigana textarea, .seeker-register-content-form__date input,
+.seeker-register-content-form__date select,
+.seeker-register-content-form__date textarea, .seeker-register-content-form__gender input,
+.seeker-register-content-form__gender select,
+.seeker-register-content-form__gender textarea, .seeker-register-content-form__charge input,
+.seeker-register-content-form__charge select,
+.seeker-register-content-form__charge textarea, .seeker-register-content-form__email input,
+.seeker-register-content-form__email select,
+.seeker-register-content-form__email textarea, .seeker-register-content-form__phoneNumber input,
+.seeker-register-content-form__phoneNumber select,
+.seeker-register-content-form__phoneNumber textarea, .seeker-register-content-form__academic input,
+.seeker-register-content-form__academic select,
+.seeker-register-content-form__academic textarea, .seeker-register-content-form__faculty input,
+.seeker-register-content-form__faculty select,
+.seeker-register-content-form__faculty textarea, .seeker-register-content-form__graduation input,
+.seeker-register-content-form__graduation select,
+.seeker-register-content-form__graduation textarea, .seeker-register-content-form__literatureScience input,
+.seeker-register-content-form__literatureScience select,
+.seeker-register-content-form__literatureScience textarea, .seeker-register-content-form__status input,
+.seeker-register-content-form__status select,
+.seeker-register-content-form__status textarea, .seeker-register-content-form__notEstablished input,
+.seeker-register-content-form__notEstablished select,
+.seeker-register-content-form__notEstablished textarea, .seeker-register-content-form__schedule input,
+.seeker-register-content-form__schedule select,
+.seeker-register-content-form__schedule textarea, .seeker-register-content-form__info input,
+.seeker-register-content-form__info select,
+.seeker-register-content-form__info textarea, .seeker-register-content-form__comment input,
+.seeker-register-content-form__comment select,
+.seeker-register-content-form__comment textarea, .seeker-register-content-form__upload input,
+.seeker-register-content-form__upload select,
+.seeker-register-content-form__upload textarea {
+  -webkit-appearance: auto;
+     -moz-appearance: auto;
+          appearance: auto;
+  border: 1px solid #A0A0A0;
+  border-radius: 5px;
+  padding: 15px;
+}
+.seeker-register-content-form__name select, .seeker-register-content-form__furigana select, .seeker-register-content-form__date select, .seeker-register-content-form__gender select, .seeker-register-content-form__charge select, .seeker-register-content-form__email select, .seeker-register-content-form__phoneNumber select, .seeker-register-content-form__academic select, .seeker-register-content-form__faculty select, .seeker-register-content-form__graduation select, .seeker-register-content-form__literatureScience select, .seeker-register-content-form__status select, .seeker-register-content-form__notEstablished select, .seeker-register-content-form__schedule select, .seeker-register-content-form__info select, .seeker-register-content-form__comment select, .seeker-register-content-form__upload select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  color: #A0A0A0;
+}
+.seeker-register-content-form__name__input, .seeker-register-content-form__furigana__input {
+  display: flex;
+  gap: 24px;
+}
+.seeker-register-content-form__name__input input, .seeker-register-content-form__furigana__input input {
+  width: 100%;
+}
+.seeker-register-content-form__date__input {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.seeker-register-content-form__date__input__select {
+  position: relative;
+}
+.seeker-register-content-form__date__input__select::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-bottom: solid 1.5px #A0A0A0;
+  border-right: solid 1.5px #A0A0A0;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 45%;
+  right: 35px;
+  transform: translateY(-50%) rotate(45deg);
+}
+.seeker-register-content-form__date__input__select select {
+  width: 105px;
+}
+.seeker-register-content-form__date__input__select span {
+  display: inline-block;
+  margin-left: 10px;
+}
+.seeker-register-content-form__gender__input {
+  display: flex;
+  align-items: center;
+}
+.seeker-register-content-form__gender__input__radio {
+  display: flex;
+  gap: 10px;
+  width: 130px;
+}
+.seeker-register-content-form__charge__input, .seeker-register-content-form__graduation__input, .seeker-register-content-form__literatureScience__input, .seeker-register-content-form__status__input, .seeker-register-content-form__notEstablished__input {
+  position: relative;
+}
+.seeker-register-content-form__charge__input::after, .seeker-register-content-form__graduation__input::after, .seeker-register-content-form__literatureScience__input::after, .seeker-register-content-form__status__input::after, .seeker-register-content-form__notEstablished__input::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-bottom: solid 1.5px #A0A0A0;
+  border-right: solid 1.5px #A0A0A0;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 45%;
+  right: 15px;
+  transform: translateY(-50%) rotate(45deg);
+}
+.seeker-register-content-form__charge__input select, .seeker-register-content-form__graduation__input select, .seeker-register-content-form__literatureScience__input select, .seeker-register-content-form__status__input select, .seeker-register-content-form__notEstablished__input select {
+  width: 100%;
+}
+.seeker-register-content-form__email__input input {
+  width: 100%;
+}
+.seeker-register-content-form__phoneNumber__input {
+  display: flex;
+  gap: 16px;
+}
+.seeker-register-content-form__phoneNumber__input input {
+  width: 100%;
+}
+.seeker-register-content-form__academic__label label {
+  display: block;
+  margin-bottom: 4px;
+}
+.seeker-register-content-form__academic__label span {
+  color: #A0A0A0;
+  font-size: 10px;
+  font-weight: bold;
+}
+.seeker-register-content-form__academic__input {
+  display: flex;
+  gap: 24px;
+}
+.seeker-register-content-form__academic__input__select {
+  width: 100%;
+  position: relative;
+}
+.seeker-register-content-form__academic__input__select::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-bottom: solid 1.5px #A0A0A0;
+  border-right: solid 1.5px #A0A0A0;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 45%;
+  right: 15px;
+  transform: translateY(-50%) rotate(45deg);
+}
+.seeker-register-content-form__academic__input__select select {
+  width: 100%;
+}
+.seeker-register-content-form__academic__input input {
+  width: 100%;
+}
+.seeker-register-content-form__faculty__input, .seeker-register-content-form__schedule__input {
+  display: flex;
+  gap: 24px;
+}
+.seeker-register-content-form__faculty__input__box, .seeker-register-content-form__schedule__input__box {
+  width: 100%;
+}
+.seeker-register-content-form__faculty__input__box input, .seeker-register-content-form__schedule__input__box input {
+  width: 100%;
+}
+.seeker-register-content-form__faculty__input__box span, .seeker-register-content-form__schedule__input__box span {
+  display: block;
+  position: absolute;
+  color: #A0A0A0;
+  font-size: 0.75rem;
+  margin-top: 8px;
+}
+.seeker-register-content-form__info, .seeker-register-content-form__comment {
+  align-items: flex-start;
+}
+.seeker-register-content-form__info__input textarea, .seeker-register-content-form__comment__input textarea {
+  width: 100%;
+  height: 223px;
+}
+.seeker-register-content-form__info {
+  padding-top: 60px;
+}
+.seeker-register-content-form__upload {
+  align-items: flex-start;
+}
+.seeker-register-content-form__upload__body {
+  width: 100%;
+}
+.seeker-register-content-form__upload__body__resume, .seeker-register-content-form__upload__body__history {
+  text-align: center;
+}
+.seeker-register-content-form__upload__body__resume__inner span, .seeker-register-content-form__upload__body__history__inner span {
+  color: #A0A0A0;
+  font-size: 0.75rem;
+  display: block;
+  margin-top: 12px;
+}
+.seeker-register-content-form__upload__body__resume__flex, .seeker-register-content-form__upload__body__history__flex {
+  width: 100%;
+  padding: 78px 100px 94px 100px;
+  border: 1px dotted #A0A0A0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seeker-register-content-form__upload__body__resume__text, .seeker-register-content-form__upload__body__history__text {
+  color: #A0A0A0;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 27.75px;
+}
+.seeker-register-content-form__upload__body__resume__input, .seeker-register-content-form__upload__body__history__input {
+  padding-top: 16px;
+}
+.seeker-register-content-form__upload__body__resume__input__btn, .seeker-register-content-form__upload__body__history__input__btn {
+  background-color: #8F8F8F;
+  color: #fff;
+  display: block;
+  font-size: 0.75rem;
+  padding: 8px 20px;
+  width: 276px;
+  margin: 0 auto;
+}
+.seeker-register-content-form__upload__body__resume__input input, .seeker-register-content-form__upload__body__history__input input {
+  display: none;
+}
+.seeker-register-content-form__upload__body__resume__supplyment, .seeker-register-content-form__upload__body__history__supplyment {
+  color: #A0A0A0;
+  font-size: 0.75rem;
+  padding-top: 26px;
+}
+.seeker-register-content-form__upload__body__history__inner {
+  padding-top: 32px;
+}
+.seeker-register-content-form__midCareer__inner {
+  padding-top: 78px;
+}
+.seeker-register-content-form__midCareer__title__inner {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-bottom: 1px solid #A0A0A0;
+  padding-bottom: 24px;
+}
+.seeker-register-content-form__midCareer__title__inner span {
+  font-size: 14px;
+}
+.seeker-register-content-form__midCareer__title__inner h3 {
+  font-size: 18.75px;
+}
+.seeker-register-content-form__midCareer__jobChange, .seeker-register-content-form__midCareer__company, .seeker-register-content-form__midCareer__occupation, .seeker-register-content-form__midCareer__income {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+.seeker-register-content-form__midCareer__jobChange__label, .seeker-register-content-form__midCareer__company__label, .seeker-register-content-form__midCareer__occupation__label, .seeker-register-content-form__midCareer__income__label {
+  width: 120px;
+  font-size: 0.75rem;
+}
+.seeker-register-content-form__midCareer__jobChange__input, .seeker-register-content-form__midCareer__company__input, .seeker-register-content-form__midCareer__occupation__input, .seeker-register-content-form__midCareer__income__input {
+  width: 100%;
+}
+.seeker-register-content-form__midCareer__jobChange__input input,
+.seeker-register-content-form__midCareer__jobChange__input select, .seeker-register-content-form__midCareer__company__input input,
+.seeker-register-content-form__midCareer__company__input select, .seeker-register-content-form__midCareer__occupation__input input,
+.seeker-register-content-form__midCareer__occupation__input select, .seeker-register-content-form__midCareer__income__input input,
+.seeker-register-content-form__midCareer__income__input select {
+  -webkit-appearance: auto;
+     -moz-appearance: auto;
+          appearance: auto;
+  border: 1px solid #A0A0A0;
+  border-radius: 5px;
+  padding: 15px;
+}
+.seeker-register-content-form__midCareer__jobChange__input select, .seeker-register-content-form__midCareer__company__input select, .seeker-register-content-form__midCareer__occupation__input select, .seeker-register-content-form__midCareer__income__input select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  color: #A0A0A0;
+}
+.seeker-register-content-form__midCareer__jobChange__input {
+  position: relative;
+}
+.seeker-register-content-form__midCareer__jobChange__input::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-bottom: solid 1.5px #A0A0A0;
+  border-right: solid 1.5px #A0A0A0;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 45%;
+  left: 200px;
+  transform: translateY(-50%) rotate(45deg);
+}
+.seeker-register-content-form__midCareer__jobChange__input select {
+  width: 225px;
+}
+.seeker-register-content-form__midCareer__jobChange__input span {
+  display: inline-block;
+  margin-left: 10px;
+}
+.seeker-register-content-form__midCareer__company__input input {
+  width: 225px;
+}
+.seeker-register-content-form__midCareer__company__input span {
+  display: inline-block;
+  margin-left: 10px;
+}
+.seeker-register-content-form__midCareer__occupation__input {
+  display: flex;
+  gap: 16px;
+}
+.seeker-register-content-form__midCareer__occupation__input__box {
+  width: 100%;
+  position: relative;
+}
+.seeker-register-content-form__midCareer__occupation__input__box::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-bottom: solid 1.5px #A0A0A0;
+  border-right: solid 1.5px #A0A0A0;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 45%;
+  right: 20px;
+  transform: translateY(-50%) rotate(45deg);
+}
+.seeker-register-content-form__midCareer__occupation__input__box span {
+  display: block;
+  position: absolute;
+  color: #A0A0A0;
+  font-size: 0.75rem;
+  margin-top: 12px;
+}
+.seeker-register-content-form__midCareer__occupation__input__box select {
+  width: 100%;
+}
+.seeker-register-content-form__midCareer__income {
+  padding-top: 60px;
+}
+.seeker-register-content-form__midCareer__income__input {
+  display: flex;
+  gap: 8px;
+}
+.seeker-register-content-form__midCareer__income__input__box {
+  width: 100%;
+}
+.seeker-register-content-form__midCareer__income__input__box input {
+  width: 87%;
+  margin-right: 8px;
+}
+.seeker-register-content-form__midCareer__income__input__box span {
+  display: block;
+  position: absolute;
+  color: #A0A0A0;
+  font-size: 0.75rem;
+  margin-top: 12px;
+}
+.seeker-register-content-form__midCareer__income__input__box span:first-child {
+  display: inline;
+}
+.seeker-register-content-form__submit {
+  max-width: 165px;
+  background-color: #3A87FD;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 140px;
+  padding: 15px 0;
+}
+.seeker-register-sidebar__inner {
+  width: 70%;
+}
+.seeker-register-sidebar-selection {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 24px;
+}
+.seeker-register-sidebar-selection__title__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.seeker-register-sidebar-selection__view__inner {
+  display: flex;
+  align-items: center;
+}
+.seeker-register-sidebar-selection__view span {
+  font-size: 0.625rem;
+}
+.seeker-register-sidebar-selection__view__arrow {
+  background-color: #E6E6E6;
+  border-radius: 30px;
+  padding: 8px 10px;
+  margin-left: 6px;
+  position: relative;
+}
+.seeker-register-sidebar-selection__view__arrow::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 8px;
+  top: 5px;
+  width: 5px;
+  height: 5px;
+  border-top: #000 0.5px solid;
+  border-right: #000 0.5px solid;
+  transform: rotate(45deg);
+  margin: auto;
+}
+.seeker-register-sidebar-selection__box {
+  border: 1.5px solid #3A87FD;
+  border-radius: 10px;
+  padding: 16px 8px;
+  width: 87px;
+}
+.seeker-register-sidebar-selection__box__inner {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  padding-top: 48px;
+}
+.seeker-register-sidebar-selection__box__text {
+  font-size: 0.625rem;
+  text-align: center;
+}
+.seeker-register-sidebar-selection__box__people {
+  padding-top: 8px;
+  text-align: center;
+}
+.seeker-register-sidebar-selection__box__people__number {
+  font-size: 23px;
+  font-family: "Jost", sans-serif;
+}
+.seeker-register-sidebar-selection__box__people__unit {
+  font-size: 0.625rem;
+}
+.seeker-register-sidebar-selection__list {
+  border-bottom: 0.5px solid #A0A0A0;
+  padding: 24px 0;
+}
+.seeker-register-sidebar-selection__list:first-child {
+  padding-top: 0;
+}
+.seeker-register-sidebar-selection__list__inner {
+  padding-top: 32px;
+}
+.seeker-register-sidebar-selection__list__inner__nothing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 310px;
+}
+.seeker-register-sidebar-selection__list__inner__nothing p {
+  color: #A0A0A0;
+  font-size: 0.75rem;
+}
+.seeker-register-sidebar-selection__list__status span {
+  font-size: 0.75rem;
+}
+.seeker-register-sidebar-selection__list__company {
+  padding-top: 8px;
+}
+.seeker-register-sidebar-log {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 16px;
+  padding: 24px;
+}
+.seeker-register-sidebar-log__title__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+}
+.seeker-register-sidebar-log__add__inner {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.seeker-register-sidebar-log__add__inner span {
+  color: #3A87FD;
+  font-size: 0.625rem;
+}
+.seeker-register-sidebar-log__list {
+  padding-top: 48px;
+}
+.seeker-register-sidebar-log__list__label__1 {
+  width: 120px;
+}
+.seeker-register-sidebar-log__list__label__2 {
+  width: 120px;
+}
+.seeker-register-sidebar-log__list__label__3 {
+  width: 120px;
+}
+.seeker-register-sidebar-log__list__thead {
+  border-bottom: 0.5px solid #A0A0A0;
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+  padding: 24px 0;
+  padding-top: 0;
+}
+.seeker-register-sidebar-log__list__item {
+  border-bottom: 0.5px solid #A0A0A0;
+  padding: 24px 0;
+  cursor: pointer;
+}
+.seeker-register-sidebar-log__list__item__nothing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 720px;
+}
+.seeker-register-sidebar-log__list__item__nothing p {
+  color: #A0A0A0;
+  font-size: 0.75rem;
+}
+.seeker-register-sidebar-log__list__item__flex {
+  display: flex;
+  align-items: center;
+}
+.seeker-register-sidebar-log__list__item__name {
+  padding-left: 15px;
+  position: relative;
+}
+.seeker-register-sidebar-log__list__item__name::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border: 0;
+  border-top: solid 1.5px #333;
+  border-right: solid 1.5px #333;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+.seeker-register-sidebar-log__list__item__name.open::before {
+  transform: translateY(-50%) rotate(135deg);
+}
+.seeker-register-sidebar-log__list__item__memo {
+  display: none;
+  font-weight: 400;
+  line-height: 27.75px;
+  margin-top: 10px;
 }/*# sourceMappingURL=styles.css.map */

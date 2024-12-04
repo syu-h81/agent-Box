@@ -128,16 +128,22 @@ $(function() {
   $('#filter, #close, #cancel').on('click', function() {
     $('.seeker-list-content-filter__inner').fadeToggle();
   });
+
+  //求職者登録_面談ログのメモの開閉機能
+  $('.seeker-register-sidebar-log__list__item').on('click', function() {
+    var $memo = $(this).find('.seeker-register-sidebar-log__list__item__memo');
+    var $arrow = $(this).find('.seeker-register-sidebar-log__list__item__name');
+    $memo.slideToggle();
+    $arrow.toggleClass('open', 300)
+  });
 });
 
 $(document).ready(function() {
   // 現在のURLのパスを取得
   var path = window.location.pathname;
-  var currentPage = path.substring(path.lastIndexOf('/') + 1); // ファイル名を抽出
+  var currentPage = path.substring(path.lastIndexOf('/') + 1);
   var $img = $(".header-nav__item__home img");
-  //var originalSrc = "assets/images/header-recruit-icon.png"; // 元の画像パス
-  var newSrc = "assets/images/home_blue.png"; // 変更後の画像パス
-  // index.htmlの時だけ文字の色を変更
+  var newSrc = "assets/images/home_blue.png";
   if (currentPage === 'index.php' || currentPage === 'index-ra-ca.php' || currentPage === 'index-company.php' || currentPage === '') { // ルートアクセスも考慮
     $('.header-nav__item__accordion__first').css({
       'color': '#3A87FD',
