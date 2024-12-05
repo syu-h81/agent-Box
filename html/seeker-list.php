@@ -159,9 +159,9 @@
                         <label for="">決定想定日</label>
                       </div>
                       <div class="seeker-list-content-filter__assumption__input seeker-list-content-filter-input-date">
-                        <input type="text" placeholder="0000/00/00 - 0000/00/00">
+                        <input type="text" name="assumption-1" placeholder="0000/00/00 - 0000/00/00">
                         <span>ー</span>
-                        <input type="text" placeholder="0000/00/00 - 0000/00/00">
+                        <input type="text" name="assumption-2" placeholder="0000/00/00 - 0000/00/00">
                       </div>
                     </div>
                     <div class="seeker-list-content-filter__interview">

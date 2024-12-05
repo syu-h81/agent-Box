@@ -783,6 +783,7 @@
         }
       }
     }
+    //サイドバーのcss
     &-sidebar {
       &__inner {
         width: 70%;
@@ -896,6 +897,7 @@
           display: flex;
           gap: 6px;
           align-items: center;
+          cursor: pointer;
           span {
             color: #3A87FD;
             font-size: 0.625rem;
@@ -959,12 +961,297 @@
                 transform: translateY(-50%) rotate(135deg);
               }
             }
+            &__edit {
+              position: relative;
+              z-index: 1;
+            }
             &__memo {
               display: none;
               font-weight: 400;
               line-height: 27.75px;
               margin-top: 10px;
             }
+          }
+        }
+        &__edit,
+        &__add {
+          display: none;
+          &__block {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+          }
+          &__content {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 64px 40px 48px 40px;
+            position: relative;
+            &__close {
+              width: 20px;
+              position: absolute;
+              top: 24px;
+              right: 10px;
+              cursor: pointer;
+              span {
+                &::before,
+                &::after {
+                  content: '';
+                  width: 100%;
+                  height: 1px;
+                  display: inline-block;
+                  background: #272727;
+                  border-radius: 2px;
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                }
+                &::before {
+                  transform: rotate(45deg);
+                }
+                &::after {
+                  transform: rotate(-45deg);
+                }
+              }
+            }
+            &__charge,
+            &__interview,
+            &__type,
+            &__memo {
+              display: flex;
+              align-items: center;
+              padding-top: 32px;
+              &__label {
+                width: 120px;
+                font-size: 0.75rem;
+              }
+              &__input {
+                width: 100%;
+                position: relative;
+                select {
+                  border: 1px solid #A0A0A0;
+                  border-radius: 5px;
+                  padding: 15px;
+                  color: #A0A0A0;
+                  font-size: 0.75rem;
+                }
+                input {
+                  appearance: auto;
+                }
+              }
+            }
+            &__charge {
+              &__input {
+                &::after {
+                  content: "";
+                  width: 10px;
+                  height: 10px;
+                  border-bottom: solid 1.5px #A0A0A0;
+                  border-right: solid 1.5px #A0A0A0;
+                  transform: rotate(45deg);
+                  position: absolute;
+                  top: 50%;
+                  right: 40px;
+                  transform: translateY(-50%) rotate(45deg);
+                }
+                select {
+                  width: 430px;
+                }
+              }   
+            }
+            &__type {
+              &__input {
+                display: flex;
+                align-items: center;
+                &__box {
+                  padding-left: 32px;
+                  &:first-child {
+                    padding-left: 0;
+                  }
+                  span {
+                    display: inline-block;
+                    margin-left: 10px;
+                  }
+                }
+              }
+            }
+            &__interview {
+              &__input {
+                display: flex;
+                align-items: center;
+                &__box {
+                  width: 100%;
+                  display: flex;
+                  align-items: center;
+                  select {
+                    width: 70%;
+                  }
+                  span {
+                    display: inline-block;
+                    margin-left: 8px;
+                  }
+                }
+              }
+            }
+            &__memo {
+              &__input {
+                textarea {
+                  width: 100%;
+                  height: 223px;
+                  border: 1px solid #A0A0A0;
+                  border-radius: 5px;
+                  padding: 15px;
+                }
+              }
+            }
+            &__btn {
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              gap: 32px;
+              padding-top: 80px;
+              &__cancel,
+              &__submit {
+                width: 160px;
+                height: 40px;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+              &__cancel {
+                border: 1px solid #A0A0A0;
+              }
+              &__submit {
+                background-color: #3A87FD;
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  // 求職者管理_求職者基本情報ページのcss
+  &-info {
+    &__inner {
+      display: flex;
+      gap: 16px;
+      background: none;
+      padding: 0;
+    }
+    &__block {
+      width: 1800px;
+      //width: 100%;
+      background-color: #fff;
+      padding: 24px;
+      padding-bottom: 48px;
+    }
+    &__title__inner {
+      display: flex;
+      align-items: end;
+      gap: 24px;
+    }
+    &-content {
+      &__name,
+      &__furigana,
+      &__charge,
+      &__date,
+      &__gender,
+      &__email,
+      &__phoneNumber,
+      &__university,
+      &__status,
+      &__notEstablished,
+      &__assumption,
+      &__interview,
+      &__schedule,
+      &__info,
+      &__comment,
+      &__graduation,
+      &__literatureScience,
+      &__faculty {
+        border-bottom: 0.5px solid #A5A5A5;
+        display: flex;
+        align-items: flex-start;
+        padding: 40px 0;
+        &__label {
+          width: 120px;
+          font-size: 0.75rem;
+        }
+        &__output {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          &__edit {
+            cursor: pointer;
+          }
+        }
+      }
+      &__name,
+      &__furigana {
+        &__output {
+          &__value {
+            display: flex;
+            gap: 10px;
+          }
+        }
+      }
+      &__date {
+        &__output {
+          &__value {
+            span {
+              &:first-child {
+                display: inline-block;
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+      }
+      &__info,
+      &__comment {
+        &__output {
+          align-items: flex-end;
+          &__value {
+            width: 80%;
+            span {
+              line-height: 27.75px;
+            }
+          }
+        }
+      }
+      &__midCareer {
+        &__inner {
+          padding-top: 78px;
+        }
+        &__title__inner {
+          border-bottom: 1px solid #A0A0A0;
+          padding-bottom: 20px;
+        }
+        &__jobChange,
+        &__company,
+        &__occupation,
+        &__income {
+          border-bottom: 0.5px solid #A5A5A5;
+          display: flex;
+          align-items: center;
+          padding: 30px 0;
+          &__label {
+            width: 120px;
+          }
+          &__output {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
           }
         }
       }
