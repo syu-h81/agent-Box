@@ -16,8 +16,7 @@
             </div>
             <div class="seeker-form-content__text">
               <p>
-                必要項目を入力後、確認画面が表示されます。<br>
-                内容に間違いなければ、ページ最下部の確認ボタンを押してください。
+                入力内容をご確認ください。
               </p>
             </div>
             <div class="seeker-form-confirm__inner">
@@ -27,7 +26,7 @@
                   <label for="">お名前</label>
                 </div>
                 <div class="seeker-form-confirm__name__input">
-                  <span><?php echo $_POST['name']; ?></span>
+                  <span>ダミー田中太郎</span>
                 </div>
               </div>
               <!-- ===== お名前（フリガナ） ===== -->
@@ -36,7 +35,7 @@
                   <label for="">お名前（フリガナ）</label>
                 </div>
                 <div class="seeker-form-confirm__furigana__input">
-                  <span><?php echo $_POST['furigana']; ?></span>
+                  <span>ダミータナカタロウ</span>
                 </div>
               </div>
               <!-- ===== 担当CA ===== -->
@@ -45,7 +44,16 @@
                   <label for="">担当CA</label>
                 </div>
                 <div class="seeker-form-confirm__charge__input">
-                  <span><?php echo $_POST['charge-ca']; ?></span>
+                  <span>ダミー松井</span>
+                </div>
+              </div>
+              <!-- ===== メールアドレス ===== -->
+              <div class="seeker-form-confirm__charge">
+                <div class="seeker-form-confirm__charge__label">
+                  <label for="">メールアドレス</label>
+                </div>
+                <div class="seeker-form-confirm__charge__input">
+                  <span>ダミーaaaaaa@aaaaaaa</span>
                 </div>
               </div>
               <!-- ===== 生年月日 ===== -->
@@ -54,7 +62,7 @@
                   <label for="">生年月日</label>
                 </div>
                 <div class="seeker-form-confirm__date__input">
-                  <span><?php echo $_POST['year']; ?>/<?php echo $_POST['month']; ?>/<?php echo $_POST['date']; ?></span>
+                  <span>0000/00/00</span>
                 </div>
               </div>
               <!-- ===== 性別 ===== -->
@@ -63,7 +71,7 @@
                   <label for="">性別</label>
                 </div>
                 <div class="seeker-form-confirm__gender__input">
-                  <span><?php echo $_POST['gender']; ?></span>
+                  <span>ダミー男性</span>
                 </div>
               </div>
               <!-- ===== 電話番号 ===== -->
@@ -72,7 +80,7 @@
                   <label for="">電話番号</label>
                 </div>
                 <div class="seeker-form-confirm__phoneNumber__input">
-                  <span><?php echo $_POST['phoneNumber']; ?></span>
+                  <span>00-0000-0000</span>
                 </div>
               </div>
               <!-- ===== 住所 ===== -->
@@ -81,8 +89,8 @@
                   <label for="">住所</label>
                 </div>
                 <div class="seeker-form-confirm__address__input">
-                  <span>〒<?php echo $_POST['address-number']; ?></span>
-                  <span><?php echo $_POST['address']; ?></span>
+                  <span>〒000-0000</span>
+                  <span>東京都ダミー00-0-000</span>
                 </div>
               </div>
               <!-- ===== 大学卒年度 ===== -->
@@ -91,7 +99,7 @@
                   <label for="">大学卒年度</label>
                 </div>
                 <div class="seeker-form-confirm__graduation__input">
-                  <span><?php echo $_POST['graduation']; ?></span>
+                  <span>0000年度</span>
                 </div>
               </div>
               <!-- ===== 文理区分 ===== -->
@@ -100,7 +108,7 @@
                   <label for="">文理区分</label>
                 </div>
                 <div class="seeker-form-confirm__literatureScience__input">
-                  <span><?php echo $_POST['literatureScience']; ?></span>
+                  <span>ダミー</span>
                 </div>
               </div>
               <!-- ===== 学校名 ===== -->
@@ -109,7 +117,7 @@
                   <label for="">学校名</label>
                 </div>
                 <div class="seeker-form-confirm__school__input">
-                  <span><?php echo $_POST['school']; ?><?php echo $_POST['faculty']; ?><?php echo $_POST['subject']; ?></span>
+                  <span>OOO学院大学OOO学部OOO学科</span>
                 </div>
               </div>
             </div>
