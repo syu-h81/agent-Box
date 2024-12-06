@@ -3621,6 +3621,7 @@ time {
 }
 .seeker-info-content__midCareer__jobChange__label, .seeker-info-content__midCareer__company__label, .seeker-info-content__midCareer__occupation__label, .seeker-info-content__midCareer__income__label {
   width: 120px;
+  font-size: 0.75rem;
 }
 .seeker-info-content__midCareer__jobChange__output, .seeker-info-content__midCareer__company__output, .seeker-info-content__midCareer__occupation__output, .seeker-info-content__midCareer__income__output {
   width: 100%;
