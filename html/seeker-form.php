@@ -1,13 +1,13 @@
 <?php $title="求職者管理_新卒用基本情報入力フォーム" ?>
 <?php require_once dirname(__FILE__).'/seeker-header-form.php'; ?>
       <main class="seeker-form__main">
-        <form action="" method="POST" class="seeker-form__main__inner">
+        <form action="seeker-form-confirm.php" method="POST" class="seeker-form__main__inner">
           <div class="seeker-form-content__inner">
             <div class="seeker-form-content__title__inner seeker-title-inner">
               <h2>基本情報入力フォーム</h2>
             </div>
             <div class="seeker-form-content__round__inner">
-              <div class="seeker-form-content__round">入力</div>
+              <div class="seeker-form-content__round seeker-form-content__round__form">入力</div>
               <span></span>
               <div class="seeker-form-content__round">確認</div>
               <span></span>
@@ -65,13 +65,13 @@
                         </select><span>年</span>
                       </div>
                       <div class="seeker-form-content-form__date__input__box">
-                        <select name="year" id="" onchange="changeColor(this)">
+                        <select name="month" id="" onchange="changeColor(this)">
                           <option value="" selected>01</option>
                           <option value="00">00</option>
                         </select><span>月</span>
                       </div>
                       <div class="seeker-form-content-form__date__input__box">
-                        <select name="year" id="" onchange="changeColor(this)">
+                        <select name="date" id="" onchange="changeColor(this)">
                           <option value="" selected>01</option>
                           <option value="0000">00</option>
                         </select><span>日</span>
@@ -90,11 +90,11 @@
                   </div>
                   <div class="seeker-form-content-form__gender__input">
                     <div class="seeker-form-content-form__gender__input__radio">
-                      <input type="radio" name="gender">
+                      <input type="radio" name="gender" value="男性">
                       <span>男性</span>
                     </div>
                     <div class="seeker-form-content-form__gender__input__radio">
-                      <input type="radio" name="gender">
+                      <input type="radio" name="gender" value="女性">
                       <span>女性</span>
                     </div>
                   </div>
