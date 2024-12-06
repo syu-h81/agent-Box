@@ -1273,6 +1273,9 @@
       background-color: #F3F6FF;
       display: flex;
       justify-content: center;
+      &__complete {
+        height: 100vh;
+      }
       &__inner {
         padding: 96px 0;
       }
@@ -1286,6 +1289,16 @@
       &__title__inner {
         text-align: center;
       }
+      &-complete {
+        &__inner {
+          padding-top: 40px;
+        }
+        &__title__inner {
+          padding-top: 40px;
+          text-align: center;
+          letter-spacing: 1px;
+        }
+      }
       &__round {
         width: 80px;
         height: 80px;
@@ -1295,7 +1308,8 @@
         justify-content: center;
         align-items: center;
         &__form,
-        &__confirm {
+        &__confirm ,
+        &__complete {
           background-color: #3A87FD;
           border: 0;
           color: #fff;

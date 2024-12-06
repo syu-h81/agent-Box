@@ -3638,6 +3638,9 @@ time {
   display: flex;
   justify-content: center;
 }
+.seeker-form__main__complete {
+  height: 100vh;
+}
 .seeker-form__main__inner {
   padding: 96px 0;
 }
@@ -3649,6 +3652,14 @@ time {
 .seeker-form-content__title__inner {
   text-align: center;
 }
+.seeker-form-content-complete__inner {
+  padding-top: 40px;
+}
+.seeker-form-content-complete__title__inner {
+  padding-top: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+}
 .seeker-form-content__round {
   width: 80px;
   height: 80px;
@@ -3658,7 +3669,7 @@ time {
   justify-content: center;
   align-items: center;
 }
-.seeker-form-content__round__form, .seeker-form-content__round__confirm {
+.seeker-form-content__round__form, .seeker-form-content__round__confirm, .seeker-form-content__round__complete {
   background-color: #3A87FD;
   border: 0;
   color: #fff;
