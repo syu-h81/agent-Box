@@ -3658,7 +3658,7 @@ time {
   justify-content: center;
   align-items: center;
 }
-.seeker-form-content__round:first-child {
+.seeker-form-content__round__form, .seeker-form-content__round__confirm {
   background-color: #3A87FD;
   border: 0;
   color: #fff;
@@ -3875,4 +3875,48 @@ time {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.seeker-form-confirm__inner {
+  padding-top: 80px;
+}
+.seeker-form-confirm__name, .seeker-form-confirm__furigana, .seeker-form-confirm__date, .seeker-form-confirm__gender, .seeker-form-confirm__charge, .seeker-form-confirm__email, .seeker-form-confirm__phoneNumber, .seeker-form-confirm__address, .seeker-form-confirm__graduation, .seeker-form-confirm__literatureScience, .seeker-form-confirm__school {
+  border-bottom: 0.5px solid #272727;
+  display: flex;
+  align-items: center;
+  padding: 24px 0;
+}
+.seeker-form-confirm__name__label, .seeker-form-confirm__furigana__label, .seeker-form-confirm__date__label, .seeker-form-confirm__gender__label, .seeker-form-confirm__charge__label, .seeker-form-confirm__email__label, .seeker-form-confirm__phoneNumber__label, .seeker-form-confirm__address__label, .seeker-form-confirm__graduation__label, .seeker-form-confirm__literatureScience__label, .seeker-form-confirm__school__label {
+  width: 140px;
+  font-size: 0.75rem;
+}
+.seeker-form-confirm__name__input, .seeker-form-confirm__furigana__input, .seeker-form-confirm__date__input, .seeker-form-confirm__gender__input, .seeker-form-confirm__charge__input, .seeker-form-confirm__email__input, .seeker-form-confirm__phoneNumber__input, .seeker-form-confirm__address__input, .seeker-form-confirm__graduation__input, .seeker-form-confirm__literatureScience__input, .seeker-form-confirm__school__input {
+  font-size: 0.75rem;
+}
+.seeker-form-confirm__address__input span {
+  display: block;
+}
+.seeker-form-confirm__address__input span:last-child {
+  margin-top: 8px;
+}
+.seeker-form-confirm__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding-top: 80px;
+}
+.seeker-form-confirm__btn__cancel, .seeker-form-confirm__btn__submit {
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seeker-form-confirm__btn__cancel {
+  border: 1px solid #A0A0A0;
+}
+.seeker-form-confirm__btn__submit {
+  background-color: #3A87FD;
+  color: #fff;
 }/*# sourceMappingURL=styles.css.map */

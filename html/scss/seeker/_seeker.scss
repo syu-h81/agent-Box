@@ -1294,7 +1294,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        &:first-child {
+        &__form,
+        &__confirm {
           background-color: #3A87FD;
           border: 0;
           color: #fff;
@@ -1532,6 +1533,68 @@
         display: flex;
         justify-content: center;
         align-items: center;
+      }
+    }
+    // 基本情報_確認画面ページのcss
+    &-confirm {
+      &__inner {
+        padding-top: 80px;
+      }
+      &__name,
+      &__furigana,
+      &__date,
+      &__gender,
+      &__charge,
+      &__email,
+      &__phoneNumber,
+      &__address,
+      &__graduation,
+      &__literatureScience,
+      &__school {
+        border-bottom: 0.5px solid #272727;
+        display: flex;
+        align-items: center;
+        padding: 24px 0;
+        &__label {
+          width: 140px;
+          font-size: 0.75rem;
+        }
+        &__input {
+          font-size: 0.75rem;
+        }
+      }
+      &__address {
+        &__input {
+          span {
+            display: block;
+            &:last-child {
+              margin-top: 8px;
+            }
+          }
+        }
+      }
+      &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        padding-top: 80px;
+        &__cancel,
+        &__submit {
+          width: 160px;
+          height: 40px;
+          border-radius: 5px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        &__cancel {
+          border: 1px solid #A0A0A0;
+        }
+        &__submit {
+          background-color: #3A87FD;
+          color: #fff;
+        }
       }
     }
   }
