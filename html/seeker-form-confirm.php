@@ -2,7 +2,7 @@
 <?php session_start() ?>
 <?php require_once dirname(__FILE__).'/seeker-header-form.php'; ?>
       <main class="seeker-form__main">
-        <form action="" method="POST" class="seeker-form__main__inner">
+        <form action="seeker-form-complete.php" method="POST" class="seeker-form__main__inner">
           <div class="seeker-form-content__inner">
             <div class="seeker-form-content__title__inner seeker-title-inner">
               <h2>基本情報入力フォーム</h2>
