@@ -51,8 +51,7 @@
                 </div>
                 <div class="seeker-info-content__name__output seeker-info-content__output">
                   <div class="seeker-info-content__name__output__value seeker-info-content__output__value">
-                    <span><?php echo $_POST['firstName'] ?></span>
-                    <span><?php echo $_POST['lastName'] ?></span>
+                    <span>山田　太郎</span>
                   </div>
                   <div class="seeker-info-content__name__output__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -66,8 +65,7 @@
                 </div>
                 <div class="seeker-info-content__furigana__output seeker-info-content__output">
                   <div class="seeker-info-content__furigana__output__value seeker-info-content__output__value">
-                    <span><?php echo $_POST['firstFurigana'] ?></span>
-                    <span><?php echo $_POST['lastFurigana'] ?></span>
+                    <span>ヤマダ タロウ</span>
                   </div>
                   <div class="seeker-info-content__furigana__output__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -81,7 +79,7 @@
                 </div>
                 <div class="seeker-info-content__charge__output seeker-info-content__output">
                   <div class="seeker-info-content__charge__output__value seeker-info-content__output__value">
-                    <span><?php echo $_POST['charge'] ?></span>
+                    <span>坂本　太郎</span>
                   </div>
                   <div class="seeker-info-content__charge__output__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -95,8 +93,7 @@
                 </div>
                 <div class="seeker-info-content__date__output seeker-info-content__output">
                   <div class="seeker-info-content__date__output__value seeker-info-content__output__value">
-                    <span><?php echo $_POST['year'] ?>年</span>
-                    <span><?php echo $_POST['month'] ?>月<?php echo $_POST['date'] ?>日</span>
+                    <span>2000年　7月30日</span>
                   </div>
                   <div class="seeker-info-content__date__output__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -110,7 +107,7 @@
                 </div>
                 <div class="seeker-info-content__gender__output seeker-info-content__output">
                   <div class="seeker-info-content__gender__output__value seeker-info-content__output__value">
-                    <span><?php echo $_POST['gender'] ?></span>
+                    <span>男性</span>
                   </div>
                   <div class="seeker-info-content__gender__output__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -124,7 +121,7 @@
                 </div>
                 <div class="seeker-info-content__email__output seeker-info-content__output">
                   <div class="seeker-info-content__email__output__value seeker-info-content__output__value">
-                    <span><?php echo $_POST['email'] ?></span>
+                    <span>example@example.com</span>
                   </div>
                   <div class="seeker-info-content__email__output__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -138,7 +135,7 @@
                 </div>
                 <div class="seeker-info-content__phoneNumber__output seeker-info-content__output">
                   <div class="seeker-info-content__phoneNumber__output__value seeker-info-content__output__value">
-                    <span><?php echo $_POST['phoneNumber-1'] ?>-<?php echo $_POST['phoneNumber-2'] ?>-<?php echo $_POST['phoneNumber-3'] ?></span>
+                    <span>000-0000-0000</span>
                   </div>
                   <div class="seeker-info-content__phoneNumber__output__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -152,7 +149,7 @@
                 </div>
                 <div class="seeker-info-content__university__output seeker-info-content__output">
                   <div class="seeker-info-content__university__output__value seeker-info-content__output__value">
-                    <span><?php echo $_POST['university'] ?></span>
+                    <span>OOO学院大学</span>
                   </div>
                   <div class="seeker-info-content__university__output__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -166,7 +163,7 @@
                 </div>
                 <div class="seeker-info-content__status__output seeker-info-content__output">
                   <div class="seeker-info-content__status__output__value seeker-info-content__output__value">
-                    <span><?php echo $_POST['status'] ?></span>
+                    <span>ステータス1</span>
                   </div>
                   <div class="seeker-info-content__status__output__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -180,7 +177,7 @@
                 </div>
                 <div class="seeker-info-content__notEstablished__output seeker-info-content__output">
                   <div class="seeker-info-content__notEstablished__output__value seeker-info-content__output__value">
-                    <span><?php echo $_POST['notEstablished'] ?></span>
+                    <span>この文字はダミーですこの文字はダミーですこの文字はダミーです</span>
                   </div>
                   <div class="seeker-info-content__name__notEstablished__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -194,7 +191,7 @@
                 </div>
                 <div class="seeker-info-content__assumption__output seeker-info-content__output">
                   <div class="seeker-info-content__assumption__output__value seeker-info-content__output__value">
-                    <span><?php echo $_POST['schedule-1'] ?> - <?php echo $_POST['schedule-1'] ?></span>
+                    <span>0000/00/00 - 0000/00/00</span>
                   </div>
                   <div class="seeker-info-content__assumption__output__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -208,7 +205,7 @@
                 </div>
                 <div class="seeker-info-content__interview__output seeker-info-content__output">
                   <div class="seeker-info-content__interview__output__value seeker-info-content__output__value">
-                    <span><?php echo $_POST['schedule-2'] ?> - <?php echo $_POST['schedule-2'] ?></span>
+                    <span>0000/00/00 - 0000/00/00</span>
                   </div>
                   <div class="seeker-info-content__interview__output__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -222,7 +219,7 @@
                 </div>
                 <div class="seeker-info-content__schedule__output seeker-info-content__output">
                   <div class="seeker-info-content__schedule__output__value seeker-info-content__output__value">
-                    <span><?php echo $_POST['schedule-3'] ?> - <?php echo $_POST['schedule-3'] ?></span>
+                    <span>0000/00/00 - 0000/00/00</span>
                   </div>
                   <div class="seeker-info-content__schedule__output__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -236,7 +233,10 @@
                 </div>
                 <div class="seeker-info-content__info__output seeker-info-content__output">
                   <div class="seeker-info-content__info__output__value seeker-info-content__output__value">
-                    <span><?php echo $_POST['student-info'] ?></span>
+                    <span>
+                      この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです
+                      この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです
+                    </span>
                   </div>
                   <div class="seeker-info-content__info__output__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -250,7 +250,10 @@
                 </div>
                 <div class="seeker-info-content__comment__output seeker-info-content__output">
                   <div class="seeker-info-content__comment__output__value seeker-info-content__output__value">
-                    <span><?php echo $_POST['ca-comment'] ?></span>
+                    <span>
+                      この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです
+                      この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです
+                    </span>
                   </div>
                   <div class="seeker-info-content__comment__output__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -264,7 +267,7 @@
                 </div>
                 <div class="seeker-info-content__graduation__output seeker-info-content__output">
                   <div class="seeker-info-content__graduation__output__value seeker-info-content__output__value">
-                    <span><?php echo $_POST['graduation'] ?>-<?php echo $_POST['graduation'] ?></span>
+                    <span>0000/00/00 - 0000/00/00</span>
                   </div>
                   <div class="seeker-info-content__graduation__output__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -278,7 +281,7 @@
                 </div>
                 <div class="seeker-info-content__literatureScience__output seeker-info-content__output">
                   <div class="seeker-info-content__literatureScience__output__value seeker-info-content__output__value">
-                    <span><?php echo $_POST['literatureScience'] ?></span>
+                    <span>文系ダミー</span>
                   </div>
                   <div class="seeker-info-content__literatureScience__output__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -292,7 +295,7 @@
                 </div>
                 <div class="seeker-info-content__faculty__output seeker-info-content__output">
                   <div class="seeker-info-content__faculty__output__value seeker-info-content__output__value">
-                    <span><?php echo $_POST['faculty'] ?></span>
+                    <span>OOO学部</span>
                   </div>
                   <div class="seeker-info-content__faculty__output__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -306,7 +309,7 @@
                 </div>
                 <div class="seeker-info-content__faculty__output seeker-info-content__output">
                   <div class="seeker-info-content__faculty__output__value seeker-info-content__output__value">
-                    <span><?php echo $_POST['subject'] ?></span>
+                    <span>OOO学科</span>
                   </div>
                   <div class="seeker-info-content__faculty__output__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -325,7 +328,7 @@
                   </div>
                   <div class="seeker-info-content__midCareer__jobChange__output seeker-info-content__output">
                     <div class="seeker-info-content__midCareer__jobChange__output__value seeker-info-content__output__value">
-                      <span><?php echo $_POST['jobChange'] ?>-<?php echo $_POST['jobChange'] ?></span>
+                      <span>0000/00/00 - 0000/00/00</span>
                     </div>
                     <div class="seeker-info-content__midCareer__jobChange__output__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -339,7 +342,7 @@
                   </div>
                   <div class="seeker-info-content__midCareer__company__output seeker-info-content__output">
                     <div class="seeker-info-content__midCareer__company__output__value seeker-info-content__output__value">
-                      <span><?php echo $_POST['company'] ?></span>
+                      <span>00</span>
                     </div>
                     <div class="seeker-info-content__midCareer__company__output__edit">
                     <img src="assets/images/edit.png" alt="">
@@ -353,7 +356,7 @@
                   </div>
                   <div class="seeker-info-content__midCareer__occupation__output seeker-info-content__output">
                     <div class="seeker-info-content__midCareer__occupation__output__value seeker-info-content__output__value">
-                      <span><?php echo $_POST['nowOccupation'] ?>-</span>
+                      <span>-</span>
                     </div>
                     <div class="seeker-info-content__midCareer__occupation_output__edit">
                       <img src="assets/images/edit.png" alt="">
@@ -367,7 +370,7 @@
                   </div>
                   <div class="seeker-info-content__midCareer__occupation__output seeker-info-content__output">
                     <div class="seeker-info-content__midCareer__occupation__output__value seeker-info-content__output__value">
-                      <span><?php echo $_POST['desiredOccupation'] ?>-</span>
+                      <span>-</span>
                     </div>
                     <div class="seeker-info-content__midCareer__occupation__output__edit">
                       <img src="assets/images/edit.png" alt="">
@@ -381,7 +384,7 @@
                   </div>
                   <div class="seeker-info-content__midCareer__income__output seeker-info-content__output">
                     <div class="seeker-info-content__midCareer__income__output__value seeker-info-content__output__value">
-                      <span>¥<?php echo $_POST['nowIncome'] ?></span>
+                      <span>¥0,000</span>
                     </div>
                     <div class="seeker-info-content__midCareer__income__output__edit">
                       <img src="assets/images/edit.png" alt="">
@@ -395,7 +398,7 @@
                   </div>
                   <div class="seeker-info-content__midCareer__income__output seeker-info-content__output">
                     <div class="seeker-info-content__midCareer__income__output__value seeker-info-content__output__value">
-                      <span>¥<?php echo $_POST['desiredIncome'] ?></span>
+                      <span>¥0,000</span>
                     </div>
                     <div class="seeker-info-content__midCareer__income__output__edit">
                       <img src="assets/images/edit.png" alt="">
@@ -496,10 +499,6 @@
               <div class="seeker-register-sidebar-log">
                 <div class="seeker-register-sidebar-log__title__inner seeker-title-inner">
                   <h2>面談ログ</h2>
-                  <a href="" class="seeker-register-sidebar-log__add__inner">
-                    <img src="assets/images/edit.png" alt="">
-                    <span>面談ログを追加する</span>
-                  </a>
                 </div>
                 <div class="seeker-register-sidebar-log__list">
                   <div class="seeker-register-sidebar-log__list__thead">

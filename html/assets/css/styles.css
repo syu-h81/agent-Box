@@ -3080,6 +3080,9 @@ time {
 .seeker-register-content-form__upload__body__history__inner {
   padding-top: 32px;
 }
+.seeker-register-content-form__midCareer {
+  display: none;
+}
 .seeker-register-content-form__midCareer__inner {
   padding-top: 78px;
 }

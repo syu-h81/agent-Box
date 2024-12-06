@@ -133,6 +133,16 @@ $(function() {
     $('.seeker-register-sidebar-log__add').fadeToggle();
   });
 
+  $('.seeker-register-content-form__midCareer__title__inner').on('click', function() {
+    var $midCareer = $(this).siblings('.seeker-register-content-form__midCareer');
+    $midCareer.slideToggle();
+    var $span = $(this).find('span');
+    if ($midCareer.is(':visible')) {
+      $span.text('＋'); // 非表示に切り替えた後
+    } else {
+      $span.text('ー'); // 表示された後
+    }
+  });
   //求職者登録_面談ログのメモの開閉機能
   $('.seeker-register-sidebar-log__list__item').on('click', function() {
     var $memo = $(this).find('.seeker-register-sidebar-log__list__item__memo');
