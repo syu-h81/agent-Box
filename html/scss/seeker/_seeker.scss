@@ -1361,7 +1361,12 @@
         &__address,
         &__graduation,
         &__literatureScience,
-        &__school {
+        &__school,
+        &__jobChange,
+        &__company,
+        &__occupation,
+        &__industry,
+        &__income {
           display: flex;
           align-items: center;
           padding-top: 40px;
@@ -1398,7 +1403,9 @@
           }
         }
         &__charge,
-        &__literatureScience {
+        &__literatureScience,
+        &__occupation,
+        &__industry {
           &__input {
             &::after {
               content: "";
@@ -1536,6 +1543,58 @@
             }
           }
         }
+        &__jobChange {
+          align-items: flex-start;
+          &__label {
+            padding-top: 10px;
+          }
+          &__input {
+            &__box {
+              select {
+                width: 80px;
+              }
+              &:first-child {
+                select {
+                  width: 120px;
+                }
+              }
+              &__inner {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                &:last-child {
+                  padding-top: 16px;
+                }
+              }
+              span {
+                display: inline-block;
+                margin-left: 10px;
+              }
+            }
+          }
+        }
+        &__company {
+          &__input {
+            input {
+              width: 220px;
+            }
+            span {
+              display: inline-block;
+              margin-left: 8px;
+            }
+          }
+        }
+        &__income {
+          &__input {
+            span {
+              display: inline-block;
+              margin-right: 8px;
+            }
+            input {
+              width: 220px;
+            }
+          }
+        }
       }
       &__submit {
         margin: 0 auto;
@@ -1565,7 +1624,12 @@
       &__address,
       &__graduation,
       &__literatureScience,
-      &__school {
+      &__school,
+      &__jobChange,
+      &__company,
+      &__occupation,
+      &__industry,
+      &__income {
         border-bottom: 0.5px solid #272727;
         display: flex;
         align-items: center;

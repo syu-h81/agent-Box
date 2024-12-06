@@ -3711,16 +3711,16 @@ time {
 .seeker-form-content-form__inner {
   padding-top: 80px;
 }
-.seeker-form-content-form__name, .seeker-form-content-form__furigana, .seeker-form-content-form__date, .seeker-form-content-form__gender, .seeker-form-content-form__charge, .seeker-form-content-form__email, .seeker-form-content-form__phoneNumber, .seeker-form-content-form__address, .seeker-form-content-form__graduation, .seeker-form-content-form__literatureScience, .seeker-form-content-form__school {
+.seeker-form-content-form__name, .seeker-form-content-form__furigana, .seeker-form-content-form__date, .seeker-form-content-form__gender, .seeker-form-content-form__charge, .seeker-form-content-form__email, .seeker-form-content-form__phoneNumber, .seeker-form-content-form__address, .seeker-form-content-form__graduation, .seeker-form-content-form__literatureScience, .seeker-form-content-form__school, .seeker-form-content-form__jobChange, .seeker-form-content-form__company, .seeker-form-content-form__occupation, .seeker-form-content-form__industry, .seeker-form-content-form__income {
   display: flex;
   align-items: center;
   padding-top: 40px;
 }
-.seeker-form-content-form__name__label, .seeker-form-content-form__furigana__label, .seeker-form-content-form__date__label, .seeker-form-content-form__gender__label, .seeker-form-content-form__charge__label, .seeker-form-content-form__email__label, .seeker-form-content-form__phoneNumber__label, .seeker-form-content-form__address__label, .seeker-form-content-form__graduation__label, .seeker-form-content-form__literatureScience__label, .seeker-form-content-form__school__label {
+.seeker-form-content-form__name__label, .seeker-form-content-form__furigana__label, .seeker-form-content-form__date__label, .seeker-form-content-form__gender__label, .seeker-form-content-form__charge__label, .seeker-form-content-form__email__label, .seeker-form-content-form__phoneNumber__label, .seeker-form-content-form__address__label, .seeker-form-content-form__graduation__label, .seeker-form-content-form__literatureScience__label, .seeker-form-content-form__school__label, .seeker-form-content-form__jobChange__label, .seeker-form-content-form__company__label, .seeker-form-content-form__occupation__label, .seeker-form-content-form__industry__label, .seeker-form-content-form__income__label {
   width: 140px;
   font-size: 0.75rem;
 }
-.seeker-form-content-form__name__input, .seeker-form-content-form__furigana__input, .seeker-form-content-form__date__input, .seeker-form-content-form__gender__input, .seeker-form-content-form__charge__input, .seeker-form-content-form__email__input, .seeker-form-content-form__phoneNumber__input, .seeker-form-content-form__address__input, .seeker-form-content-form__graduation__input, .seeker-form-content-form__literatureScience__input, .seeker-form-content-form__school__input {
+.seeker-form-content-form__name__input, .seeker-form-content-form__furigana__input, .seeker-form-content-form__date__input, .seeker-form-content-form__gender__input, .seeker-form-content-form__charge__input, .seeker-form-content-form__email__input, .seeker-form-content-form__phoneNumber__input, .seeker-form-content-form__address__input, .seeker-form-content-form__graduation__input, .seeker-form-content-form__literatureScience__input, .seeker-form-content-form__school__input, .seeker-form-content-form__jobChange__input, .seeker-form-content-form__company__input, .seeker-form-content-form__occupation__input, .seeker-form-content-form__industry__input, .seeker-form-content-form__income__input {
   width: 100%;
   font-size: 0.75rem;
   position: relative;
@@ -3747,7 +3747,17 @@ time {
 .seeker-form-content-form__literatureScience select,
 .seeker-form-content-form__literatureScience textarea, .seeker-form-content-form__school input,
 .seeker-form-content-form__school select,
-.seeker-form-content-form__school textarea {
+.seeker-form-content-form__school textarea, .seeker-form-content-form__jobChange input,
+.seeker-form-content-form__jobChange select,
+.seeker-form-content-form__jobChange textarea, .seeker-form-content-form__company input,
+.seeker-form-content-form__company select,
+.seeker-form-content-form__company textarea, .seeker-form-content-form__occupation input,
+.seeker-form-content-form__occupation select,
+.seeker-form-content-form__occupation textarea, .seeker-form-content-form__industry input,
+.seeker-form-content-form__industry select,
+.seeker-form-content-form__industry textarea, .seeker-form-content-form__income input,
+.seeker-form-content-form__income select,
+.seeker-form-content-form__income textarea {
   -webkit-appearance: auto;
      -moz-appearance: auto;
           appearance: auto;
@@ -3755,7 +3765,7 @@ time {
   border-radius: 4px;
   padding: 15px;
 }
-.seeker-form-content-form__name select, .seeker-form-content-form__furigana select, .seeker-form-content-form__date select, .seeker-form-content-form__gender select, .seeker-form-content-form__charge select, .seeker-form-content-form__email select, .seeker-form-content-form__phoneNumber select, .seeker-form-content-form__address select, .seeker-form-content-form__graduation select, .seeker-form-content-form__literatureScience select, .seeker-form-content-form__school select {
+.seeker-form-content-form__name select, .seeker-form-content-form__furigana select, .seeker-form-content-form__date select, .seeker-form-content-form__gender select, .seeker-form-content-form__charge select, .seeker-form-content-form__email select, .seeker-form-content-form__phoneNumber select, .seeker-form-content-form__address select, .seeker-form-content-form__graduation select, .seeker-form-content-form__literatureScience select, .seeker-form-content-form__school select, .seeker-form-content-form__jobChange select, .seeker-form-content-form__company select, .seeker-form-content-form__occupation select, .seeker-form-content-form__industry select, .seeker-form-content-form__income select {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -3764,7 +3774,7 @@ time {
 .seeker-form-content-form__name__input input, .seeker-form-content-form__furigana__input input, .seeker-form-content-form__email__input input, .seeker-form-content-form__phoneNumber__input input {
   width: 100%;
 }
-.seeker-form-content-form__charge__input::after, .seeker-form-content-form__literatureScience__input::after {
+.seeker-form-content-form__charge__input::after, .seeker-form-content-form__literatureScience__input::after, .seeker-form-content-form__occupation__input::after, .seeker-form-content-form__industry__input::after {
   content: "";
   width: 8px;
   height: 8px;
@@ -3776,7 +3786,7 @@ time {
   right: 390px;
   transform: translateY(-50%) rotate(45deg);
 }
-.seeker-form-content-form__charge__input select, .seeker-form-content-form__literatureScience__input select {
+.seeker-form-content-form__charge__input select, .seeker-form-content-form__literatureScience__input select, .seeker-form-content-form__occupation__input select, .seeker-form-content-form__industry__input select {
   width: 240px;
 }
 .seeker-form-content-form__date__input {
@@ -3878,6 +3888,44 @@ time {
 .seeker-form-content-form__school__input__box input {
   width: 100%;
 }
+.seeker-form-content-form__jobChange {
+  align-items: flex-start;
+}
+.seeker-form-content-form__jobChange__label {
+  padding-top: 10px;
+}
+.seeker-form-content-form__jobChange__input__box select {
+  width: 80px;
+}
+.seeker-form-content-form__jobChange__input__box:first-child select {
+  width: 120px;
+}
+.seeker-form-content-form__jobChange__input__box__inner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.seeker-form-content-form__jobChange__input__box__inner:last-child {
+  padding-top: 16px;
+}
+.seeker-form-content-form__jobChange__input__box span {
+  display: inline-block;
+  margin-left: 10px;
+}
+.seeker-form-content-form__company__input input {
+  width: 220px;
+}
+.seeker-form-content-form__company__input span {
+  display: inline-block;
+  margin-left: 8px;
+}
+.seeker-form-content-form__income__input span {
+  display: inline-block;
+  margin-right: 8px;
+}
+.seeker-form-content-form__income__input input {
+  width: 220px;
+}
 .seeker-form-content__submit {
   margin: 0 auto;
   margin-top: 80px;
@@ -3893,17 +3941,17 @@ time {
 .seeker-form-confirm__inner {
   padding-top: 80px;
 }
-.seeker-form-confirm__name, .seeker-form-confirm__furigana, .seeker-form-confirm__date, .seeker-form-confirm__gender, .seeker-form-confirm__charge, .seeker-form-confirm__email, .seeker-form-confirm__phoneNumber, .seeker-form-confirm__address, .seeker-form-confirm__graduation, .seeker-form-confirm__literatureScience, .seeker-form-confirm__school {
+.seeker-form-confirm__name, .seeker-form-confirm__furigana, .seeker-form-confirm__date, .seeker-form-confirm__gender, .seeker-form-confirm__charge, .seeker-form-confirm__email, .seeker-form-confirm__phoneNumber, .seeker-form-confirm__address, .seeker-form-confirm__graduation, .seeker-form-confirm__literatureScience, .seeker-form-confirm__school, .seeker-form-confirm__jobChange, .seeker-form-confirm__company, .seeker-form-confirm__occupation, .seeker-form-confirm__industry, .seeker-form-confirm__income {
   border-bottom: 0.5px solid #272727;
   display: flex;
   align-items: center;
   padding: 24px 0;
 }
-.seeker-form-confirm__name__label, .seeker-form-confirm__furigana__label, .seeker-form-confirm__date__label, .seeker-form-confirm__gender__label, .seeker-form-confirm__charge__label, .seeker-form-confirm__email__label, .seeker-form-confirm__phoneNumber__label, .seeker-form-confirm__address__label, .seeker-form-confirm__graduation__label, .seeker-form-confirm__literatureScience__label, .seeker-form-confirm__school__label {
+.seeker-form-confirm__name__label, .seeker-form-confirm__furigana__label, .seeker-form-confirm__date__label, .seeker-form-confirm__gender__label, .seeker-form-confirm__charge__label, .seeker-form-confirm__email__label, .seeker-form-confirm__phoneNumber__label, .seeker-form-confirm__address__label, .seeker-form-confirm__graduation__label, .seeker-form-confirm__literatureScience__label, .seeker-form-confirm__school__label, .seeker-form-confirm__jobChange__label, .seeker-form-confirm__company__label, .seeker-form-confirm__occupation__label, .seeker-form-confirm__industry__label, .seeker-form-confirm__income__label {
   width: 140px;
   font-size: 0.75rem;
 }
-.seeker-form-confirm__name__input, .seeker-form-confirm__furigana__input, .seeker-form-confirm__date__input, .seeker-form-confirm__gender__input, .seeker-form-confirm__charge__input, .seeker-form-confirm__email__input, .seeker-form-confirm__phoneNumber__input, .seeker-form-confirm__address__input, .seeker-form-confirm__graduation__input, .seeker-form-confirm__literatureScience__input, .seeker-form-confirm__school__input {
+.seeker-form-confirm__name__input, .seeker-form-confirm__furigana__input, .seeker-form-confirm__date__input, .seeker-form-confirm__gender__input, .seeker-form-confirm__charge__input, .seeker-form-confirm__email__input, .seeker-form-confirm__phoneNumber__input, .seeker-form-confirm__address__input, .seeker-form-confirm__graduation__input, .seeker-form-confirm__literatureScience__input, .seeker-form-confirm__school__input, .seeker-form-confirm__jobChange__input, .seeker-form-confirm__company__input, .seeker-form-confirm__occupation__input, .seeker-form-confirm__industry__input, .seeker-form-confirm__income__input {
   font-size: 0.75rem;
 }
 .seeker-form-confirm__address__input span {
