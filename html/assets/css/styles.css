@@ -3624,4 +3624,255 @@ time {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.seeker-form-header__inner {
+  width: 100%;
+  height: 80px;
+  background-image: linear-gradient(to right, #5433FF, #20BDFF, #A5FECB);
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+.seeker-form__main {
+  background-color: #F3F6FF;
+  display: flex;
+  justify-content: center;
+}
+.seeker-form__main__inner {
+  padding: 96px 0;
+}
+.seeker-form-content__inner {
+  background-color: #fff;
+  width: 800px;
+  padding: 64px 40px;
+}
+.seeker-form-content__title__inner {
+  text-align: center;
+}
+.seeker-form-content__round {
+  width: 80px;
+  height: 80px;
+  border: #A0A0A0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seeker-form-content__round:first-child {
+  background-color: #3A87FD;
+  border: 0;
+  color: #fff;
+}
+.seeker-form-content__round__inner {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  text-align: center;
+}
+.seeker-form-content__round__inner span {
+  position: relative;
+  display: inline-block;
+}
+.seeker-form-content__round__inner span::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 0 6px 8px;
+  border-color: transparent transparent transparent #A5A5A5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+.seeker-form-content__text {
+  padding-top: 32px;
+  font-size: 0.75rem;
+  line-height: 19.8px;
+  text-align: center;
+}
+.seeker-form-content-form__inner {
+  padding-top: 80px;
+}
+.seeker-form-content-form__name, .seeker-form-content-form__furigana, .seeker-form-content-form__date, .seeker-form-content-form__gender, .seeker-form-content-form__charge, .seeker-form-content-form__email, .seeker-form-content-form__phoneNumber, .seeker-form-content-form__address, .seeker-form-content-form__graduation, .seeker-form-content-form__literatureScience, .seeker-form-content-form__school {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+.seeker-form-content-form__name__label, .seeker-form-content-form__furigana__label, .seeker-form-content-form__date__label, .seeker-form-content-form__gender__label, .seeker-form-content-form__charge__label, .seeker-form-content-form__email__label, .seeker-form-content-form__phoneNumber__label, .seeker-form-content-form__address__label, .seeker-form-content-form__graduation__label, .seeker-form-content-form__literatureScience__label, .seeker-form-content-form__school__label {
+  width: 140px;
+  font-size: 0.75rem;
+}
+.seeker-form-content-form__name__input, .seeker-form-content-form__furigana__input, .seeker-form-content-form__date__input, .seeker-form-content-form__gender__input, .seeker-form-content-form__charge__input, .seeker-form-content-form__email__input, .seeker-form-content-form__phoneNumber__input, .seeker-form-content-form__address__input, .seeker-form-content-form__graduation__input, .seeker-form-content-form__literatureScience__input, .seeker-form-content-form__school__input {
+  width: 100%;
+  font-size: 0.75rem;
+  position: relative;
+}
+.seeker-form-content-form__name input,
+.seeker-form-content-form__name select,
+.seeker-form-content-form__name textarea, .seeker-form-content-form__furigana input,
+.seeker-form-content-form__furigana select,
+.seeker-form-content-form__furigana textarea, .seeker-form-content-form__date input,
+.seeker-form-content-form__date select,
+.seeker-form-content-form__date textarea, .seeker-form-content-form__gender input,
+.seeker-form-content-form__gender select,
+.seeker-form-content-form__gender textarea, .seeker-form-content-form__charge input,
+.seeker-form-content-form__charge select,
+.seeker-form-content-form__charge textarea, .seeker-form-content-form__email input,
+.seeker-form-content-form__email select,
+.seeker-form-content-form__email textarea, .seeker-form-content-form__phoneNumber input,
+.seeker-form-content-form__phoneNumber select,
+.seeker-form-content-form__phoneNumber textarea, .seeker-form-content-form__address input,
+.seeker-form-content-form__address select,
+.seeker-form-content-form__address textarea, .seeker-form-content-form__graduation input,
+.seeker-form-content-form__graduation select,
+.seeker-form-content-form__graduation textarea, .seeker-form-content-form__literatureScience input,
+.seeker-form-content-form__literatureScience select,
+.seeker-form-content-form__literatureScience textarea, .seeker-form-content-form__school input,
+.seeker-form-content-form__school select,
+.seeker-form-content-form__school textarea {
+  -webkit-appearance: auto;
+     -moz-appearance: auto;
+          appearance: auto;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+  padding: 15px;
+}
+.seeker-form-content-form__name select, .seeker-form-content-form__furigana select, .seeker-form-content-form__date select, .seeker-form-content-form__gender select, .seeker-form-content-form__charge select, .seeker-form-content-form__email select, .seeker-form-content-form__phoneNumber select, .seeker-form-content-form__address select, .seeker-form-content-form__graduation select, .seeker-form-content-form__literatureScience select, .seeker-form-content-form__school select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  color: #A0A0A0;
+}
+.seeker-form-content-form__name__input input, .seeker-form-content-form__furigana__input input, .seeker-form-content-form__email__input input, .seeker-form-content-form__phoneNumber__input input {
+  width: 100%;
+}
+.seeker-form-content-form__charge__input::after, .seeker-form-content-form__literatureScience__input::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-bottom: solid 1.5px #A0A0A0;
+  border-right: solid 1.5px #A0A0A0;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 45%;
+  right: 390px;
+  transform: translateY(-50%) rotate(45deg);
+}
+.seeker-form-content-form__charge__input select, .seeker-form-content-form__literatureScience__input select {
+  width: 240px;
+}
+.seeker-form-content-form__date__input {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.seeker-form-content-form__date__input__box {
+  position: relative;
+}
+.seeker-form-content-form__date__input__box::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-bottom: solid 1.5px #A0A0A0;
+  border-right: solid 1.5px #A0A0A0;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 45%;
+  right: 35px;
+  transform: translateY(-50%) rotate(45deg);
+}
+.seeker-form-content-form__date__input__box select,
+.seeker-form-content-form__date__input__box input {
+  width: 80px;
+}
+.seeker-form-content-form__date__input__box:first-child select {
+  width: 120px;
+}
+.seeker-form-content-form__date__input__box:last-child::after {
+  display: none;
+}
+.seeker-form-content-form__date__input__box span {
+  display: inline-block;
+  margin-left: 10px;
+}
+.seeker-form-content-form__date__input__box__inner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 80%;
+}
+.seeker-form-content-form__gender__input {
+  display: flex;
+  align-items: center;
+}
+.seeker-form-content-form__gender__input__radio {
+  display: flex;
+  gap: 10px;
+  width: 80px;
+}
+.seeker-form-content-form__address {
+  align-items: flex-start;
+}
+.seeker-form-content-form__address__label {
+  padding-top: 10px;
+}
+.seeker-form-content-form__address__input__box:first-child input {
+  width: 240px;
+}
+.seeker-form-content-form__address__input__box:last-child {
+  padding-top: 16px;
+  width: 100%;
+}
+.seeker-form-content-form__address__input__box:last-child input {
+  width: 100%;
+}
+.seeker-form-content-form__graduation__input::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-bottom: solid 1.5px #A0A0A0;
+  border-right: solid 1.5px #A0A0A0;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 45%;
+  right: 490px;
+  transform: translateY(-50%) rotate(45deg);
+}
+.seeker-form-content-form__graduation__input select {
+  width: 140px;
+}
+.seeker-form-content-form__graduation__input span {
+  display: inline-block;
+  margin-left: 10px;
+}
+.seeker-form-content-form__school {
+  align-items: flex-start;
+}
+.seeker-form-content-form__school__label {
+  padding-top: 10px;
+}
+.seeker-form-content-form__school__input__box {
+  padding-top: 16px;
+}
+.seeker-form-content-form__school__input__box:first-child {
+  padding-top: 0;
+}
+.seeker-form-content-form__school__input__box input {
+  width: 100%;
+}
+.seeker-form-content__submit {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 160px;
+  padding: 15px 0;
+  background-color: #3A87FD;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */
