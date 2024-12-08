@@ -312,7 +312,7 @@
                 <!-- === 中途入力欄 === -->
                 <div class="seeker-register-content-form__midCareer__inner">
                   <div class="seeker-register-content-form__midCareer__title__inner">
-                    <span id="minus">ー</span>
+                    <span>＋</span>
                     <h3>中途入力欄</h3>
                   </div>
                   <div class="seeker-register-content-form__midCareer">

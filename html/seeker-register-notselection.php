@@ -308,65 +308,67 @@
                     </div>
                   </div>
                 </div>
-                <!-- === 中途採用入力欄 === -->
+                <!-- === 中途入力欄 === -->
                 <div class="seeker-register-content-form__midCareer__inner">
                   <div class="seeker-register-content-form__midCareer__title__inner">
                     <span>＋</span>
                     <h3>中途入力欄</h3>
                   </div>
-                  <!-- === 転職可能時期 === -->
-                  <div class="seeker-register-content-form__midCareer__jobChange">
-                    <div class="seeker-register-content-form__midCareer__jobChange__label">
-                      <label>転職可能時期</label>
-                    </div>
-                    <div class="seeker-register-content-form__midCareer__jobChange__input">
-                      <select name="jobChange" id="">
-                        <option value="0000" selected>0000</option>
-                      </select><span>見込み</span>
-                    </div>
-                  </div>
-                  <!-- === 経験社数 === -->
-                  <div class="seeker-register-content-form__midCareer__company">
-                    <div class="seeker-register-content-form__midCareer__company__label">
-                      <label>経験社数</label>
-                    </div>
-                    <div class="seeker-register-content-form__midCareer__company__input">
-                      <input type="text" name="company" placeholder="000"><span>社</span>
-                    </div>
-                  </div>
-                  <!-- === 職種について === -->
-                  <div class="seeker-register-content-form__midCareer__occupation">
-                    <div class="seeker-register-content-form__midCareer__occupation__label">
-                      <label>職種について</label>
-                    </div>
-                    <div class="seeker-register-content-form__midCareer__occupation__input">
-                      <div class="seeker-register-content-form__midCareer__occupation__input__box">
-                        <select name="nowOccupation" id="">
-                          <option value="職種一覧用意する" selected>職種一覧用意する</option>
-                        </select>
-                        <span>現在の職種</span>
+                  <div class="seeker-register-content-form__midCareer">
+                    <!-- === 転職可能時期 === -->
+                    <div class="seeker-register-content-form__midCareer__jobChange">
+                      <div class="seeker-register-content-form__midCareer__jobChange__label">
+                        <label>転職可能時期</label>
                       </div>
-                      <div class="seeker-register-content-form__midCareer__occupation__input__box">
-                        <select name="desiredOccupation" id="">
-                          <option value="職種一覧用意する" selected>職種一覧用意する</option>
-                        </select>
-                        <span>希望職種</span>
+                      <div class="seeker-register-content-form__midCareer__jobChange__input">
+                        <select name="jobChange" id="">
+                          <option value="0000" selected>0000</option>
+                        </select><span>見込み</span>
                       </div>
                     </div>
-                  </div>
-                  <!-- === 年収について === -->
-                  <div class="seeker-register-content-form__midCareer__income">
-                    <div class="seeker-register-content-form__midCareer__income__label">
-                      <label>年収について</label>
-                    </div>
-                    <div class="seeker-register-content-form__midCareer__income__input">
-                      <div class="seeker-register-content-form__midCareer__income__input__box">
-                        <input type="text" name="nowIncome">万円
-                        <span>現在の年収</span>
+                    <!-- === 経験社数 === -->
+                    <div class="seeker-register-content-form__midCareer__company">
+                      <div class="seeker-register-content-form__midCareer__company__label">
+                        <label>経験社数</label>
                       </div>
-                      <div class="seeker-register-content-form__midCareer__income__input__box">
-                        <input type="text" name="desiredIncome">万円
-                        <span>希望年収</span>
+                      <div class="seeker-register-content-form__midCareer__company__input">
+                        <input type="text" name="company" placeholder="000"><span>社</span>
+                      </div>
+                    </div>
+                    <!-- === 職種について === -->
+                    <div class="seeker-register-content-form__midCareer__occupation">
+                      <div class="seeker-register-content-form__midCareer__occupation__label">
+                        <label>職種について</label>
+                      </div>
+                      <div class="seeker-register-content-form__midCareer__occupation__input">
+                        <div class="seeker-register-content-form__midCareer__occupation__input__box">
+                          <select name="nowOccupation" id="" onchange="changeColor(this)">
+                            <option value="" selected>職種一覧用意する</option>
+                          </select>
+                          <span>現在の職種</span>
+                        </div>
+                        <div class="seeker-register-content-form__midCareer__occupation__input__box">
+                          <select name="desiredOccupation" id="" onchange="changeColor(this)">
+                            <option value="" selected>職種一覧用意する</option>
+                          </select>
+                          <span>希望職種</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- === 年収について === -->
+                    <div class="seeker-register-content-form__midCareer__income">
+                      <div class="seeker-register-content-form__midCareer__income__label">
+                        <label>年収について</label>
+                      </div>
+                      <div class="seeker-register-content-form__midCareer__income__input">
+                        <div class="seeker-register-content-form__midCareer__income__input__box">
+                          <input type="text" name="nowIncome">万円
+                          <span>現在の年収</span>
+                        </div>
+                        <div class="seeker-register-content-form__midCareer__income__input__box">
+                          <input type="text" name="desiredIncome">万円
+                          <span>希望年収</span>
+                        </div>
                       </div>
                     </div>
                   </div>
