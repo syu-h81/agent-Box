@@ -367,6 +367,10 @@
           padding-left: 24px;
           align-items: center;
           font-size: 0.75rem;
+          &:hover {
+            opacity: 0.65;
+            transition: 0.3s;
+          }
         }
       }
       &-form {
@@ -781,6 +785,10 @@
           margin: 0 auto;
           margin-top: 140px;
           padding: 15px 0;
+          &:hover {
+            opacity: 0.8;
+            transition: 0.3s;
+          }
         }
       }
     }
@@ -1608,6 +1616,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        &:hover {
+          opacity: 0.8;
+          transition: 0.3s;
+        }
       }
     }
     // 基本情報_確認画面ページのcss
@@ -1667,6 +1679,10 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          &:hover {
+            opacity: 0.8;
+            transition: 0.3s;
+          }
         }
         &__cancel {
           border: 1px solid #A0A0A0;
