@@ -56,8 +56,7 @@
                 <div class="seeker-list-content-filter__block">
                   <form action="seeker-list-apply.php" method="POST" class="seeker-list-content-filter">
                     <div id="close" class="seeker-list-content-filter__close">
-                      <span></span>
-                      <span></span>
+                      <img src="assets/images/close.png" alt="">
                     </div>
                     <div class="seeker-list-content-filter__create">
                       <div class="seeker-list-content-filter__create__label seeker-list-content-filter-label">
@@ -121,22 +120,22 @@
                           <input type="checkbox" name="phase" value="支援前">
                           <span>支援前</span>
                         </label>
-                        <div class="seeker-list-content-filter__phase__input__checkbox">
+                        <label class="seeker-list-content-filter__phase__input__checkbox">
                           <input type="checkbox" name="phase" value="支援中">
                           <span>支援中</span>
-                        </div>
-                        <div class="seeker-list-content-filter__phase__input__checkbox">
+                        </label>
+                        <label class="seeker-list-content-filter__phase__input__checkbox">
                           <input type="checkbox" name="phase" value="内定承諾">
                           <span>内定承諾</span>
-                        </div>
-                        <div class="seeker-list-content-filter__phase__input__checkbox">
+                        </label>
+                        <label class="seeker-list-content-filter__phase__input__checkbox">
                           <input type="checkbox" name="phase" value="入社済み">
                           <span>入社済み</span>
-                        </div>
-                        <div class="seeker-list-content-filter__phase__input__checkbox">
+                        </label>
+                        <label class="seeker-list-content-filter__phase__input__checkbox">
                           <input type="checkbox" name="phase" value="入社済み">
                           <span>入社済み</span>
-                        </div>
+                        </label>
                       </div>
                     </div>
                     <div class="seeker-list-content-filter__type">
@@ -144,14 +143,14 @@
                         <label for="">種別</label>
                       </div>
                       <div class="seeker-list-content-filter__type__input">
-                        <div class="seeker-list-content-filter__type__input__radio">
+                        <label class="seeker-list-content-filter__type__input__radio">
                           <input type="radio" name="type">
                           <span>新卒</span>
-                        </div>
-                        <div class="seeker-list-content-filter__type__input__radio">
+                        </label>
+                        <label class="seeker-list-content-filter__type__input__radio">
                           <input type="radio" name="type">
                           <span>中途</span>
-                        </div>
+                        </label>
                       </div>
                     </div>
                     <div class="seeker-list-content-filter__assumption">
@@ -177,6 +176,46 @@
                     <div class="seeker-list-content-filter__setting">
                       <div class="seeker-list-content-filter__setting__label seeker-list-content-filter-label">
                         <label for="">面談設定日</label>
+                      </div>
+                      <div class="seeker-list-content-filter__setting__input seeker-list-content-filter-input-date">
+                        <input type="text" name="setting-1" placeholder="0000/00/00 - 0000/00/00">
+                        <span>ー</span>
+                        <input type="text" name="setting-2" placeholder="0000/00/00 - 0000/00/00">
+                      </div>
+                    </div>
+                    <div class="seeker-list-content-filter__setting">
+                      <div class="seeker-list-content-filter__setting__label seeker-list-content-filter-label">
+                        <label for="">応募数</label>
+                      </div>
+                      <div class="seeker-list-content-filter__setting__input seeker-list-content-filter-input-date">
+                        <input type="text" name="setting-1" placeholder="0000/00/00 - 0000/00/00">
+                        <span>ー</span>
+                        <input type="text" name="setting-2" placeholder="0000/00/00 - 0000/00/00">
+                      </div>
+                    </div>
+                    <div class="seeker-list-content-filter__setting">
+                      <div class="seeker-list-content-filter__setting__label seeker-list-content-filter-label">
+                        <label for="">選考数</label>
+                      </div>
+                      <div class="seeker-list-content-filter__setting__input seeker-list-content-filter-input-date">
+                        <input type="text" name="setting-1" placeholder="0000/00/00 - 0000/00/00">
+                        <span>ー</span>
+                        <input type="text" name="setting-2" placeholder="0000/00/00 - 0000/00/00">
+                      </div>
+                    </div>
+                    <div class="seeker-list-content-filter__setting">
+                      <div class="seeker-list-content-filter__setting__label seeker-list-content-filter-label">
+                        <label for="">最終選考数</label>
+                      </div>
+                      <div class="seeker-list-content-filter__setting__input seeker-list-content-filter-input-date">
+                        <input type="text" name="setting-1" placeholder="0000/00/00 - 0000/00/00">
+                        <span>ー</span>
+                        <input type="text" name="setting-2" placeholder="0000/00/00 - 0000/00/00">
+                      </div>
+                    </div>
+                    <div class="seeker-list-content-filter__setting">
+                      <div class="seeker-list-content-filter__setting__label seeker-list-content-filter-label">
+                        <label for="">内定数</label>
                       </div>
                       <div class="seeker-list-content-filter__setting__input seeker-list-content-filter-input-date">
                         <input type="text" name="setting-1" placeholder="0000/00/00 - 0000/00/00">

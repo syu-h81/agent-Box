@@ -631,8 +631,7 @@
                   <div class="seeker-register-sidebar-log__edit__block">
                     <form action="" method="POST" class="seeker-register-sidebar-log__edit__content">
                       <div id="close" class="seeker-register-sidebar-log__edit__content__close">
-                        <span></span>
-                        <span></span>
+                        <img src="assets/images/close.png" alt="">
                       </div>
                       <!-- ===== 面談ログ_担当 ===== -->
                       <div class="seeker-register-sidebar-log__edit__content__charge">
