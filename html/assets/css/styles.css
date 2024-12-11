@@ -814,6 +814,11 @@ time {
 .home-content-sidebar {
   width: 34%;
 }
+@media (min-width: 2000px) {
+  .home-content-sidebar {
+    width: 25%;
+  }
+}
 .home-content-sidebar__inner {
   padding-left: 20px;
 }
