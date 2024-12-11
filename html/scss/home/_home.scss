@@ -266,6 +266,9 @@
     }
     &-sidebar {
       width: 34%;
+      @media (min-width: 2000px) {
+        width: 25%;
+      }
       &__inner {
         padding-left: 20px;
       }
