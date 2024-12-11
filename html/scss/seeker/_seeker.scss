@@ -266,6 +266,7 @@
       &-apply {
         &__inner {
           display: flex;
+          align-items: center;
           padding-top: 24px;
         }
         &__heading {
@@ -275,15 +276,20 @@
         &__block {
           max-width: 900px;
           font-size: 0.625rem;
-          display: flex;
-          align-items: center;
-          flex-wrap: wrap;
-          gap: 8px;
+          overflow-x: scroll;
+          white-space: nowrap;
+          scrollbar-width: none; /* Firefox */
+          -ms-overflow-style: none; /* Internet Explorer */
+          &::-webkit-scrollbar {
+            display: none; /* WebKitベースのブラウザ */
+          }
         }
         &__box {
+          display: inline-block;
           background-color: #E6E6E6;
           border-radius: 9999px;
           padding: 6px 16px;
+          margin-left: 8px;
         }
       }
       &-table {

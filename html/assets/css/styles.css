@@ -2732,6 +2732,7 @@ time {
 }
 .seeker-list-content-apply__inner {
   display: flex;
+  align-items: center;
   padding-top: 24px;
 }
 .seeker-list-content-apply__heading {
@@ -2741,15 +2742,20 @@ time {
 .seeker-list-content-apply__block {
   max-width: 900px;
   font-size: 0.625rem;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer */
+}
+.seeker-list-content-apply__block::-webkit-scrollbar {
+  display: none; /* WebKitベースのブラウザ */
 }
 .seeker-list-content-apply__box {
+  display: inline-block;
   background-color: #E6E6E6;
   border-radius: 9999px;
   padding: 6px 16px;
+  margin-left: 8px;
 }
 .seeker-list-content-table {
   width: 100%;
