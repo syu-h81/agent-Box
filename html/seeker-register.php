@@ -43,16 +43,6 @@
               <span>作成日：2024/07/28</span>
             </div>
             <div class="seeker-register-content__inner seeker-content-inner">
-              <div class="seeker-register-content__link__inner">
-                <a href="seeker-form.php" class="seeker-register-content__link__btn">
-                  <img src="assets/images/clip.png" alt="">
-                  <button>新卒用入力フォームのリンクを取得</button>
-                </a>
-                <a href="seeker-form-midcareer.php" class="seeker-register-content__link__btn">
-                  <img src="assets/images/clip.png" alt="">
-                  <button>中途用入力フォームのリンクを取得</button>
-                </a>
-              </div>
               <form action="seeker-info.php" method="POST" class="seeker-register-content-form__inner">
                 <!-- === 求職者名 === -->
                 <div class="seeker-register-content-form__name">

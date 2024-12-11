@@ -2535,6 +2535,28 @@ time {
   background-color: #FF8C82;
 }
 
+.seeker-list__title__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.seeker-list__link__inner {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+.seeker-list__link__btn {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #272727;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px;
+  align-items: center;
+  font-size: 0.75rem;
+}
 .seeker-list-content-register__inner {
   display: flex;
   justify-content: space-between;
@@ -2822,7 +2844,7 @@ time {
   width: 160px;
 }
 .seeker-list-content-table__th:nth-child(2), .seeker-list-content-table__th:nth-child(3) {
-  width: 160px;
+  width: 120px;
 }
 .seeker-list-content-table__th:nth-child(4), .seeker-list-content-table__th:nth-child(5) {
   width: 80px;
@@ -2841,7 +2863,7 @@ time {
   color: #3A87FD;
 }
 .seeker-list-content-table__td__comment p {
-  width: 520px;
+  width: 340px;
   overflow-x: scroll;
   white-space: nowrap;
   scrollbar-width: none; /* Firefox */
@@ -2908,9 +2930,6 @@ time {
 .seeker-register-content__link__btn:hover {
   opacity: 0.65;
   transition: 0.3s;
-}
-.seeker-register-content-form__inner {
-  padding-top: 48px;
 }
 .seeker-register-content-form__name, .seeker-register-content-form__furigana, .seeker-register-content-form__date, .seeker-register-content-form__gender, .seeker-register-content-form__charge, .seeker-register-content-form__email, .seeker-register-content-form__phoneNumber, .seeker-register-content-form__academic, .seeker-register-content-form__faculty, .seeker-register-content-form__graduation, .seeker-register-content-form__literatureScience, .seeker-register-content-form__status, .seeker-register-content-form__notEstablished, .seeker-register-content-form__schedule, .seeker-register-content-form__info, .seeker-register-content-form__comment, .seeker-register-content-form__upload {
   display: flex;
