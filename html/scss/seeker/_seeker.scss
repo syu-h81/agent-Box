@@ -1,6 +1,30 @@
 .seeker {
   // 求職者管理_求職者一覧ページのcss
   &-list {
+    &__title__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &__link {
+      &__inner {
+        display: flex;
+        gap: 24px;
+        justify-content: space-between;
+        align-items: center;
+      }
+      &__btn {
+        width: 100%;
+        height: 30px;
+        border: 1px solid #272727;
+        border-radius: 5px;
+        display: flex;
+        gap: 10px;
+        padding: 10px 20px;
+        align-items: center;
+        font-size: 0.75rem;
+      }
+    }
     &-content {
       &-register {
         &__inner {
@@ -324,7 +348,7 @@
           }
           &:nth-child(2),
           &:nth-child(3) {
-            width: 160px;
+            width: 120px;
           }
           &:nth-child(4),
           &:nth-child(5) {
@@ -345,7 +369,7 @@
           }
           &__comment {
             p {
-              width: 520px;
+              width: 340px;
               overflow-x: scroll;
               white-space: nowrap;
               scrollbar-width: none; /* Firefox */
@@ -426,9 +450,6 @@
         }
       }
       &-form {
-        &__inner {
-          padding-top: 48px;
-        }
         &__name,
         &__furigana,
         &__date,
