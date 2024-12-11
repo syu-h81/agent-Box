@@ -2749,12 +2749,15 @@ time {
 .seeker-list-content-table__td a {
   color: #3A87FD;
 }
-.seeker-list-content-table__td__comment {
+.seeker-list-content-table__td__comment p {
+  width: 520px;
   overflow-x: scroll;
   white-space: nowrap;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer */
 }
-.seeker-list-content-table__td__comment p {
-  width: 420px;
+.seeker-list-content-table__td__comment p::-webkit-scrollbar {
+  display: none; /* WebKitベースのブラウザ */
 }
 .seeker-list-content-pageList {
   padding: 0 10px;
