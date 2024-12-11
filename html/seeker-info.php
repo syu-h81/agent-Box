@@ -651,18 +651,18 @@
                           <label for="">面談内容</label>
                         </div>
                         <div class="seeker-register-sidebar-log__edit__content__type__input">
-                          <div class="seeker-register-sidebar-log__edit__content__type__input__box">
+                          <label class="seeker-register-sidebar-log__edit__content__type__input__box">
                             <input type="radio" name="edit-type" value="電話">
                             <span>電話</span>
-                          </div>
-                          <div class="seeker-register-sidebar-log__edit__content__type__input__box">
+                          </label>
+                          <label class="seeker-register-sidebar-log__edit__content__type__input__box">
                             <input type="radio" name="edit-type" value="オンライン">
                             <span>オンライン</span>
-                          </div>
-                          <div class="seeker-register-sidebar-log__edit__content__type__input__box">
+                          </label>
+                          <label class="seeker-register-sidebar-log__edit__content__type__input__box">
                             <input type="radio" name="edit-type" value="対面">
                             <span>対面</span>
-                          </div>
+                          </label>
                         </div>
                       </div>
                       <!-- ===== 面談ログ_面談日 ===== -->
