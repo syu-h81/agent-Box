@@ -159,7 +159,7 @@
                       </div>
                       <div class="seeker-list-content-filter__assumption__input seeker-list-content-filter-input-date">
                         <input type="text" name="assumption-1" placeholder="0000/00/00 - 0000/00/00">
-                        <span>ー</span>
+                        <span>〜</span>
                         <input type="text" name="assumption-2" placeholder="0000/00/00 - 0000/00/00">
                       </div>
                     </div>
@@ -169,7 +169,7 @@
                       </div>
                       <div class="seeker-list-content-filter__interview__input seeker-list-content-filter-input-date">
                         <input type="text" name="interview-1" placeholder="0000/00/00 - 0000/00/00">
-                        <span>ー</span>
+                        <span>〜</span>
                         <input type="text" name="interview-2" placeholder="0000/00/00 - 0000/00/00">
                       </div>
                     </div>
@@ -179,49 +179,63 @@
                       </div>
                       <div class="seeker-list-content-filter__setting__input seeker-list-content-filter-input-date">
                         <input type="text" name="setting-1" placeholder="0000/00/00 - 0000/00/00">
-                        <span>ー</span>
+                        <span>〜</span>
                         <input type="text" name="setting-2" placeholder="0000/00/00 - 0000/00/00">
                       </div>
                     </div>
-                    <div class="seeker-list-content-filter__setting">
-                      <div class="seeker-list-content-filter__setting__label seeker-list-content-filter-label">
+                    <div class="seeker-list-content-filter__apply">
+                      <div class="seeker-list-content-filter__apply__label seeker-list-content-filter-label">
                         <label for="">応募数</label>
                       </div>
-                      <div class="seeker-list-content-filter__setting__input seeker-list-content-filter-input-date">
-                        <input type="text" name="setting-1" placeholder="0000/00/00 - 0000/00/00">
-                        <span>ー</span>
-                        <input type="text" name="setting-2" placeholder="0000/00/00 - 0000/00/00">
+                      <div class="seeker-list-content-filter__apply__input seeker-list-content-filter-input-date">
+                        <input type="text" name="apply-1" placeholder="00">
+                        <span>〜</span>
+                        <input type="text" name="apply-2" placeholder="00">
                       </div>
                     </div>
-                    <div class="seeker-list-content-filter__setting">
-                      <div class="seeker-list-content-filter__setting__label seeker-list-content-filter-label">
+                    <div class="seeker-list-content-filter__selection">
+                      <div class="seeker-list-content-filter__selection__label seeker-list-content-filter-label">
                         <label for="">選考数</label>
                       </div>
-                      <div class="seeker-list-content-filter__setting__input seeker-list-content-filter-input-date">
-                        <input type="text" name="setting-1" placeholder="0000/00/00 - 0000/00/00">
-                        <span>ー</span>
-                        <input type="text" name="setting-2" placeholder="0000/00/00 - 0000/00/00">
+                      <div class="seeker-list-content-filter__selection__input seeker-list-content-filter-input-date">
+                        <input type="text" name="selection-1" placeholder="00">
+                        <span>〜</span>
+                        <input type="text" name="selection-2" placeholder="00">
                       </div>
                     </div>
-                    <div class="seeker-list-content-filter__setting">
-                      <div class="seeker-list-content-filter__setting__label seeker-list-content-filter-label">
+                    <div class="seeker-list-content-filter__finalSelection">
+                      <div class="seeker-list-content-filter__finalSelection__label seeker-list-content-filter-label">
                         <label for="">最終選考数</label>
                       </div>
-                      <div class="seeker-list-content-filter__setting__input seeker-list-content-filter-input-date">
-                        <input type="text" name="setting-1" placeholder="0000/00/00 - 0000/00/00">
-                        <span>ー</span>
-                        <input type="text" name="setting-2" placeholder="0000/00/00 - 0000/00/00">
+                      <div class="seeker-list-content-filter__selection__input seeker-list-content-filter-input-date">
+                        <input type="text" name="finalSelection-1" placeholder="00">
+                        <span>〜</span>
+                        <input type="text" name="finalSelection-2" placeholder="00">
                       </div>
                     </div>
-                    <div class="seeker-list-content-filter__setting">
-                      <div class="seeker-list-content-filter__setting__label seeker-list-content-filter-label">
+                    <div class="seeker-list-content-filter__offer">
+                      <div class="seeker-list-content-filter__offer__label seeker-list-content-filter-label">
                         <label for="">内定数</label>
                       </div>
-                      <div class="seeker-list-content-filter__setting__input seeker-list-content-filter-input-date">
-                        <input type="text" name="setting-1" placeholder="0000/00/00 - 0000/00/00">
-                        <span>ー</span>
-                        <input type="text" name="setting-2" placeholder="0000/00/00 - 0000/00/00">
+                      <div class="seeker-list-content-filter__offer__input seeker-list-content-filter-input-date">
+                        <input type="text" name="offer-1" placeholder="00">
+                        <span>〜</span>
+                        <input type="text" name="offer-2" placeholder="00">
                       </div>
+                    </div>
+                    <div class="seeker-list-content-filter__labels">
+                      <div class="seeker-list-content-filter__labels__label seeker-list-content-filter-label">
+                        <label for="">ラベル</label>
+                      </div>
+                      <div class="seeker-list-content-filter__labels__selected__options" onchange="changeColor(this)">
+                        <span class="option">仮）完全週休二日制 <span class="remove">×</span></span>
+                        <span class="option">仮）平日休み <span class="remove">×</span></span>
+                      </div>
+                      <select multiple name="labels" id="" onchange="changeColor(this)">
+                        <option value="完全週休二日制">仮）完全週休二日制</option>
+                        <option value="平日休み">仮）平日休み</option>
+                        <option value="その他">仮）その他</option>
+                      </select>
                     </div>
                     <div class="seeker-list-content-filter__btn">
                       <button type="button" id="cancel" class="seeker-list-content-filter__btn__cancel">キャンセル</button>

@@ -2562,33 +2562,37 @@ time {
   right: 15px;
   cursor: pointer;
 }
-.seeker-list-content-filter__create, .seeker-list-content-filter__ca, .seeker-list-content-filter__gender, .seeker-list-content-filter__school, .seeker-list-content-filter__phase, .seeker-list-content-filter__type, .seeker-list-content-filter__assumption, .seeker-list-content-filter__interview, .seeker-list-content-filter__setting {
+.seeker-list-content-filter__create, .seeker-list-content-filter__ca, .seeker-list-content-filter__gender, .seeker-list-content-filter__school, .seeker-list-content-filter__phase, .seeker-list-content-filter__type, .seeker-list-content-filter__assumption, .seeker-list-content-filter__interview, .seeker-list-content-filter__setting, .seeker-list-content-filter__apply, .seeker-list-content-filter__selection, .seeker-list-content-filter__finalSelection, .seeker-list-content-filter__offer, .seeker-list-content-filter__labels {
   display: flex;
   align-items: center;
   padding-top: 24px;
 }
-.seeker-list-content-filter__create__label, .seeker-list-content-filter__ca__label, .seeker-list-content-filter__gender__label, .seeker-list-content-filter__school__label, .seeker-list-content-filter__phase__label, .seeker-list-content-filter__type__label, .seeker-list-content-filter__assumption__label, .seeker-list-content-filter__interview__label, .seeker-list-content-filter__setting__label {
+.seeker-list-content-filter__create__label, .seeker-list-content-filter__ca__label, .seeker-list-content-filter__gender__label, .seeker-list-content-filter__school__label, .seeker-list-content-filter__phase__label, .seeker-list-content-filter__type__label, .seeker-list-content-filter__assumption__label, .seeker-list-content-filter__interview__label, .seeker-list-content-filter__setting__label, .seeker-list-content-filter__apply__label, .seeker-list-content-filter__selection__label, .seeker-list-content-filter__finalSelection__label, .seeker-list-content-filter__offer__label, .seeker-list-content-filter__labels__label {
   width: 120px;
   font-size: 0.75rem;
 }
-.seeker-list-content-filter__create__input input, .seeker-list-content-filter__ca__input input, .seeker-list-content-filter__gender__input input, .seeker-list-content-filter__school__input input, .seeker-list-content-filter__phase__input input, .seeker-list-content-filter__type__input input, .seeker-list-content-filter__assumption__input input, .seeker-list-content-filter__interview__input input, .seeker-list-content-filter__setting__input input {
+.seeker-list-content-filter__create__input, .seeker-list-content-filter__ca__input, .seeker-list-content-filter__gender__input, .seeker-list-content-filter__school__input, .seeker-list-content-filter__phase__input, .seeker-list-content-filter__type__input, .seeker-list-content-filter__assumption__input, .seeker-list-content-filter__interview__input, .seeker-list-content-filter__setting__input, .seeker-list-content-filter__apply__input, .seeker-list-content-filter__selection__input, .seeker-list-content-filter__finalSelection__input, .seeker-list-content-filter__offer__input, .seeker-list-content-filter__labels__input {
+  width: 100%;
+  font-size: 0.75rem;
+}
+.seeker-list-content-filter__create__input input, .seeker-list-content-filter__ca__input input, .seeker-list-content-filter__gender__input input, .seeker-list-content-filter__school__input input, .seeker-list-content-filter__phase__input input, .seeker-list-content-filter__type__input input, .seeker-list-content-filter__assumption__input input, .seeker-list-content-filter__interview__input input, .seeker-list-content-filter__setting__input input, .seeker-list-content-filter__apply__input input, .seeker-list-content-filter__selection__input input, .seeker-list-content-filter__finalSelection__input input, .seeker-list-content-filter__offer__input input, .seeker-list-content-filter__labels__input input {
   -webkit-appearance: auto;
      -moz-appearance: auto;
           appearance: auto;
   pointer-events: auto;
 }
-.seeker-list-content-filter__create__input, .seeker-list-content-filter__assumption__input, .seeker-list-content-filter__interview__input, .seeker-list-content-filter__setting__input {
+.seeker-list-content-filter__create__input, .seeker-list-content-filter__assumption__input, .seeker-list-content-filter__interview__input, .seeker-list-content-filter__setting__input, .seeker-list-content-filter__apply__input, .seeker-list-content-filter__selection__input, .seeker-list-content-filter__finalSelection__input, .seeker-list-content-filter__offer__input {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.seeker-list-content-filter__create__input input, .seeker-list-content-filter__assumption__input input, .seeker-list-content-filter__interview__input input, .seeker-list-content-filter__setting__input input {
+.seeker-list-content-filter__create__input input, .seeker-list-content-filter__assumption__input input, .seeker-list-content-filter__interview__input input, .seeker-list-content-filter__setting__input input, .seeker-list-content-filter__apply__input input, .seeker-list-content-filter__selection__input input, .seeker-list-content-filter__finalSelection__input input, .seeker-list-content-filter__offer__input input {
   width: 200px;
   padding: 15px;
   border: 1px solid #A0A0A0;
   border-radius: 5px;
 }
-.seeker-list-content-filter__create__input span, .seeker-list-content-filter__assumption__input span, .seeker-list-content-filter__interview__input span, .seeker-list-content-filter__setting__input span {
+.seeker-list-content-filter__create__input span, .seeker-list-content-filter__assumption__input span, .seeker-list-content-filter__interview__input span, .seeker-list-content-filter__setting__input span, .seeker-list-content-filter__apply__input span, .seeker-list-content-filter__selection__input span, .seeker-list-content-filter__finalSelection__input span, .seeker-list-content-filter__offer__input span {
   display: block;
   margin: 0 15px;
 }
@@ -2608,7 +2612,7 @@ time {
   transform: translateY(-50%) rotate(45deg); /* 矢印を中央揃えしつつ回転 */
 }
 .seeker-list-content-filter__ca__input select, .seeker-list-content-filter__school__input select {
-  width: 442px;
+  width: 100%;
   border: 1px solid #A0A0A0;
   border-radius: 5px;
   padding: 15px;
@@ -2616,13 +2620,15 @@ time {
   font-size: 0.75rem;
 }
 .seeker-list-content-filter__gender__input, .seeker-list-content-filter__type__input {
-  width: 140px;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
 }
 .seeker-list-content-filter__gender__input__radio, .seeker-list-content-filter__type__input__radio {
   display: flex;
   align-items: center;
+}
+.seeker-list-content-filter__gender__input__radio:last-child, .seeker-list-content-filter__type__input__radio:last-child {
+  margin-left: 24px;
 }
 .seeker-list-content-filter__gender__input__radio input, .seeker-list-content-filter__type__input__radio input {
   width: 15px;
@@ -2656,6 +2662,50 @@ time {
 .seeker-list-content-filter__phase__input__checkbox span {
   display: block;
   margin-left: 7px;
+}
+.seeker-list-content-filter__labels__selected__options {
+  width: 100%;
+  border: 1px solid #A0A0A0;
+  border-radius: 5px;
+  padding: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  padding: 15px;
+}
+.seeker-list-content-filter__labels__selected__options::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-bottom: solid 1.5px #A0A0A0;
+  border-right: solid 1.5px #A0A0A0;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%) rotate(45deg);
+}
+.seeker-list-content-filter__labels__selected__options .option {
+  background-color: #E6E6E6;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #5D5B5B;
+  font-size: 10px;
+  white-space: nowrap;
+}
+.seeker-list-content-filter__labels__selected__options .option .remove {
+  color: #999;
+  cursor: pointer;
+  font-weight: bold;
+}
+.seeker-list-content-filter__labels select {
+  display: none;
 }
 .seeker-list-content-filter__btn {
   width: 400px;
