@@ -236,6 +236,9 @@
         &__thead {
           position: sticky;
           top: 0;
+          &.onFilter {
+            position: static;
+          }
         }
         &__tr {
           border-radius: 0 10px 0 0;

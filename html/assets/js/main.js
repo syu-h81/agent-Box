@@ -122,11 +122,17 @@ $(function() {
       $('.home-board-create-admin-confirm__inner').fadeOut();
     }, 3000);
   });
+  
 
   /////// 求職者管理のjs実装 ///////
   //求職者一覧フィルター・面談ログのポップアップの機能
-  $('#filter, #close, #cancel, #add-log').on('click', function() {
+  $('#filter, #close').on('click', function() {
+    $('.seeker-list-content-table__thead').toggleClass('onFilter');
     $('.seeker-list-content-filter__inner').fadeToggle();
+  });
+
+  //登録者情報、基本情報_面談ログの表示・非表示
+  $('#close, #cancel, #add-log').on('click', function() {
     //面談ログの編集用_表示・非表示
     $('.seeker-register-sidebar-log__edit').fadeToggle();
     //面談ログの追加用_表示・非表示

@@ -2713,6 +2713,9 @@ time {
   position: sticky;
   top: 0;
 }
+.seeker-list-content-table__thead.onFilter {
+  position: static;
+}
 .seeker-list-content-table__tr {
   border-radius: 0 10px 0 0;
 }
