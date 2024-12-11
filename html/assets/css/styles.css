@@ -388,6 +388,11 @@ body {
   width: 84%;
   margin-left: auto;
 }
+@media (min-width: 2000px) {
+  .main {
+    width: 88%;
+  }
+}
 
 .wrapper {
   max-width: 2000px;
@@ -542,6 +547,7 @@ time {
   /* 掲示板画面ページのcss */
 }
 .home-search__inner {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -553,6 +559,7 @@ time {
 }
 .home-search-box__search {
   position: relative;
+  width: 84%;
 }
 .home-search-box__search::before {
   content: "";
@@ -565,7 +572,7 @@ time {
   left: 10px;
 }
 .home-search-box__search input {
-  width: 860px;
+  width: 100%;
   height: 36px;
   background-color: #fff;
   border: 0.5px solid #A5A5A5;
@@ -702,9 +709,14 @@ time {
 }
 .home-content-board {
   color: #fff;
+  width: 90%;
+}
+@media (min-width: 2000px) {
+  .home-content-board {
+    width: 100%;
+  }
 }
 .home-content-board__inner {
-  max-width: 860px;
   width: 100%;
   background: linear-gradient(87.48deg, #5433FF -16.22%, #20BDFF 72.71%, #A5FECB 134.5%);
   border-radius: 10px;
@@ -766,7 +778,6 @@ time {
   border-radius: 10px;
   padding: 25px 15px;
   margin-left: 16px;
-  overflow-x: scroll;
   cursor: pointer;
 }
 .home-content-board-card:first-child {
@@ -778,7 +789,9 @@ time {
 }
 .home-content-board-card__text {
   font-weight: 400;
+  overflow-x: scroll;
   white-space: nowrap;
+  scrollbar-width: none;
 }
 .home-content-board-card__time {
   color: #fff;
@@ -799,7 +812,7 @@ time {
   height: auto;
 }
 .home-content-sidebar {
-  width: 30%;
+  width: 34%;
 }
 .home-content-sidebar__inner {
   padding-left: 20px;
@@ -955,9 +968,14 @@ time {
 }
 .home-company-content-board {
   color: #fff;
+  width: 90%;
+}
+@media (min-width: 2000px) {
+  .home-company-content-board {
+    width: 100%;
+  }
 }
 .home-company-content-board__inner {
-  max-width: 860px;
   width: 100%;
   background: linear-gradient(87.48deg, #5433FF -16.22%, #20BDFF 72.71%, #A5FECB 134.5%);
   border-radius: 10px;
@@ -1019,7 +1037,6 @@ time {
   border-radius: 10px;
   padding: 25px 15px;
   margin-left: 16px;
-  overflow-x: scroll;
 }
 .home-company-content-board-card:hover {
   opacity: 0.65;
@@ -1031,6 +1048,9 @@ time {
 .home-company-content-board-card__text {
   font-weight: 400;
   white-space: nowrap;
+  overflow-x: scroll;
+  white-space: nowrap;
+  scrollbar-width: none;
 }
 .home-company-content-board-card__time {
   color: #fff;
@@ -1041,6 +1061,7 @@ time {
 }
 .home-company-content-board-table {
   width: 100%;
+  background-color: #fff;
 }
 .home-company-content-board-table__inner {
   margin-top: 14px;
@@ -1083,8 +1104,14 @@ time {
 .home-company-content-board-table__td a {
   color: #3A87FD;
 }
+.home-company-content-board-table__td__comment {
+  width: 240px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  scrollbar-width: none;
+}
 .home-company-content-sidebar {
-  width: 30%;
+  width: 34%;
 }
 .home-company-content-sidebar__inner {
   padding-left: 20px;

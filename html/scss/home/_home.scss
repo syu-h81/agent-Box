@@ -1,6 +1,7 @@
 .home {
   &-search {
     &__inner {
+      width: 100%;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -11,6 +12,7 @@
       width: 100%;
       &__search {
         position: relative;
+        width: 84%;
         &::before {
           content: "";
           width: 14px;
@@ -22,7 +24,7 @@
           left: 10px;
         }
         input {
-          width: 860px;
+          width: 100%;
           height: 36px;
           background-color: #fff;
           border: 0.5px solid #A5A5A5;
@@ -160,8 +162,11 @@
     }
     &-board {
       color: #fff;
+      width: 90%;
+      @media (min-width: 2000px) {
+        width: 100%;
+      }
       &__inner {
-        max-width: 860px;
         width: 100%;
         background: linear-gradient(87.48deg, #5433FF -16.22%, #20BDFF 72.71%, #A5FECB 134.5%);
         border-radius: 10px;
@@ -225,7 +230,6 @@
         border-radius: 10px;
         padding: 25px 15px;
         margin-left: 16px;
-        overflow-x: scroll;
         cursor: pointer;
         &:first-child {
           margin-left: 0;
@@ -236,7 +240,9 @@
         }
         &__text {
           font-weight: 400;
+          overflow-x: scroll;
           white-space: nowrap;
+          scrollbar-width: none;
         }
         &__time {
           color: #fff;
@@ -259,7 +265,7 @@
       }
     }
     &-sidebar {
-      width: 30%;
+      width: 34%;
       &__inner {
         padding-left: 20px;
       }
@@ -428,8 +434,11 @@
     }
     &-board {
       color: #fff;
+      width: 90%;
+      @media (min-width: 2000px) {
+        width: 100%;
+      }
       &__inner {
-        max-width: 860px;
         width: 100%;
         background: linear-gradient(87.48deg, #5433FF -16.22%, #20BDFF 72.71%, #A5FECB 134.5%);
         border-radius: 10px;
@@ -493,7 +502,6 @@
         border-radius: 10px;
         padding: 25px 15px;
         margin-left: 16px;
-        overflow-x: scroll;
         &:hover {
           opacity: 0.65;
           transition: opacity 0.3s;
@@ -504,6 +512,9 @@
         &__text {
           font-weight: 400;
           white-space: nowrap;
+          overflow-x: scroll;
+          white-space: nowrap;
+          scrollbar-width: none;
         }
         &__time {
           color: #fff;
@@ -515,6 +526,7 @@
       }
       &-table {
         width: 100%;
+        background-color: #fff;
         &__inner {
           margin-top: 14px;
           overflow-y: scroll;
@@ -555,11 +567,17 @@
           a {
             color: #3A87FD;
           }
+          &__comment {
+            width: 240px;
+            overflow-x: scroll;
+            white-space: nowrap;
+            scrollbar-width: none;
+          }
         }
       }
     }
     &-sidebar {
-      width: 30%;
+      width: 34%;
       &__inner {
         padding-left: 20px;
       }

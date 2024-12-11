@@ -9,6 +9,10 @@ body {
   padding: 30px;
   width: 84%;
   margin-left: auto;
+  @media(min-width: 2000px) {
+    width: 88%;
+  }
+
 }
 .wrapper {
   max-width: 2000px;

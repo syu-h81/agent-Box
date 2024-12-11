@@ -49,19 +49,19 @@
                       </div>
                       <div class="home-company-content-board-card__inner">
                         <div class="home-company-content-board-card">
-                          <p class="home-company-content-board-card__text">共有事項など入ります</p>
+                          <p class="home-company-content-board-card__text">共有事項など入ります共有事項など入ります</p>
                           <time class="home-company-content-board-card__time">2024.07.22</time>
                         </div>
                         <div class="home-company-content-board-card">
-                          <p class="home-company-content-board-card__text">共有事項など入ります</p>
+                          <p class="home-company-content-board-card__text">共有事項など入ります共有事項など入ります</p>
                           <time class="home-company-content-board-card__time">2024.07.22</time>
                         </div>
                         <div class="home-company-content-board-card">
-                          <p class="home-company-content-board-card__text">共有事項など入ります</p>
+                          <p class="home-company-content-board-card__text">共有事項など入ります共有事項など入ります</p>
                           <time class="home-company-content-board-card__time">2024.07.22</time>
                         </div>
                         <div class="home-company-content-board-card">
-                          <p class="home-company-content-board-card__text">共有事項など入ります</p>
+                          <p class="home-company-content-board-card__text">共有事項など入ります共有事項など入ります</p>
                           <time class="home-company-content-board-card__time">2024.07.22</time>
                         </div>
                       </div>
@@ -82,448 +82,576 @@
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                         <tr class="home-company-content-board-table__tr">
                           <td class="home-company-content-board-table__td"><a href="">松井良太</a></td>
                           <td class="home-company-content-board-table__td">株式会社ANCa</td>
                           <td class="home-company-content-board-table__td"><a href="">株式会社サイバーエージェント</a></td>
                           <td class="home-company-content-board-table__td">1次選考</td>
-                          <td class="home-company-content-board-table__td">この文字はダミーですこの文字はダミーです</td>
+                          <td class="home-company-content-board-table__td">
+                            <p class="home-company-content-board-table__td__comment">この文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーですこの文字はダミーです</p>
+                          </td>
                         </tr>
                       </table>
                     </div>

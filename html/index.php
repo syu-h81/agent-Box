@@ -50,19 +50,19 @@
                       </div>
                       <div class="home-content-board-card__inner">
                         <a href="board-screen.php" class="home-content-board-card">
-                          <p class="home-content-board-card__text">共有事項など入ります</p>
+                          <p class="home-content-board-card__text">共有事項など入ります共有事項など入ります</p>
                           <time class="home-content-board-card__time">2024.07.22</time>
                         </a>
                         <a href="board-screen.php" class="home-content-board-card">
-                          <p class="home-content-board-card__text">共有事項など入ります</p>
+                          <p class="home-content-board-card__text">共有事項など入ります共有事項など入ります</p>
                           <time class="home-content-board-card__time">2024.07.22</time>
                         </a>
                         <a href="board-screen.php" class="home-content-board-card">
-                          <p class="home-content-board-card__text">共有事項など入ります</p>
+                          <p class="home-content-board-card__text">共有事項など入ります共有事項など入ります</p>
                           <time class="home-content-board-card__time">2024.07.22</time>
                         </a>
                         <a href="board-screen.php" class="home-content-board-card">
-                          <p class="home-content-board-card__text">共有事項など入ります</p>
+                          <p class="home-content-board-card__text">共有事項など入ります共有事項など入ります</p>
                           <time class="home-content-board-card__time">2024.07.22</time>
                         </a>
                       </div>
