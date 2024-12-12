@@ -1047,6 +1047,9 @@
               position: relative;
               z-index: 1;
             }
+            &__delete {
+              margin-left: 15px;
+            }
             &__memo {
               display: none;
               font-weight: 400;

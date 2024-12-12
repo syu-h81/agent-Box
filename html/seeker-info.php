@@ -499,6 +499,10 @@
               <div class="seeker-register-sidebar-log">
                 <div class="seeker-register-sidebar-log__title__inner seeker-title-inner">
                   <h2>面談ログ</h2>
+                  <div id="add-log" class="seeker-register-sidebar-log__add__inner">
+                    <img src="assets/images/add.png" alt="">
+                    <span>面談ログを追加する</span>
+                  </div>
                 </div>
                 <div class="seeker-register-sidebar-log__list">
                   <div class="seeker-register-sidebar-log__list__thead">
@@ -514,6 +518,9 @@
                       <div class="seeker-register-sidebar-log__list__item__edit">
                         <img src="assets/images/edit.png" alt="">
                       </div>
+                      <div class="seeker-register-sidebar-log__list__item__delete">
+                        <img src="assets/images/delete.png" alt="">
+                      </div>
                     </div>
                     <div class="seeker-register-sidebar-log__list__item__memo">
                       <p>
@@ -530,6 +537,9 @@
                       <div class="seeker-register-sidebar-log__list__item__schedule seeker-register-sidebar-log__list__label__3">2004/07/31</div>
                       <div class="seeker-register-sidebar-log__list__item__edit">
                         <img src="assets/images/edit.png" alt="">
+                      </div>
+                      <div class="seeker-register-sidebar-log__list__item__delete">
+                        <img src="assets/images/delete.png" alt="">
                       </div>
                     </div>
                     <div class="seeker-register-sidebar-log__list__item__memo">
@@ -548,6 +558,9 @@
                       <div class="seeker-register-sidebar-log__list__item__edit">
                         <img src="assets/images/edit.png" alt="">
                       </div>
+                      <div class="seeker-register-sidebar-log__list__item__delete">
+                        <img src="assets/images/delete.png" alt="">
+                      </div>
                     </div>
                     <div class="seeker-register-sidebar-log__list__item__memo">
                       <p>
@@ -564,6 +577,9 @@
                       <div class="seeker-register-sidebar-log__list__item__schedule seeker-register-sidebar-log__list__label__3">2004/07/31</div>
                       <div class="seeker-register-sidebar-log__list__item__edit">
                         <img src="assets/images/edit.png" alt="">
+                      </div>
+                      <div class="seeker-register-sidebar-log__list__item__delete">
+                        <img src="assets/images/delete.png" alt="">
                       </div>
                     </div>
                     <div class="seeker-register-sidebar-log__list__item__memo">
@@ -582,22 +598,8 @@
                       <div class="seeker-register-sidebar-log__list__item__edit">
                         <img src="assets/images/edit.png" alt="">
                       </div>
-                    </div>
-                    <div class="seeker-register-sidebar-log__list__item__memo">
-                      <p>
-                        メモ内容を表示メモ内容を表示メモ内容を表示
-                        メモ内容を表示メモ内容を表示メモ内容を表示
-                        メモ内容を表示メモ内容を表示
-                      </p>
-                    </div>
-                  </div>
-                  <div class="seeker-register-sidebar-log__list__item">
-                    <div class="seeker-register-sidebar-log__list__item__flex">
-                      <div class="seeker-register-sidebar-log__list__item__name seeker-register-sidebar-log__list__label__1">松井</div>
-                      <div class="seeker-register-sidebar-log__list__item__type seeker-register-sidebar-log__list__label__2">電話</div>
-                      <div class="seeker-register-sidebar-log__list__item__schedule seeker-register-sidebar-log__list__label__3">2004/07/31</div>
-                      <div class="seeker-register-sidebar-log__list__item__edit">
-                        <img src="assets/images/edit.png" alt="">
+                      <div class="seeker-register-sidebar-log__list__item__delete">
+                        <img src="assets/images/delete.png" alt="">
                       </div>
                     </div>
                     <div class="seeker-register-sidebar-log__list__item__memo">
@@ -615,6 +617,29 @@
                       <div class="seeker-register-sidebar-log__list__item__schedule seeker-register-sidebar-log__list__label__3">2004/07/31</div>
                       <div class="seeker-register-sidebar-log__list__item__edit">
                         <img src="assets/images/edit.png" alt="">
+                      </div>
+                      <div class="seeker-register-sidebar-log__list__item__delete">
+                        <img src="assets/images/delete.png" alt="">
+                      </div>
+                    </div>
+                    <div class="seeker-register-sidebar-log__list__item__memo">
+                      <p>
+                        メモ内容を表示メモ内容を表示メモ内容を表示
+                        メモ内容を表示メモ内容を表示メモ内容を表示
+                        メモ内容を表示メモ内容を表示
+                      </p>
+                    </div>
+                  </div>
+                  <div class="seeker-register-sidebar-log__list__item">
+                    <div class="seeker-register-sidebar-log__list__item__flex">
+                      <div class="seeker-register-sidebar-log__list__item__name seeker-register-sidebar-log__list__label__1">松井</div>
+                      <div class="seeker-register-sidebar-log__list__item__type seeker-register-sidebar-log__list__label__2">電話</div>
+                      <div class="seeker-register-sidebar-log__list__item__schedule seeker-register-sidebar-log__list__label__3">2004/07/31</div>
+                      <div class="seeker-register-sidebar-log__list__item__edit">
+                        <img src="assets/images/edit.png" alt="">
+                      </div>
+                      <div class="seeker-register-sidebar-log__list__item__delete">
+                        <img src="assets/images/delete.png" alt="">
                       </div>
                     </div>
                     <div class="seeker-register-sidebar-log__list__item__memo">

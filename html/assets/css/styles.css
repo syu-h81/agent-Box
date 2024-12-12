@@ -3505,6 +3505,9 @@ time {
   position: relative;
   z-index: 1;
 }
+.seeker-register-sidebar-log__list__item__delete {
+  margin-left: 15px;
+}
 .seeker-register-sidebar-log__list__item__memo {
   display: none;
   font-weight: 400;
