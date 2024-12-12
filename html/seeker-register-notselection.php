@@ -43,25 +43,20 @@
               <span>作成日：2024/07/28</span>
             </div>
             <div class="seeker-register-content__inner seeker-content-inner">
-              <div class="seeker-register-content__link__inner">
-                <a href="seeker-form.php" class="seeker-register-content__link__btn">
-                  <img src="assets/images/clip.png" alt="">
-                  <button>新卒用入力フォームのリンクを取得</button>
-                </a>
-                <a href="seeker-form-midcareer.php" class="seeker-register-content__link__btn">
-                  <img src="assets/images/clip.png" alt="">
-                  <button>中途用入力フォームのリンクを取得</button>
-                </a>
-              </div>
-              <form action="" method="POST" class="seeker-register-content-form__inner">
+              <form action="seeker-info.php" method="POST" class="seeker-register-content-form__inner">
                 <!-- === 求職者名 === -->
                 <div class="seeker-register-content-form__name">
                   <div class="seeker-register-content-form__name__label">
                     <label>求職者名</label>
                   </div>
                   <div class="seeker-register-content-form__name__input">
-                    <input type="text" name="firstName" placeholder="姓">
-                    <input type="text" name="lastName" placeholder="名">
+                    <div class="seeker-register-content-form__name__input__box">
+                      <input type="text" name="firstName" placeholder="姓">
+                      <span class="seeker-error-text">必須項目です</span>
+                    </div>
+                    <div class="seeker-register-content-form__name__input__box">
+                      <input type="text" name="lastName" placeholder="名">
+                    </div>
                   </div>
                 </div>
                 <!-- === フリガナ === -->
@@ -70,8 +65,36 @@
                     <label>フリガナ</label>
                   </div>
                   <div class="seeker-register-content-form__furigana__input">
-                    <input type="text" name="firstfurigana" placeholder="姓">
-                    <input type="text" name="lastfurigana" placeholder="名">
+                    <input type="text" name="firstFurigana" placeholder="セイ">
+                    <input type="text" name="lastFurigana" placeholder="メイ">
+                  </div>
+                </div>
+                <!-- === メールアドレス === -->
+                <div class="seeker-register-content-form__email">
+                  <div class="seeker-register-content-form__email__label">
+                    <label>メールアドレス</label>
+                  </div>
+                  <div class="seeker-register-content-form__email__input">
+                    <input type="text" name="email">
+                    <span class="seeker-error-text">重複登録の可能性があります</span>
+                  </div>
+                </div>
+                <!-- === 電話番号 === -->
+                <div class="seeker-register-content-form__phoneNumber">
+                  <div class="seeker-register-content-form__phoneNumber__label">
+                    <label>電話番号</label>
+                  </div>
+                  <div class="seeker-register-content-form__phoneNumber__input">
+                    <div class="seeker-register-content-form__phoneNumber__input__box">
+                      <input type="text" name="phoneNumber-1" placeholder="000">
+                      <span class="seeker-error-text">重複登録の可能性があります</span>
+                    </div>
+                    <div class="seeker-register-content-form__phoneNumber__input__box">
+                      <input type="text" name="phoneNumber-2" placeholder="0000">
+                    </div>
+                    <div class="seeker-register-content-form__phoneNumber__input__box">
+                      <input type="text" name="phoneNumber-3" placeholder="0000">
+                    </div>
                   </div>
                 </div>
                 <!-- === 生年月日 === -->
@@ -82,18 +105,18 @@
                   <div class="seeker-register-content-form__date__input">
                     <div class="seeker-register-content-form__date__input__select">
                       <select name="year" onchange="changeColor(this)">
-                        <option value="0000年" selected>0000</option>
-                        <option value="2000年">2000</option>
+                        <option value="0000" selected>0000</option>
+                        <option value="2000">2000</option>
                       </select><span>年</span>
                     </div>
                     <div class="seeker-register-content-form__date__input__select">
                       <select name="month" onchange="changeColor(this)">
-                        <option value="0000年" selected>00</option>
+                        <option value="0000" selected>00</option>
                       </select><span>月</span>
                     </div>
                     <div class="seeker-register-content-form__date__input__select">
                       <select name="date" onchange="changeColor(this)">
-                        <option value="0000年" selected>00</option>
+                        <option value="0000" selected>00</option>
                       </select><span>日</span>
                     </div>
                     <div class="seeker-register-content-form__date__input__age">
@@ -117,35 +140,47 @@
                     </label>
                   </div>
                 </div>
-                <!-- === 担当 === -->
-                <div class="seeker-register-content-form__charge">
-                  <div class="seeker-register-content-form__charge__label">
-                    <label>担当</label>
+                <!-- === 郵便番号 === -->
+                <div class="seeker-register-content-form__addressNumber">
+                  <div class="seeker-register-content-form__addressNumber__label">
+                    <label for="">郵便番号</label>
                   </div>
-                  <div class="seeker-register-content-form__charge__input">
-                    <select name="charge" onchange="changeColor(this)">
-                      <option value="" selected>選択してください</option>
+                  <div class="seeker-register-content-form__addressNumber__input">
+                    <span>〒</span>
+                    <input type="text" name="addressNumber-1" placeholder="000">
+                    <span>ー</span>
+                    <input type="text" name="addressNumber-2" placeholder="0000">
+                  </div>
+                </div>
+                <!-- === 都道府県 === -->
+                <div class="seeker-register-content-form__prefectures">
+                  <div class="seeker-register-content-form__prefectures__label">
+                    <label for="">都道府県</label>
+                  </div>
+                  <div class="seeker-register-content-form__prefectures__input">
+                    <select name="prefectures" id="" onchange="changeColor(this)">
+                      <option value="">選択してください</option>
+                      <option value="東京都">東京都</option>
                     </select>
                   </div>
                 </div>
-                <!-- === メールアドレス === -->
-                <div class="seeker-register-content-form__email">
-                  <div class="seeker-register-content-form__email__label">
-                    <label>メールアドレス</label>
+                <!-- === 市区町村・番地 === -->
+                <div class="seeker-register-content-form__address">
+                  <div class="seeker-register-content-form__address__label">
+                    <label for="">市区町村・<br>番地</label>
                   </div>
-                  <div class="seeker-register-content-form__email__input">
-                    <input type="text" name="email">
+                  <div class="seeker-register-content-form__address__input">
+                    <input type="text" name="municipalities" placeholder="市区町村">
+                    <input type="text" name="houseNumber" placeholder="番地">
                   </div>
                 </div>
-                <!-- === 電話番号 === -->
-                <div class="seeker-register-content-form__phoneNumber">
-                  <div class="seeker-register-content-form__phoneNumber__label">
-                    <label>電話番号</label>
+                <!-- === 建物名・部屋番号 === -->
+                <div class="seeker-register-content-form__house">
+                  <div class="seeker-register-content-form__house__label">
+                    <label for="">建物名・部屋番号</label>
                   </div>
-                  <div class="seeker-register-content-form__phoneNumber__input">
-                    <input type="text" name="phoneNumber-1" placeholder="000">
-                    <input type="text" name="phoneNumber-2" placeholder="0000">
-                    <input type="text" name="phoneNumber-3" placeholder="0000">
+                  <div class="seeker-register-content-form__house__input">
+                    <input type="text" name="house" placeholder="建物名・部屋番号">
                   </div>
                 </div>
                 <!-- === 最終学歴 === -->
@@ -209,7 +244,7 @@
                 <!-- === ステータス === -->
                 <div class="seeker-register-content-form__status">
                   <div class="seeker-register-content-form__status__label">
-                    <label>担当</label>
+                    <label>ステータス</label>
                   </div>
                   <div class="seeker-register-content-form__status__input">
                     <select name="status" onchange="changeColor(this)">
@@ -220,7 +255,7 @@
                 <!-- === 不成立理由 === -->
                 <div class="seeker-register-content-form__notEstablished">
                   <div class="seeker-register-content-form__notEstablished__label">
-                    <label>担当</label>
+                    <label>不成立理由</label>
                   </div>
                   <div class="seeker-register-content-form__notEstablished__input">
                     <select name="notEstablished" onchange="changeColor(this)">
@@ -321,9 +356,9 @@
                         <label>転職可能時期</label>
                       </div>
                       <div class="seeker-register-content-form__midCareer__jobChange__input">
-                        <select name="jobChange" id="">
-                          <option value="0000" selected>0000</option>
-                        </select><span>見込み</span>
+                        <div class="seeker-register-content-form__midCareer__jobChange__input__box">
+                          <input type="date" name="jobChange" value="yyyy/mm">
+                        </div>
                       </div>
                     </div>
                     <!-- === 経験社数 === -->
@@ -384,10 +419,6 @@
               <div class="seeker-register-sidebar-selection">
                 <div class="seeker-register-sidebar-selection__title__inner seeker-title-inner">
                   <h2>選考状況</h2>
-                  <a href="" class="seeker-register-sidebar-selection__view__inner">
-                    <span>view all</span>
-                    <div class="seeker-register-sidebar-selection__view__arrow"></div>
-                  </a>
                 </div>
                 <div class="seeker-register-sidebar-selection__box__inner">
                   <div class="seeker-register-sidebar-selection__box">

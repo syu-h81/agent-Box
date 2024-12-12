@@ -37,4 +37,30 @@
       background-color: #FF8C82;
     }
   }
+  &-error-text {
+    color: #E10004;
+    font-size: 0.625rem;
+  }
+}
+input[type="date"] {
+  position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  z-index: 1;
+}
+
+input[type="date"]::after {
+  content: '';
+  background-image: url(../images/calendar.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 0;
+  width: 14px;
+  height: 15px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
 }

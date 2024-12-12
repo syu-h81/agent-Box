@@ -452,11 +452,14 @@
       &-form {
         &__name,
         &__furigana,
-        &__date,
-        &__gender,
-        &__charge,
         &__email,
         &__phoneNumber,
+        &__date,
+        &__gender,
+        &__addressNumber,
+        &__prefectures,
+        &__address,
+        &__house,
         &__academic,
         &__faculty,
         &__graduation,
@@ -470,12 +473,16 @@
           display: flex;
           align-items: center;
           padding-top: 40px;
+          font-size: 0.75rem;
           &__label {
             width: 120px;
-            font-size: 0.75rem;
+            position: relative;
           }
           &__input {
             width: 100%;
+            &__box {
+              width: 100%;
+            }
           }
           input,
           select,
@@ -492,6 +499,14 @@
         }
         &__name,
         &__furigana {
+          &__label {
+            &::after {
+              content: '※';
+              position: absolute;
+              color: #E10004;
+              font-size: 0.5625rem;
+            }
+          }
           &__input {
             display: flex;
             gap: 24px;
@@ -500,7 +515,32 @@
             }
           }
         }
+        &__phoneNumber {
+          &__label {
+            &::after {
+              content: '※';
+              position: absolute;
+              color: #E10004;
+              font-size: 0.5625rem;
+            }
+          }
+          &__input {
+            display: flex;
+            gap: 16px;
+            input {
+              width: 100%;
+            }
+          }
+        }
         &__date {
+          &__label {
+            &::after {
+              content: '※';
+              position: absolute;
+              color: #E10004;
+              font-size: 0.5625rem;
+            }
+          }
           &__input {
             display: flex;
             gap: 10px;
@@ -520,16 +560,27 @@
                 transform: translateY(-50%) rotate(45deg);
               }
               select {
-                width: 105px;
+                width: 125px;
               }
               span {
                 display: inline-block;
                 margin-left: 10px;
               }
             }
+            &__age {
+              margin-left: 18%;
+            }
           }
         }
         &__gender {
+          &__label {
+            &::after {
+              content: '※';
+              position: absolute;
+              color: #E10004;
+              font-size: 0.5625rem;
+            }
+          }
           &__input {
             display: flex;
             align-items: center;
@@ -540,7 +591,62 @@
             }
           }
         }
-        &__charge,
+        &__addressNumber {
+          &__input {
+            span {
+              display: inline-block;
+              color: #A0A0A0;
+              margin: 0 10px;
+              &:first-child {
+                margin-left: 0;
+              }
+            }
+          }
+        }
+        &__prefectures {
+          &__label {
+            &::after {
+              content: '※';
+              position: absolute;
+              color: #E10004;
+              font-size: 0.5625rem;
+            }
+          }
+          &__input {
+            position: relative;
+            &::after {
+              content: "";
+              width: 8px;
+              height: 8px;
+              border-bottom: solid 1.5px #A0A0A0;
+              border-right: solid 1.5px #A0A0A0;
+              transform: rotate(45deg);
+              position: absolute;
+              top: 45%;
+              right: 120px;
+              transform: translateY(-50%) rotate(45deg);
+            }
+            select {
+              width: 84%;
+            }
+          }
+        }
+        &__address {
+          &__input {
+            display: flex;
+            gap: 24px;
+            input {
+              width: 100%;
+            }
+          }
+        }
+        &__house {
+          &__input {
+            input {
+              width: 100%;
+            }
+          }
+        }
         &__graduation,
         &__literatureScience,
         &__status,
@@ -564,17 +670,19 @@
             }
           }
         }
+        &__graduation,
+        &__literatureScience,
+        &__status,
         &__email {
-          &__input {
-            input {
-              width: 100%;
+          &__label {
+            &::after {
+              content: '※';
+              position: absolute;
+              color: #E10004;
+              font-size: 0.5625rem;
             }
           }
-        }
-        &__phoneNumber {
           &__input {
-            display: flex;
-            gap: 16px;
             input {
               width: 100%;
             }
@@ -626,6 +734,17 @@
             gap: 24px;
             &__box {
               width: 100%;
+              position: relative;
+              &::after {
+                content: '';
+                position: absolute;
+                top: 32%;
+                right: 15px;
+                background-image: url(../images/calendar.png);
+                background-size: cover;
+                width: 14px;
+                height: 15px;
+              }
               input {
                 width: 100%;
               }
@@ -735,10 +854,10 @@
           &__income {
             display: flex;
             align-items: center;
+            font-size: 0.75rem;
             padding-top: 40px;
             &__label {
               width: 120px;
-              font-size: 0.75rem;
             }
             &__input {
               width: 100%;
@@ -757,32 +876,23 @@
           }
           &__jobChange {
             &__input {
-              position: relative;
-              &::after {
-                content: "";
-                width: 8px;
-                height: 8px;
-                border-bottom: solid 1.5px #A0A0A0;
-                border-right: solid 1.5px #A0A0A0;
-                transform: rotate(45deg);
-                position: absolute;
-                top: 45%;
-                left: 200px;
-                transform: translateY(-50%) rotate(45deg);
-              }
-              select {
-                width: 225px;
-              }
-              span {
-                display: inline-block;
-                margin-left: 10px;
+              &__box {
+                position: relative;
+                width: 100%;
+                input {
+                  width: 30%;
+                }
+                span {
+                  display: inline-block;
+                  margin-left: 10px;
+                }
               }
             }
           }
           &__company {
             &__input {
               input {
-                width: 225px;
+                width: 30%;
               }
               span {
                 display: inline-block;
@@ -960,7 +1070,24 @@
             }
           }
           &__company {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             padding-top: 8px;
+            p {
+              width: 60%;
+              overflow-x: scroll;
+              white-space: nowrap;
+              scrollbar-width: none; /* Firefox */
+              -ms-overflow-style: none; /* Internet Explorer */
+              &::-webkit-scrollbar {
+                display: none; /* WebKitベースのブラウザ */
+              }
+            }
+            span {
+              color: #A0A0A0;
+              font-size: 0.625rem;
+            }
           }
         }
       }
