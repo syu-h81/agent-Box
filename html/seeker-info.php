@@ -651,84 +651,84 @@
                     </div>
                   </div>
                 </div>
-                <!-- ===== 面談ログの編集 ===== -->
-                <div class="seeker-register-sidebar-log__edit">
-                  <div class="seeker-register-sidebar-log__edit__block">
-                    <form action="" method="POST" class="seeker-register-sidebar-log__edit__content">
-                      <div id="close" class="seeker-register-sidebar-log__edit__content__close">
+                <!-- ===== 面談ログの追加用 ===== -->
+                <div class="seeker-register-sidebar-log__add">
+                  <div class="seeker-register-sidebar-log__add__block">
+                    <form action="" method="POST" class="seeker-register-sidebar-log__add__content">
+                      <div id="close" class="seeker-register-sidebar-log__add__content__close">
                         <img src="assets/images/close.png" alt="">
                       </div>
                       <!-- ===== 面談ログ_担当 ===== -->
-                      <div class="seeker-register-sidebar-log__edit__content__charge">
-                        <div class="seeker-register-sidebar-log__edit__content__charge__label">
+                      <div class="seeker-register-sidebar-log__add__content__charge">
+                        <div class="seeker-register-sidebar-log__add__content__charge__label">
                           <label for="">担当</label>
                         </div>
-                        <div class="seeker-register-sidebar-log__edit__content__charge__input">
-                          <select name="edit-charge" id="" onchange="changeColor(this)">
+                        <div class="seeker-register-sidebar-log__add__content__charge__input">
+                          <select name="add-charge" id="" onchange="changeColor(this)">
                             <option value="" selected>選択してください</option>
                             <option value="松井">松井</option>
                           </select>
                         </div>
                       </div>
                       <!-- ===== 面談ログ_面談内容 ===== -->
-                      <div class="seeker-register-sidebar-log__edit__content__type">
-                        <div class="seeker-register-sidebar-log__edit__content__type__label">
+                      <div class="seeker-register-sidebar-log__add__content__type">
+                        <div class="seeker-register-sidebar-log__add__content__type__label">
                           <label for="">面談内容</label>
                         </div>
-                        <div class="seeker-register-sidebar-log__edit__content__type__input">
-                          <label class="seeker-register-sidebar-log__edit__content__type__input__box">
-                            <input type="radio" name="edit-type" value="電話">
+                        <div class="seeker-register-sidebar-log__add__content__type__input">
+                          <label class="seeker-register-sidebar-log__add__content__type__input__box">
+                            <input type="radio" name="add-type" value="電話">
                             <span>電話</span>
                           </label>
-                          <label class="seeker-register-sidebar-log__edit__content__type__input__box">
-                            <input type="radio" name="edit-type" value="オンライン">
+                          <label class="seeker-register-sidebar-log__add__content__type__input__box">
+                            <input type="radio" name="add-type" value="オンライン">
                             <span>オンライン</span>
                           </label>
-                          <label class="seeker-register-sidebar-log__edit__content__type__input__box">
-                            <input type="radio" name="edit-type" value="対面">
+                          <label class="seeker-register-sidebar-log__add__content__type__input__box">
+                            <input type="radio" name="add-type" value="対面">
                             <span>対面</span>
                           </label>
                         </div>
                       </div>
                       <!-- ===== 面談ログ_面談日 ===== -->
-                      <div class="seeker-register-sidebar-log__edit__content__interview">
-                        <div class="seeker-register-sidebar-log__edit__content__interview__label">
+                      <div class="seeker-register-sidebar-log__add__content__interview">
+                        <div class="seeker-register-sidebar-log__add__content__interview__label">
                           <label for="">面談日</label>
                         </div>
-                        <div class="seeker-register-sidebar-log__edit__content__interview__input">
-                          <div class="seeker-register-sidebar-log__edit__content__interview__input__box">
-                            <select name="edit-year" id="" onchange="changeColor(this)">
+                        <div class="seeker-register-sidebar-log__add__content__interview__input">
+                          <div class="seeker-register-sidebar-log__add__content__interview__input__box">
+                            <select name="add-year" id="" onchange="changeColor(this)">
                               <option value="" selected>0000</option>
                             </select><span>年</span>
                           </div>
-                          <div class="seeker-register-sidebar-log__edit__content__interview__input__box">
-                            <select name="edit-month" id="" onchange="changeColor(this)">
+                          <div class="seeker-register-sidebar-log__add__content__interview__input__box">
+                            <select name="add-month" id="" onchange="changeColor(this)">
                               <option value="" selected>0000</option>
                             </select><span>月</span>
                           </div>
-                          <div class="seeker-register-sidebar-log__edit__content__interview__input__box">
-                            <select name="edit-date" id="" onchange="changeColor(this)">
+                          <div class="seeker-register-sidebar-log__add__content__interview__input__box">
+                            <select name="add-date" id="" onchange="changeColor(this)">
                               <option value="" selected>0000</option>
                             </select><span>日</span>
                           </div>
                         </div>
                       </div>
                       <!-- ===== 面談ログ_メモ ===== -->
-                      <div class="seeker-register-sidebar-log__edit__content__memo">
-                        <div class="seeker-register-sidebar-log__edit__content__memo__label">
+                      <div class="seeker-register-sidebar-log__add__content__memo">
+                        <div class="seeker-register-sidebar-log__add__content__memo__label">
                           <label for="">メモ</label>
                         </div>
-                        <div class="seeker-register-sidebar-log__edit__content__memo__input">
-                          <textarea name="edit-memo" id="" placeholder="テキストの編集"></textarea>
+                        <div class="seeker-register-sidebar-log__add__content__memo__input">
+                          <textarea name="add-memo" id="" placeholder="テキストの編集"></textarea>
                         </div>
                       </div>
-                      <div class="seeker-register-sidebar-log__edit__content__btn">
-                        <button type="button" id="cancel" class="seeker-register-sidebar-log__edit__content__btn__cancel">キャンセル</button>
-                        <button type="submit" class="seeker-register-sidebar-log__edit__content__btn__submit">保存</button>
+                      <div class="seeker-register-sidebar-log__add__content__btn">
+                        <button type="button" id="cancel" class="seeker-register-sidebar-log__add__content__btn__cancel">キャンセル</button>
+                        <button type="submit" class="seeker-register-sidebar-log__add__content__btn__submit">追加する</button>
                       </div>
                     </form>
                   </div>
-                </div>
+                </div>a
               </div>
             </div>
           </aside>

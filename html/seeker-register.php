@@ -740,6 +740,31 @@
                     </form>
                   </div>
                 </div>
+                <div class="seeker-register-sidebar-log__delete__confirm__inner">
+                  <div class="seeker-register-sidebar-log__delete__block">
+                    <div class="seeker-register-sidebar-log__delete__confirm">
+                      <div class="seeker-register-sidebar-log__delete__confirm__title">
+                        本当に削除しますか？
+                      </div>
+                      <div class="seeker-register-sidebar-log__delete__confirm__btn">
+                        <button class="seeker-register-sidebar-log__delete__confirm__btn__cancel">戻る</button>
+                        <button class="seeker-register-sidebar-log__delete__confirm__btn__submit">削除する</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="seeker-register-sidebar-log__delete__complete__inner">
+                  <div class="seeker-register-sidebar-log__delete__block">
+                    <div class="seeker-register-sidebar-log__delete__complete">
+                      <div class="seeker-register-sidebar-log__delete__complete__title">
+                        削除しました
+                      </div>
+                      <a href="seeker-register.php" class="seeker-register-sidebar-log__delete__complete__btn__inner">
+                        <button class="seeker-register-sidebar-log__delete__complete__btn">戻る</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </aside>

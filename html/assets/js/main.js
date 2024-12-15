@@ -151,12 +151,29 @@ $(function() {
       }
     });
   });
+
   //求職者登録_面談ログのメモの開閉機能
-  $('.seeker-register-sidebar-log__list__item').on('click', function() {
-    var $memo = $(this).find('.seeker-register-sidebar-log__list__item__memo');
-    var $arrow = $(this).find('.seeker-register-sidebar-log__list__item__name');
-    $memo.slideToggle();
-    $arrow.toggleClass('open', 300)
+  $('.seeker-register-sidebar-log__list__item__name').on('click', function () {
+    var $memo = $(this)
+      .closest('.seeker-register-sidebar-log__list__item')
+      .find('.seeker-register-sidebar-log__list__item__memo');
+    var $arrow = $(this);
+    $memo.slideToggle(300); // 300msのアニメーションで表示/非表示
+    $arrow.toggleClass('open');
+  });
+
+  //求職者登録_面談ログの追加ポップアップの表示
+  $('.seeker-register-sidebar-log__list__item__edit').on('click', function() {
+    $('.seeker-register-sidebar-log__add').fadeToggle();
+  });
+  //求職者登録_面談ログの削除ポップアップの表示
+  $('.seeker-register-sidebar-log__list__item__delete, .seeker-register-sidebar-log__delete__confirm__btn__cancel').on('click', function() {
+    $('.seeker-register-sidebar-log__delete__confirm__inner').fadeToggle();
+  });
+  //求職者登録_面談ログの削除確認ポップアップの表示
+  $('.seeker-register-sidebar-log__delete__confirm__btn__submit').on('click', function() {
+    $('.seeker-register-sidebar-log__delete__confirm__inner').fadeToggle();
+    $('.seeker-register-sidebar-log__delete__complete__inner').fadeToggle();
   });
 });
 
