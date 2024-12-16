@@ -1,4 +1,5 @@
 <?php $title="求職者管理_求職者登録" ?>
+<?php require_once dirname(__FILE__).'/item-list.php'; ?>
 <?php require_once dirname(__FILE__).'/header.php'; ?>
   <main class="main">
     <div class="main-container">
