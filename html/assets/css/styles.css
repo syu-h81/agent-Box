@@ -4371,11 +4371,14 @@ input[type=date]::after {
   display: flex;
   justify-content: center;
 }
-.seeker-form__main__complete {
+.seeker-form__main__complete, .seeker-form__main__notfound {
   height: 100vh;
 }
 .seeker-form__main__inner {
   padding: 96px 0;
+}
+.seeker-form__main__inner__notfound {
+  padding-top: 200px;
 }
 .seeker-form-content__inner {
   background-color: #fff;
@@ -4390,6 +4393,13 @@ input[type=date]::after {
 }
 .seeker-form-content-complete__title__inner {
   padding-top: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.seeker-form-content-notfound__inner {
+  padding: 120px 200px;
+}
+.seeker-form-content-notfound__title__inner {
   text-align: center;
   letter-spacing: 1px;
 }

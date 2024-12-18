@@ -29,8 +29,15 @@
       <!--======== header ========-->
       <header class="seeker-form-header">
         <div class="seeker-form-header__inner">
-          <div class="seeker-form-header__logo">
-            <img src="assets/images/form-logo.png" alt="">
-          </div>
+          <?php
+            $current_file = basename($_SERVER['PHP_SELF']);
+
+            if ($current_file !== 'seeker-form-notfound.php') {
+              // 特定のファイル以外で表示
+              echo '<div class="seeker-form-header__logo">
+                      <img src="assets/images/form-logo.png" alt="">
+                    </div>';
+            }
+          ?>
         </div>
       </header>
