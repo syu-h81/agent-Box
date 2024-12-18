@@ -70,7 +70,7 @@
                 </div>
                 <ul class="header-nav__subList">
                   <li class="header-nav__subList__item"><a href="seeker-list.php">求職者一覧</a></li>
-                  <li class="header-nav__subList__item"><a href="">保留求職者一覧</a></li>
+                  <li class="header-nav__subList__item"><a href="seeker-applicant-list-ra-ca.php">保留求職者一覧</a></li>
                 </ul>
               </li>
               <li class="header-nav__item header-nav__item__setting">
