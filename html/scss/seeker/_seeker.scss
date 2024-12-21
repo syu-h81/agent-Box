@@ -454,6 +454,7 @@
         &__furigana,
         &__email,
         &__phoneNumber,
+        &__labels,
         &__date,
         &__gender,
         &__addressNumber,
@@ -530,6 +531,43 @@
             input {
               width: 100%;
             }
+          }
+        }
+        &__labels {
+          &__selected__options {
+            width: 100%;
+            border: 1px solid #A0A0A0;
+            border-radius: 5px;
+            padding: 4px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 8px;
+            position: relative;
+            padding: 15px;
+            .option {
+              width: 20%;
+              background-color: #E6E6E6;
+              border: 1px solid #dcdcdc;
+              border-radius: 4px;
+              padding: 4px 8px;
+              display: flex;
+              align-items: center;
+              gap: 4px;
+              color: #5D5B5B;
+              font-size: 10px;
+              white-space: nowrap;
+              .remove {
+                display: inline-block;
+                margin-left: auto;
+                color: #999;
+                cursor: pointer;
+                font-weight: bold;
+              }
+            }
+          }
+          select {
+            display: none;
           }
         }
         &__date {

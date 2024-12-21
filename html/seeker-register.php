@@ -98,6 +98,27 @@
                     </div>
                   </div>
                 </div>
+                <!-- === ラベル === -->
+                <div class="seeker-register-content-form__labels">
+                  <div class="seeker-register-content-form__labels__label seeker-register-content-form-label">
+                    <label for="">ラベル</label>
+                  </div>
+                  <div class="seeker-register-content-form__labels__selected__options" onchange="changeColor(this)">
+                    <span class="option">この文字はダミーです<span class="remove">×</span></span>
+                    <span class="option">この文字はダミ<span class="remove">×</span></span>
+                    <span class="option">この文字はダミーです<span class="remove">×</span></span>
+                    <span class="option">この文字はダミ<span class="remove">×</span></span>
+                    <span class="option">この文字はダミーです<span class="remove">×</span></span>
+                    <span class="option">この文字はダミ<span class="remove">×</span></span>
+                    <span class="option">この文字はダミーです<span class="remove">×</span></span>
+                    <span class="option">この文字はダミ<span class="remove">×</span></span>
+                  </div>
+                  <select multiple name="labels" id="" onchange="changeColor(this)">
+                    <option value="完全週休二日制">仮）完全週休二日制</option>
+                    <option value="平日休み">仮）平日休み</option>
+                    <option value="その他">仮）その他</option>
+                  </select>
+                </div>
                 <!-- === 生年月日 === -->
                 <div class="seeker-register-content-form__date">
                   <div class="seeker-register-content-form__date__label">

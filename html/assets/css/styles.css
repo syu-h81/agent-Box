@@ -2958,20 +2958,20 @@ input[type=date]::after {
   opacity: 0.65;
   transition: 0.3s;
 }
-.seeker-register-content-form__name, .seeker-register-content-form__furigana, .seeker-register-content-form__email, .seeker-register-content-form__phoneNumber, .seeker-register-content-form__date, .seeker-register-content-form__gender, .seeker-register-content-form__addressNumber, .seeker-register-content-form__prefectures, .seeker-register-content-form__address, .seeker-register-content-form__house, .seeker-register-content-form__academic, .seeker-register-content-form__faculty, .seeker-register-content-form__graduation, .seeker-register-content-form__literatureScience, .seeker-register-content-form__status, .seeker-register-content-form__notEstablished, .seeker-register-content-form__schedule, .seeker-register-content-form__info, .seeker-register-content-form__comment, .seeker-register-content-form__upload {
+.seeker-register-content-form__name, .seeker-register-content-form__furigana, .seeker-register-content-form__email, .seeker-register-content-form__phoneNumber, .seeker-register-content-form__labels, .seeker-register-content-form__date, .seeker-register-content-form__gender, .seeker-register-content-form__addressNumber, .seeker-register-content-form__prefectures, .seeker-register-content-form__address, .seeker-register-content-form__house, .seeker-register-content-form__academic, .seeker-register-content-form__faculty, .seeker-register-content-form__graduation, .seeker-register-content-form__literatureScience, .seeker-register-content-form__status, .seeker-register-content-form__notEstablished, .seeker-register-content-form__schedule, .seeker-register-content-form__info, .seeker-register-content-form__comment, .seeker-register-content-form__upload {
   display: flex;
   align-items: center;
   padding-top: 40px;
   font-size: 0.75rem;
 }
-.seeker-register-content-form__name__label, .seeker-register-content-form__furigana__label, .seeker-register-content-form__email__label, .seeker-register-content-form__phoneNumber__label, .seeker-register-content-form__date__label, .seeker-register-content-form__gender__label, .seeker-register-content-form__addressNumber__label, .seeker-register-content-form__prefectures__label, .seeker-register-content-form__address__label, .seeker-register-content-form__house__label, .seeker-register-content-form__academic__label, .seeker-register-content-form__faculty__label, .seeker-register-content-form__graduation__label, .seeker-register-content-form__literatureScience__label, .seeker-register-content-form__status__label, .seeker-register-content-form__notEstablished__label, .seeker-register-content-form__schedule__label, .seeker-register-content-form__info__label, .seeker-register-content-form__comment__label, .seeker-register-content-form__upload__label {
+.seeker-register-content-form__name__label, .seeker-register-content-form__furigana__label, .seeker-register-content-form__email__label, .seeker-register-content-form__phoneNumber__label, .seeker-register-content-form__labels__label, .seeker-register-content-form__date__label, .seeker-register-content-form__gender__label, .seeker-register-content-form__addressNumber__label, .seeker-register-content-form__prefectures__label, .seeker-register-content-form__address__label, .seeker-register-content-form__house__label, .seeker-register-content-form__academic__label, .seeker-register-content-form__faculty__label, .seeker-register-content-form__graduation__label, .seeker-register-content-form__literatureScience__label, .seeker-register-content-form__status__label, .seeker-register-content-form__notEstablished__label, .seeker-register-content-form__schedule__label, .seeker-register-content-form__info__label, .seeker-register-content-form__comment__label, .seeker-register-content-form__upload__label {
   width: 120px;
   position: relative;
 }
-.seeker-register-content-form__name__input, .seeker-register-content-form__furigana__input, .seeker-register-content-form__email__input, .seeker-register-content-form__phoneNumber__input, .seeker-register-content-form__date__input, .seeker-register-content-form__gender__input, .seeker-register-content-form__addressNumber__input, .seeker-register-content-form__prefectures__input, .seeker-register-content-form__address__input, .seeker-register-content-form__house__input, .seeker-register-content-form__academic__input, .seeker-register-content-form__faculty__input, .seeker-register-content-form__graduation__input, .seeker-register-content-form__literatureScience__input, .seeker-register-content-form__status__input, .seeker-register-content-form__notEstablished__input, .seeker-register-content-form__schedule__input, .seeker-register-content-form__info__input, .seeker-register-content-form__comment__input, .seeker-register-content-form__upload__input {
+.seeker-register-content-form__name__input, .seeker-register-content-form__furigana__input, .seeker-register-content-form__email__input, .seeker-register-content-form__phoneNumber__input, .seeker-register-content-form__labels__input, .seeker-register-content-form__date__input, .seeker-register-content-form__gender__input, .seeker-register-content-form__addressNumber__input, .seeker-register-content-form__prefectures__input, .seeker-register-content-form__address__input, .seeker-register-content-form__house__input, .seeker-register-content-form__academic__input, .seeker-register-content-form__faculty__input, .seeker-register-content-form__graduation__input, .seeker-register-content-form__literatureScience__input, .seeker-register-content-form__status__input, .seeker-register-content-form__notEstablished__input, .seeker-register-content-form__schedule__input, .seeker-register-content-form__info__input, .seeker-register-content-form__comment__input, .seeker-register-content-form__upload__input {
   width: 100%;
 }
-.seeker-register-content-form__name__input__box, .seeker-register-content-form__furigana__input__box, .seeker-register-content-form__email__input__box, .seeker-register-content-form__phoneNumber__input__box, .seeker-register-content-form__date__input__box, .seeker-register-content-form__gender__input__box, .seeker-register-content-form__addressNumber__input__box, .seeker-register-content-form__prefectures__input__box, .seeker-register-content-form__address__input__box, .seeker-register-content-form__house__input__box, .seeker-register-content-form__academic__input__box, .seeker-register-content-form__faculty__input__box, .seeker-register-content-form__graduation__input__box, .seeker-register-content-form__literatureScience__input__box, .seeker-register-content-form__status__input__box, .seeker-register-content-form__notEstablished__input__box, .seeker-register-content-form__schedule__input__box, .seeker-register-content-form__info__input__box, .seeker-register-content-form__comment__input__box, .seeker-register-content-form__upload__input__box {
+.seeker-register-content-form__name__input__box, .seeker-register-content-form__furigana__input__box, .seeker-register-content-form__email__input__box, .seeker-register-content-form__phoneNumber__input__box, .seeker-register-content-form__labels__input__box, .seeker-register-content-form__date__input__box, .seeker-register-content-form__gender__input__box, .seeker-register-content-form__addressNumber__input__box, .seeker-register-content-form__prefectures__input__box, .seeker-register-content-form__address__input__box, .seeker-register-content-form__house__input__box, .seeker-register-content-form__academic__input__box, .seeker-register-content-form__faculty__input__box, .seeker-register-content-form__graduation__input__box, .seeker-register-content-form__literatureScience__input__box, .seeker-register-content-form__status__input__box, .seeker-register-content-form__notEstablished__input__box, .seeker-register-content-form__schedule__input__box, .seeker-register-content-form__info__input__box, .seeker-register-content-form__comment__input__box, .seeker-register-content-form__upload__input__box {
   width: 100%;
 }
 .seeker-register-content-form__name input,
@@ -2982,7 +2982,9 @@ input[type=date]::after {
 .seeker-register-content-form__email select,
 .seeker-register-content-form__email textarea, .seeker-register-content-form__phoneNumber input,
 .seeker-register-content-form__phoneNumber select,
-.seeker-register-content-form__phoneNumber textarea, .seeker-register-content-form__date input,
+.seeker-register-content-form__phoneNumber textarea, .seeker-register-content-form__labels input,
+.seeker-register-content-form__labels select,
+.seeker-register-content-form__labels textarea, .seeker-register-content-form__date input,
 .seeker-register-content-form__date select,
 .seeker-register-content-form__date textarea, .seeker-register-content-form__gender input,
 .seeker-register-content-form__gender select,
@@ -3022,7 +3024,7 @@ input[type=date]::after {
   border-radius: 5px;
   padding: 15px;
 }
-.seeker-register-content-form__name select, .seeker-register-content-form__furigana select, .seeker-register-content-form__email select, .seeker-register-content-form__phoneNumber select, .seeker-register-content-form__date select, .seeker-register-content-form__gender select, .seeker-register-content-form__addressNumber select, .seeker-register-content-form__prefectures select, .seeker-register-content-form__address select, .seeker-register-content-form__house select, .seeker-register-content-form__academic select, .seeker-register-content-form__faculty select, .seeker-register-content-form__graduation select, .seeker-register-content-form__literatureScience select, .seeker-register-content-form__status select, .seeker-register-content-form__notEstablished select, .seeker-register-content-form__schedule select, .seeker-register-content-form__info select, .seeker-register-content-form__comment select, .seeker-register-content-form__upload select {
+.seeker-register-content-form__name select, .seeker-register-content-form__furigana select, .seeker-register-content-form__email select, .seeker-register-content-form__phoneNumber select, .seeker-register-content-form__labels select, .seeker-register-content-form__date select, .seeker-register-content-form__gender select, .seeker-register-content-form__addressNumber select, .seeker-register-content-form__prefectures select, .seeker-register-content-form__address select, .seeker-register-content-form__house select, .seeker-register-content-form__academic select, .seeker-register-content-form__faculty select, .seeker-register-content-form__graduation select, .seeker-register-content-form__literatureScience select, .seeker-register-content-form__status select, .seeker-register-content-form__notEstablished select, .seeker-register-content-form__schedule select, .seeker-register-content-form__info select, .seeker-register-content-form__comment select, .seeker-register-content-form__upload select {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -3053,6 +3055,41 @@ input[type=date]::after {
 }
 .seeker-register-content-form__phoneNumber__input input {
   width: 100%;
+}
+.seeker-register-content-form__labels__selected__options {
+  width: 100%;
+  border: 1px solid #A0A0A0;
+  border-radius: 5px;
+  padding: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  padding: 15px;
+}
+.seeker-register-content-form__labels__selected__options .option {
+  width: 20%;
+  background-color: #E6E6E6;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #5D5B5B;
+  font-size: 10px;
+  white-space: nowrap;
+}
+.seeker-register-content-form__labels__selected__options .option .remove {
+  display: inline-block;
+  margin-left: auto;
+  color: #999;
+  cursor: pointer;
+  font-weight: bold;
+}
+.seeker-register-content-form__labels select {
+  display: none;
 }
 .seeker-register-content-form__date__label::after {
   content: "※";

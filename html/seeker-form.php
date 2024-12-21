@@ -1,5 +1,6 @@
 <?php $title="求職者管理_新卒用基本情報入力フォーム" ?>
 <?php require_once dirname(__FILE__).'/seeker-header-form.php'; ?>
+<?php require_once dirname(__FILE__).'/item-list.php'; ?>
       <main class="seeker-form__main">
         <form action="seeker-form-confirm.php" method="POST" class="seeker-form__main__inner">
           <div class="seeker-form-content__inner">

@@ -131,6 +131,12 @@ $(function() {
     $('.seeker-list-content-filter__inner').fadeToggle();
   });
 
+  //ラベルの削除
+  $('.remove').on('click', function() {
+    var $hide = $(this).closest('.option');
+    $hide.hide();
+  });
+
   //登録者情報、基本情報_面談ログの表示・非表示
   $('#close, #cancel, #add-log').on('click', function() {
     //面談ログの編集用_表示・非表示
