@@ -112,6 +112,8 @@
                     <span class="option">この文字はダミ<span class="remove">×</span></span>
                     <span class="option">この文字はダミーです<span class="remove">×</span></span>
                     <span class="option">この文字はダミ<span class="remove">×</span></span>
+                    <span class="option">この文字はダミーです<span class="remove">×</span></span>
+                    <span class="option">この文字はダミ<span class="remove">×</span></span>
                   </div>
                   <select multiple name="labels" id="" onchange="changeColor(this)">
                     <option value="完全週休二日制">仮）完全週休二日制</option>
@@ -128,17 +130,25 @@
                     <div class="seeker-register-content-form__date__input__select">
                       <select name="year" onchange="changeColor(this)">
                         <option value="0000" selected>0000</option>
-                        <option value="2000">2000</option>
+                        <?php for($i = 1960; $i <= 2010; $i++){ ?>
+                          <option value="<?=$i?>"><?=$i?></option>
+                        <?php } ?>
                       </select><span>年</span>
                     </div>
                     <div class="seeker-register-content-form__date__input__select">
                       <select name="month" onchange="changeColor(this)">
                         <option value="0000" selected>00</option>
+                        <?php for($i = 1; $i <= 12; $i++) { ?>
+                          <option value="<?=$i?>"><?=$i?></option>
+                        <?php } ?>
                       </select><span>月</span>
                     </div>
                     <div class="seeker-register-content-form__date__input__select">
                       <select name="date" onchange="changeColor(this)">
                         <option value="0000" selected>00</option>
+                        <?php for($i = 1; $i <= 31; $i++) { ?>
+                          <option value="<?=$i?>"><?=$i?></option>
+                        <?php } ?>
                       </select><span>日</span>
                     </div>
                     <div class="seeker-register-content-form__date__input__age">
