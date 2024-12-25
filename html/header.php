@@ -80,6 +80,7 @@
                 </div>
                 <ul class="header-nav__subList">
                   <li class="header-nav__subList__item"><a href="account-message-general.php">ユーザー管理</a></li>
+                  <li class="header-nav__subList__item"><a href="account-message-general.php">グループ管理</a></li>
                   <li class="header-nav__subList__item"><a href="">項目管理</a></li>
                   <li class="header-nav__subList__item"><a href="">テンプレート管理</a></li>
                   <li class="header-nav__subList__item"><a href="">カレンダー連携</a></li>

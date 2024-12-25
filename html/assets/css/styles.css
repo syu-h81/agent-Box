@@ -3521,7 +3521,7 @@ input[type=date]::after {
   border: 1.5px solid #3A87FD;
   border-radius: 10px;
   padding: 16px 8px;
-  width: 87px;
+  width: 25%;
 }
 .seeker-register-sidebar-selection__box__inner {
   display: flex;
@@ -3970,32 +3970,10 @@ input[type=date]::after {
   justify-content: space-between;
   align-items: center;
 }
-.seeker-applicant-list-content-register__btn {
-  width: 160px;
-  border: 1px solid #A0A0A0;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 0.75rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 16px;
-  position: relative;
-}
-.seeker-applicant-list-content-register__btn::after {
-  content: "";
-  width: 8px;
-  height: 8px;
-  border-bottom: solid 1.5px #A0A0A0;
-  border-right: solid 1.5px #A0A0A0;
-  position: absolute;
-  top: 45%;
-  right: 10px;
-  transform: translateY(-50%) rotate(45deg);
-}
 .seeker-applicant-list-content-register__filter__icon {
   position: relative;
   padding-right: 20px;
+  margin-left: auto;
 }
 .seeker-applicant-list-content-register__filter__icon::after {
   content: "";

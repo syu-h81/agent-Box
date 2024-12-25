@@ -43,11 +43,6 @@
             </div>
             <div class="seeker-applicant-list-content__inner seeker-content-inner">
               <div class="seeker-applicant-list-content-register__inner">
-                <div class="seeker-applicant-list-content-register__btn">
-                  <select name="" id="" onchange="changeColor(this)">
-                    <option value="新着応募">新着応募</option>
-                  </select>
-                </div>
                 <div id="filter" class="seeker-applicant-list-content-register__filter__icon">
                   <img src="assets/images/filter.png" alt="">
                 </div>

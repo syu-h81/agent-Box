@@ -1062,7 +1062,7 @@
           border: 1.5px solid #3A87FD;
           border-radius: 10px;
           padding: 16px 8px;
-          width: 87px;
+          width: 25%;
           &__inner {
             display: flex;
             gap: 8px;
@@ -1582,32 +1582,10 @@
           justify-content: space-between;
           align-items: center;
         }
-        &__btn {
-          width: 160px;
-          border: 1px solid #A0A0A0;
-          border-radius: 5px;
-          cursor: pointer;
-          font-size: 0.75rem;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 12px 16px;
-          position: relative;
-          &::after {
-            content: "";
-            width: 8px;
-            height: 8px;
-            border-bottom: solid 1.5px #A0A0A0;
-            border-right: solid 1.5px #A0A0A0;
-            position: absolute;
-            top: 45%;
-            right: 10px;
-            transform: translateY(-50%) rotate(45deg);
-          }
-        }
         &__filter__icon {
           position: relative;
           padding-right: 20px;
+          margin-left: auto;
           &::after {
             content: "";
             width: 8px;
