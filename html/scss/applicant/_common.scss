@@ -1,0 +1,66 @@
+.applicant {
+  &-inner {
+    background-color: #fff;
+    margin-top: 40px;
+    padding: 24px;
+  }
+  &-title-inner {
+    font-size: 1.4375rem;
+    font-weight: 500;
+    span {
+      color: #A0A0A0;
+      font-size: 0.75rem;
+    }
+  }
+  &-content-inner {
+    padding-top: 48px;
+  }
+  &-status {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+    &-before-support {
+      background-color: #FAF396;
+    }
+    &-support {
+      background-color: #FFAB01;
+    }
+    &-withdrawal {
+      background-color: #3A87FD;
+    }
+    &-joined {
+      background-color: #FE6250;
+    }
+    &-offer {
+      background-color: #FF8C82;
+    }
+  }
+  &-error-text {
+    color: #E10004;
+    font-size: 0.625rem;
+  }
+}
+input[type="date"] {
+  position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  z-index: 1;
+}
+
+input[type="date"]::after {
+  content: '';
+  background-image: url(../images/calendar.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 0;
+  width: 14px;
+  height: 15px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}

@@ -127,8 +127,8 @@ $(function() {
   /////// 求職者管理のjs実装 ///////
   //求職者一覧フィルター・面談ログのポップアップの機能
   $('#filter, #close, #cancel').on('click', function() {
-    $('.seeker-list-content-table__thead, .seeker-applicant-list-content-table__thead, .seeker-applicant-list-content-table-ca__thead').toggleClass('onFilter');
-    $('.seeker-list-content-filter__inner').fadeToggle();
+    $('.seeker-list-content-table__thead, .seeker-applicant-list-content-table__thead, .applicant-selection-list-content-table__thead, .seeker-applicant-list-content-table-ca__thead').toggleClass('onFilter');
+    $('.seeker-list-content-filter__inner, .filter-inner').fadeToggle();
   });
 
   //ラベルの削除
