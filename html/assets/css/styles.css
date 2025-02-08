@@ -4814,17 +4814,17 @@ input[type=date]::after {
   transform: translateY(-50%);
 }
 
-.applicant-selection-list__title__inner {
+.applicant-list__title__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.applicant-selection-list-content-register__inner {
+.applicant-list-content-register__inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.applicant-selection-list-content-register__btn {
+.applicant-list-content-register__btn {
   width: 122px;
   border: 1px solid #3A87FD;
   border-radius: 5px;
@@ -4836,11 +4836,11 @@ input[type=date]::after {
   align-items: center;
   padding: 12px 16px;
 }
-.applicant-selection-list-content-register__filter__icon {
+.applicant-list-content-register__filter__icon {
   position: relative;
   padding-right: 20px;
 }
-.applicant-selection-list-content-register__filter__icon::after {
+.applicant-list-content-register__filter__icon::after {
   content: "";
   width: 8px;
   height: 8px;
@@ -4852,16 +4852,16 @@ input[type=date]::after {
   right: 5px;
   transform: translateY(-50%) rotate(45deg);
 }
-.applicant-selection-list-content-filter {
+.applicant-list-content-filter {
   background-color: #fff;
   border-radius: 10px;
   padding: 64px 40px 48px 40px;
   position: relative;
 }
-.applicant-selection-list-content-filter__inner {
+.applicant-list-content-filter__inner {
   display: none;
 }
-.applicant-selection-list-content-filter__block {
+.applicant-list-content-filter__block {
   position: absolute;
   top: 0;
   left: 0;
@@ -4872,114 +4872,13 @@ input[type=date]::after {
   justify-content: center;
   z-index: 1;
 }
-.applicant-selection-list-content-filter__close {
+.applicant-list-content-filter__close {
   position: absolute;
   top: 15px;
   right: 15px;
   cursor: pointer;
 }
-.applicant-selection-list-content-filter__create, .applicant-selection-list-content-filter__ca, .applicant-selection-list-content-filter__gender, .applicant-selection-list-content-filter__school, .applicant-selection-list-content-filter__phase, .applicant-selection-list-content-filter__type, .applicant-selection-list-content-filter__assumption, .applicant-selection-list-content-filter__interview, .applicant-selection-list-content-filter__setting, .applicant-selection-list-content-filter__apply, .applicant-selection-list-content-filter__selection, .applicant-selection-list-content-filter__finalSelection, .applicant-selection-list-content-filter__offer, .applicant-selection-list-content-filter__labels {
-  display: flex;
-  align-items: center;
-  padding-top: 24px;
-}
-.applicant-selection-list-content-filter__create__label, .applicant-selection-list-content-filter__ca__label, .applicant-selection-list-content-filter__gender__label, .applicant-selection-list-content-filter__school__label, .applicant-selection-list-content-filter__phase__label, .applicant-selection-list-content-filter__type__label, .applicant-selection-list-content-filter__assumption__label, .applicant-selection-list-content-filter__interview__label, .applicant-selection-list-content-filter__setting__label, .applicant-selection-list-content-filter__apply__label, .applicant-selection-list-content-filter__selection__label, .applicant-selection-list-content-filter__finalSelection__label, .applicant-selection-list-content-filter__offer__label, .applicant-selection-list-content-filter__labels__label {
-  width: 120px;
-  font-size: 0.75rem;
-}
-.applicant-selection-list-content-filter__create__input, .applicant-selection-list-content-filter__ca__input, .applicant-selection-list-content-filter__gender__input, .applicant-selection-list-content-filter__school__input, .applicant-selection-list-content-filter__phase__input, .applicant-selection-list-content-filter__type__input, .applicant-selection-list-content-filter__assumption__input, .applicant-selection-list-content-filter__interview__input, .applicant-selection-list-content-filter__setting__input, .applicant-selection-list-content-filter__apply__input, .applicant-selection-list-content-filter__selection__input, .applicant-selection-list-content-filter__finalSelection__input, .applicant-selection-list-content-filter__offer__input, .applicant-selection-list-content-filter__labels__input {
-  width: 100%;
-  font-size: 0.75rem;
-}
-.applicant-selection-list-content-filter__create__input input, .applicant-selection-list-content-filter__ca__input input, .applicant-selection-list-content-filter__gender__input input, .applicant-selection-list-content-filter__school__input input, .applicant-selection-list-content-filter__phase__input input, .applicant-selection-list-content-filter__type__input input, .applicant-selection-list-content-filter__assumption__input input, .applicant-selection-list-content-filter__interview__input input, .applicant-selection-list-content-filter__setting__input input, .applicant-selection-list-content-filter__apply__input input, .applicant-selection-list-content-filter__selection__input input, .applicant-selection-list-content-filter__finalSelection__input input, .applicant-selection-list-content-filter__offer__input input, .applicant-selection-list-content-filter__labels__input input {
-  -webkit-appearance: auto;
-     -moz-appearance: auto;
-          appearance: auto;
-  pointer-events: auto;
-}
-.applicant-selection-list-content-filter__create__input, .applicant-selection-list-content-filter__assumption__input, .applicant-selection-list-content-filter__interview__input, .applicant-selection-list-content-filter__setting__input, .applicant-selection-list-content-filter__apply__input, .applicant-selection-list-content-filter__selection__input, .applicant-selection-list-content-filter__finalSelection__input, .applicant-selection-list-content-filter__offer__input {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.applicant-selection-list-content-filter__create__input input, .applicant-selection-list-content-filter__assumption__input input, .applicant-selection-list-content-filter__interview__input input, .applicant-selection-list-content-filter__setting__input input, .applicant-selection-list-content-filter__apply__input input, .applicant-selection-list-content-filter__selection__input input, .applicant-selection-list-content-filter__finalSelection__input input, .applicant-selection-list-content-filter__offer__input input {
-  width: 200px;
-  padding: 15px;
-  border: 1px solid #A0A0A0;
-  border-radius: 5px;
-}
-.applicant-selection-list-content-filter__create__input span, .applicant-selection-list-content-filter__assumption__input span, .applicant-selection-list-content-filter__interview__input span, .applicant-selection-list-content-filter__setting__input span, .applicant-selection-list-content-filter__apply__input span, .applicant-selection-list-content-filter__selection__input span, .applicant-selection-list-content-filter__finalSelection__input span, .applicant-selection-list-content-filter__offer__input span {
-  display: block;
-  margin: 0 15px;
-}
-.applicant-selection-list-content-filter__ca__input, .applicant-selection-list-content-filter__school__input {
-  position: relative;
-}
-.applicant-selection-list-content-filter__ca__input::after, .applicant-selection-list-content-filter__school__input::after {
-  content: ""; /* 疑似要素の内容 */
-  width: 10px;
-  height: 10px;
-  border-bottom: solid 1.5px #A0A0A0;
-  border-right: solid 1.5px #A0A0A0;
-  transform: rotate(45deg);
-  position: absolute;
-  top: 50%; /* 垂直中央 */
-  right: 15px; /* 矢印を右端に配置 */
-  transform: translateY(-50%) rotate(45deg); /* 矢印を中央揃えしつつ回転 */
-}
-.applicant-selection-list-content-filter__ca__input select, .applicant-selection-list-content-filter__school__input select {
-  width: 100%;
-  border: 1px solid #A0A0A0;
-  border-radius: 5px;
-  padding: 15px;
-  color: #A0A0A0;
-  font-size: 0.75rem;
-}
-.applicant-selection-list-content-filter__gender__input, .applicant-selection-list-content-filter__type__input {
-  width: 100%;
-  display: flex;
-}
-.applicant-selection-list-content-filter__gender__input__radio, .applicant-selection-list-content-filter__type__input__radio {
-  display: flex;
-  align-items: center;
-}
-.applicant-selection-list-content-filter__gender__input__radio:last-child, .applicant-selection-list-content-filter__type__input__radio:last-child {
-  margin-left: 24px;
-}
-.applicant-selection-list-content-filter__gender__input__radio input, .applicant-selection-list-content-filter__type__input__radio input {
-  width: 15px;
-  height: 15px;
-  border: 1px solid #A0A0A0;
-  border-radius: 50%;
-}
-.applicant-selection-list-content-filter__gender__input__radio span, .applicant-selection-list-content-filter__type__input__radio span {
-  display: block;
-  margin-left: 10px;
-}
-.applicant-selection-list-content-filter__phase__input {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.applicant-selection-list-content-filter__phase__input__checkbox {
-  display: flex;
-  align-items: center;
-  padding-left: 16px;
-}
-.applicant-selection-list-content-filter__phase__input__checkbox:first-child {
-  padding-left: 0;
-}
-.applicant-selection-list-content-filter__phase__input__checkbox input {
-  width: 15px;
-  height: 15px;
-  border: 1px solid #A0A0A0;
-  border-radius: 5px;
-}
-.applicant-selection-list-content-filter__phase__input__checkbox span {
-  display: block;
-  margin-left: 7px;
-}
-.applicant-selection-list-content-filter__labels__selected__options {
+.applicant-list-content-filter__labels__selected__options {
   width: 100%;
   border: 1px solid #A0A0A0;
   border-radius: 5px;
@@ -4991,7 +4890,7 @@ input[type=date]::after {
   position: relative;
   padding: 15px;
 }
-.applicant-selection-list-content-filter__labels__selected__options::after {
+.applicant-list-content-filter__labels__selected__options::after {
   content: "";
   width: 10px;
   height: 10px;
@@ -5003,7 +4902,7 @@ input[type=date]::after {
   right: 15px;
   transform: translateY(-50%) rotate(45deg);
 }
-.applicant-selection-list-content-filter__labels__selected__options .option {
+.applicant-list-content-filter__labels__selected__options .option {
   background-color: #E6E6E6;
   border: 1px solid #dcdcdc;
   border-radius: 4px;
@@ -5015,15 +4914,15 @@ input[type=date]::after {
   font-size: 10px;
   white-space: nowrap;
 }
-.applicant-selection-list-content-filter__labels__selected__options .option .remove {
+.applicant-list-content-filter__labels__selected__options .option .remove {
   color: #999;
   cursor: pointer;
   font-weight: bold;
 }
-.applicant-selection-list-content-filter__labels select {
+.applicant-list-content-filter__labels select {
   display: none;
 }
-.applicant-selection-list-content-filter__btn {
+.applicant-list-content-filter__btn {
   width: 400px;
   display: flex;
   justify-content: center;
@@ -5031,7 +4930,7 @@ input[type=date]::after {
   margin: 0 auto;
   padding-top: 80px;
 }
-.applicant-selection-list-content-filter__btn__cancel, .applicant-selection-list-content-filter__btn__apply {
+.applicant-list-content-filter__btn__cancel, .applicant-list-content-filter__btn__apply {
   width: 160px;
   height: 40px;
   border-radius: 5px;
@@ -5039,239 +4938,23 @@ input[type=date]::after {
   align-items: center;
   justify-content: center;
 }
-.applicant-selection-list-content-filter__btn__cancel {
+.applicant-list-content-filter__btn__cancel {
   border: 1px solid #A0A0A0;
 }
-.applicant-selection-list-content-filter__btn__apply {
+.applicant-list-content-filter__btn__apply {
   background-color: #3A87FD;
   color: #fff;
 }
-.applicant-selection-list-content-register__inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.applicant-selection-list-content-register__filter__icon {
-  position: relative;
-  padding-right: 20px;
-  margin-left: auto;
-}
-.applicant-selection-list-content-register__filter__icon::after {
-  content: "";
-  width: 8px;
-  height: 8px;
-  border-bottom: solid 1.5px #272727;
-  border-right: solid 1.5px #272727;
-  transform: rotate(45deg);
-  position: absolute;
-  top: 50%;
-  right: 5px;
-  transform: translateY(-50%) rotate(45deg);
-}
-.applicant-selection-list-content-filter {
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 64px 40px 48px 40px;
-  position: relative;
-}
-.applicant-selection-list-content-filter__inner {
-  display: none;
-}
-.applicant-selection-list-content-filter__block {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1;
-}
-.applicant-selection-list-content-filter__close {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  cursor: pointer;
-}
-.applicant-selection-list-content-filter__create, .applicant-selection-list-content-filter__ca, .applicant-selection-list-content-filter__gender, .applicant-selection-list-content-filter__school, .applicant-selection-list-content-filter__phase, .applicant-selection-list-content-filter__type, .applicant-selection-list-content-filter__assumption, .applicant-selection-list-content-filter__interview, .applicant-selection-list-content-filter__setting, .applicant-selection-list-content-filter__apply, .applicant-selection-list-content-filter__selection, .applicant-selection-list-content-filter__finalSelection, .applicant-selection-list-content-filter__offer, .applicant-selection-list-content-filter__labels {
+.applicant-list-content-apply__inner {
   display: flex;
   align-items: center;
   padding-top: 24px;
 }
-.applicant-selection-list-content-filter__create__label, .applicant-selection-list-content-filter__ca__label, .applicant-selection-list-content-filter__gender__label, .applicant-selection-list-content-filter__school__label, .applicant-selection-list-content-filter__phase__label, .applicant-selection-list-content-filter__type__label, .applicant-selection-list-content-filter__assumption__label, .applicant-selection-list-content-filter__interview__label, .applicant-selection-list-content-filter__setting__label, .applicant-selection-list-content-filter__apply__label, .applicant-selection-list-content-filter__selection__label, .applicant-selection-list-content-filter__finalSelection__label, .applicant-selection-list-content-filter__offer__label, .applicant-selection-list-content-filter__labels__label {
-  width: 120px;
-  font-size: 0.75rem;
-}
-.applicant-selection-list-content-filter__create__input, .applicant-selection-list-content-filter__ca__input, .applicant-selection-list-content-filter__gender__input, .applicant-selection-list-content-filter__school__input, .applicant-selection-list-content-filter__phase__input, .applicant-selection-list-content-filter__type__input, .applicant-selection-list-content-filter__assumption__input, .applicant-selection-list-content-filter__interview__input, .applicant-selection-list-content-filter__setting__input, .applicant-selection-list-content-filter__apply__input, .applicant-selection-list-content-filter__selection__input, .applicant-selection-list-content-filter__finalSelection__input, .applicant-selection-list-content-filter__offer__input, .applicant-selection-list-content-filter__labels__input {
-  width: 100%;
-  font-size: 0.75rem;
-}
-.applicant-selection-list-content-filter__create__input input, .applicant-selection-list-content-filter__ca__input input, .applicant-selection-list-content-filter__gender__input input, .applicant-selection-list-content-filter__school__input input, .applicant-selection-list-content-filter__phase__input input, .applicant-selection-list-content-filter__type__input input, .applicant-selection-list-content-filter__assumption__input input, .applicant-selection-list-content-filter__interview__input input, .applicant-selection-list-content-filter__setting__input input, .applicant-selection-list-content-filter__apply__input input, .applicant-selection-list-content-filter__selection__input input, .applicant-selection-list-content-filter__finalSelection__input input, .applicant-selection-list-content-filter__offer__input input, .applicant-selection-list-content-filter__labels__input input {
-  -webkit-appearance: auto;
-     -moz-appearance: auto;
-          appearance: auto;
-  pointer-events: auto;
-}
-.applicant-selection-list-content-filter__create__input, .applicant-selection-list-content-filter__assumption__input, .applicant-selection-list-content-filter__interview__input, .applicant-selection-list-content-filter__setting__input, .applicant-selection-list-content-filter__apply__input, .applicant-selection-list-content-filter__selection__input, .applicant-selection-list-content-filter__finalSelection__input, .applicant-selection-list-content-filter__offer__input {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.applicant-selection-list-content-filter__create__input input, .applicant-selection-list-content-filter__assumption__input input, .applicant-selection-list-content-filter__interview__input input, .applicant-selection-list-content-filter__setting__input input, .applicant-selection-list-content-filter__apply__input input, .applicant-selection-list-content-filter__selection__input input, .applicant-selection-list-content-filter__finalSelection__input input, .applicant-selection-list-content-filter__offer__input input {
-  width: 200px;
-  padding: 15px;
-  border: 1px solid #A0A0A0;
-  border-radius: 5px;
-}
-.applicant-selection-list-content-filter__create__input span, .applicant-selection-list-content-filter__assumption__input span, .applicant-selection-list-content-filter__interview__input span, .applicant-selection-list-content-filter__setting__input span, .applicant-selection-list-content-filter__apply__input span, .applicant-selection-list-content-filter__selection__input span, .applicant-selection-list-content-filter__finalSelection__input span, .applicant-selection-list-content-filter__offer__input span {
-  display: block;
-  margin: 0 15px;
-}
-.applicant-selection-list-content-filter__ca__input, .applicant-selection-list-content-filter__school__input {
-  position: relative;
-}
-.applicant-selection-list-content-filter__ca__input::after, .applicant-selection-list-content-filter__school__input::after {
-  content: ""; /* 疑似要素の内容 */
-  width: 10px;
-  height: 10px;
-  border-bottom: solid 1.5px #A0A0A0;
-  border-right: solid 1.5px #A0A0A0;
-  transform: rotate(45deg);
-  position: absolute;
-  top: 50%; /* 垂直中央 */
-  right: 15px; /* 矢印を右端に配置 */
-  transform: translateY(-50%) rotate(45deg); /* 矢印を中央揃えしつつ回転 */
-}
-.applicant-selection-list-content-filter__ca__input select, .applicant-selection-list-content-filter__school__input select {
-  width: 100%;
-  border: 1px solid #A0A0A0;
-  border-radius: 5px;
-  padding: 15px;
+.applicant-list-content-apply__heading {
   color: #A0A0A0;
   font-size: 0.75rem;
 }
-.applicant-selection-list-content-filter__gender__input, .applicant-selection-list-content-filter__type__input {
-  width: 100%;
-  display: flex;
-}
-.applicant-selection-list-content-filter__gender__input__radio, .applicant-selection-list-content-filter__type__input__radio {
-  display: flex;
-  align-items: center;
-}
-.applicant-selection-list-content-filter__gender__input__radio:last-child, .applicant-selection-list-content-filter__type__input__radio:last-child {
-  margin-left: 24px;
-}
-.applicant-selection-list-content-filter__gender__input__radio input, .applicant-selection-list-content-filter__type__input__radio input {
-  width: 15px;
-  height: 15px;
-  border: 1px solid #A0A0A0;
-  border-radius: 50%;
-}
-.applicant-selection-list-content-filter__gender__input__radio span, .applicant-selection-list-content-filter__type__input__radio span {
-  display: block;
-  margin-left: 10px;
-}
-.applicant-selection-list-content-filter__phase__input {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.applicant-selection-list-content-filter__phase__input__checkbox {
-  display: flex;
-  align-items: center;
-  padding-left: 16px;
-}
-.applicant-selection-list-content-filter__phase__input__checkbox:first-child {
-  padding-left: 0;
-}
-.applicant-selection-list-content-filter__phase__input__checkbox input {
-  width: 15px;
-  height: 15px;
-  border: 1px solid #A0A0A0;
-  border-radius: 5px;
-}
-.applicant-selection-list-content-filter__phase__input__checkbox span {
-  display: block;
-  margin-left: 7px;
-}
-.applicant-selection-list-content-filter__labels__selected__options {
-  width: 100%;
-  border: 1px solid #A0A0A0;
-  border-radius: 5px;
-  padding: 4px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 4px;
-  position: relative;
-  padding: 15px;
-}
-.applicant-selection-list-content-filter__labels__selected__options::after {
-  content: "";
-  width: 10px;
-  height: 10px;
-  border-bottom: solid 1.5px #A0A0A0;
-  border-right: solid 1.5px #A0A0A0;
-  transform: rotate(45deg);
-  position: absolute;
-  top: 50%;
-  right: 15px;
-  transform: translateY(-50%) rotate(45deg);
-}
-.applicant-selection-list-content-filter__labels__selected__options .option {
-  background-color: #E6E6E6;
-  border: 1px solid #dcdcdc;
-  border-radius: 4px;
-  padding: 4px 8px;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  color: #5D5B5B;
-  font-size: 10px;
-  white-space: nowrap;
-}
-.applicant-selection-list-content-filter__labels__selected__options .option .remove {
-  color: #999;
-  cursor: pointer;
-  font-weight: bold;
-}
-.applicant-selection-list-content-filter__labels select {
-  display: none;
-}
-.applicant-selection-list-content-filter__btn {
-  width: 400px;
-  display: flex;
-  justify-content: center;
-  gap: 32px;
-  margin: 0 auto;
-  padding-top: 80px;
-}
-.applicant-selection-list-content-filter__btn__cancel, .applicant-selection-list-content-filter__btn__apply {
-  width: 160px;
-  height: 40px;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.applicant-selection-list-content-filter__btn__cancel {
-  border: 1px solid #A0A0A0;
-}
-.applicant-selection-list-content-filter__btn__apply {
-  background-color: #3A87FD;
-  color: #fff;
-}
-.applicant-selection-list-content-apply__inner {
-  display: flex;
-  align-items: center;
-  padding-top: 24px;
-}
-.applicant-selection-list-content-apply__heading {
-  color: #A0A0A0;
-  font-size: 0.75rem;
-}
-.applicant-selection-list-content-apply__block {
+.applicant-list-content-apply__block {
   max-width: 900px;
   font-size: 0.625rem;
   overflow-x: scroll;
@@ -5279,38 +4962,233 @@ input[type=date]::after {
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* Internet Explorer */
 }
-.applicant-selection-list-content-apply__block::-webkit-scrollbar {
+.applicant-list-content-apply__block::-webkit-scrollbar {
   display: none; /* WebKitベースのブラウザ */
 }
-.applicant-selection-list-content-apply__box {
+.applicant-list-content-apply__box {
+  display: inline-block;
+  background-color: #E6E6E6;
+  border-radius: 2px;
+  padding: 6px 16px;
+  margin-left: 8px;
+}
+.applicant-list-content-register__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.applicant-list-content-register__filter__icon {
+  position: relative;
+  padding-right: 20px;
+  margin-left: auto;
+}
+.applicant-list-content-register__filter__icon::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-bottom: solid 1.5px #272727;
+  border-right: solid 1.5px #272727;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%) rotate(45deg);
+}
+.applicant-list-content-filter {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 64px 40px 48px 40px;
+  position: relative;
+}
+.applicant-list-content-filter__inner {
+  display: none;
+}
+.applicant-list-content-filter__block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.applicant-list-content-filter__close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+.applicant-list-content-filter__create, .applicant-list-content-filter__gender, .applicant-list-content-filter__phase, .applicant-list-content-filter__type, .applicant-list-content-filter__labels {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+}
+.applicant-list-content-filter__create__label, .applicant-list-content-filter__gender__label, .applicant-list-content-filter__phase__label, .applicant-list-content-filter__type__label, .applicant-list-content-filter__labels__label {
+  width: 120px;
+  font-size: 0.75rem;
+}
+.applicant-list-content-filter__create__input, .applicant-list-content-filter__gender__input, .applicant-list-content-filter__phase__input, .applicant-list-content-filter__type__input, .applicant-list-content-filter__labels__input {
+  width: 100%;
+  font-size: 0.75rem;
+}
+.applicant-list-content-filter__create__input input, .applicant-list-content-filter__gender__input input, .applicant-list-content-filter__phase__input input, .applicant-list-content-filter__type__input input, .applicant-list-content-filter__labels__input input {
+  -webkit-appearance: auto;
+     -moz-appearance: auto;
+          appearance: auto;
+  pointer-events: auto;
+}
+.applicant-list-content-filter__create__input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.applicant-list-content-filter__create__input input {
+  width: 200px;
+  padding: 15px;
+  border: 1px solid #A0A0A0;
+  border-radius: 5px;
+}
+.applicant-list-content-filter__create__input span {
+  display: block;
+  margin: 0 15px;
+}
+.applicant-list-content-filter__gender__input, .applicant-list-content-filter__type__input {
+  width: 100%;
+  display: flex;
+}
+.applicant-list-content-filter__gender__input__radio, .applicant-list-content-filter__type__input__radio {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+.applicant-list-content-filter__gender__input__radio:first-child, .applicant-list-content-filter__type__input__radio:first-child {
+  margin-left: 0;
+}
+.applicant-list-content-filter__gender__input__radio input, .applicant-list-content-filter__type__input__radio input {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #A0A0A0;
+  border-radius: 50%;
+}
+.applicant-list-content-filter__gender__input__radio span, .applicant-list-content-filter__type__input__radio span {
+  display: block;
+  margin-left: 10px;
+}
+.applicant-list-content-filter__labels__selected__options {
+  width: 100%;
+  border: 1px solid #A0A0A0;
+  border-radius: 5px;
+  padding: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  padding: 15px;
+}
+.applicant-list-content-filter__labels__selected__options::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-bottom: solid 1.5px #A0A0A0;
+  border-right: solid 1.5px #A0A0A0;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%) rotate(45deg);
+}
+.applicant-list-content-filter__labels__selected__options .option {
+  background-color: #E6E6E6;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #5D5B5B;
+  font-size: 10px;
+  white-space: nowrap;
+}
+.applicant-list-content-filter__labels__selected__options .option .remove {
+  color: #999;
+  cursor: pointer;
+  font-weight: bold;
+}
+.applicant-list-content-filter__labels select {
+  display: none;
+}
+.applicant-list-content-filter__btn {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+.applicant-list-content-filter__btn__cancel, .applicant-list-content-filter__btn__apply {
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.applicant-list-content-filter__btn__cancel {
+  border: 1px solid #A0A0A0;
+}
+.applicant-list-content-filter__btn__apply {
+  background-color: #3A87FD;
+  color: #fff;
+}
+.applicant-list-content-apply__inner {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+}
+.applicant-list-content-apply__heading {
+  color: #A0A0A0;
+  font-size: 0.75rem;
+}
+.applicant-list-content-apply__block {
+  max-width: 900px;
+  font-size: 0.625rem;
+  overflow-x: scroll;
+  white-space: nowrap;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer */
+}
+.applicant-list-content-apply__block::-webkit-scrollbar {
+  display: none; /* WebKitベースのブラウザ */
+}
+.applicant-list-content-apply__box {
   display: inline-block;
   background-color: #E6E6E6;
   border-radius: 9999px;
   padding: 6px 16px;
   margin-left: 8px;
 }
-.applicant-selection-list-content-table {
+.applicant-list-content-table {
   width: 100%;
 }
-.applicant-selection-list-content-table-ca {
-  width: 100%;
-}
-.applicant-selection-list-content-table-ca__inner {
+.applicant-list-content-table__inner {
   overflow-y: scroll;
   height: 680px;
   margin-top: 24px;
 }
-.applicant-selection-list-content-table-ca__thead {
+.applicant-list-content-table__thead {
   position: sticky;
   top: 0;
 }
-.applicant-selection-list-content-table-ca__thead.onFilter {
+.applicant-list-content-table__thead.onFilter {
   position: static;
 }
-.applicant-selection-list-content-table-ca__tr {
+.applicant-list-content-table__tr {
   border-radius: 0 10px 0 0;
 }
-.applicant-selection-list-content-table-ca__th {
+.applicant-list-content-table__th {
   background-color: #3A87FD;
   border-right: 0.5px solid #A0A0A0;
   color: #fff;
@@ -5320,107 +5198,39 @@ input[type=date]::after {
   vertical-align: middle;
   height: 35px;
 }
-.applicant-selection-list-content-table-ca__th:first-child {
-  border-radius: 10px 0 0 0;
-  width: 160px;
-}
-.applicant-selection-list-content-table-ca__th:nth-child(2), .applicant-selection-list-content-table-ca__th:nth-child(3) {
-  width: 120px;
-}
-.applicant-selection-list-content-table-ca__th:last-child {
-  width: 470px;
-  border-radius: 0 10px 0 0;
-  border-right: 0;
-}
-.applicant-selection-list-content-table-ca__td {
-  border: 0.5px solid #A0A0A0;
-  color: #272727;
-  font-size: 0.75rem;
-  vertical-align: middle;
-  padding: 16px;
-}
-.applicant-selection-list-content-table-ca__td a {
-  color: #3A87FD;
-}
-.applicant-selection-list-content-table-ca__td__btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-}
-.applicant-selection-list-content-table-ca__td__btn button {
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 0.625rem;
-  padding: 8px 24px;
-}
-.applicant-selection-list-content-table-ca__td__btn__approval {
-  background-color: #3A87FD;
-  color: #fff;
-}
-.applicant-selection-list-content-table-ca__td__btn__delete {
-  border: 1px solid #A0A0A0;
-}
-.applicant-selection-list-content-table__inner {
-  overflow-y: scroll;
-  height: 680px;
-  margin-top: 24px;
-}
-.applicant-selection-list-content-table__thead {
-  position: sticky;
-  top: 0;
-}
-.applicant-selection-list-content-table__thead.onFilter {
-  position: static;
-}
-.applicant-selection-list-content-table__tr {
-  border-radius: 0 10px 0 0;
-}
-.applicant-selection-list-content-table__th {
-  background-color: #3A87FD;
-  border-right: 0.5px solid #A0A0A0;
-  color: #fff;
-  font-size: 0.75rem;
-  font-weight: 500;
-  padding-left: 15px;
-  vertical-align: middle;
-  height: 35px;
-}
-.applicant-selection-list-content-table__th:first-child {
+.applicant-list-content-table__th:first-child {
   border-radius: 10px 0 0 0;
   width: 280px;
 }
-.applicant-selection-list-content-table__th:nth-child(2) {
+.applicant-list-content-table__th:nth-child(2) {
   width: 160px;
 }
-.applicant-selection-list-content-table__th:nth-child(3) {
+.applicant-list-content-table__th:nth-child(3) {
   width: 220px;
 }
-.applicant-selection-list-content-table__th:nth-child(4) {
+.applicant-list-content-table__th:nth-child(4) {
   width: 100px;
 }
-.applicant-selection-list-content-table__th:last-child {
+.applicant-list-content-table__th:last-child {
   border-radius: 0 10px 0 0;
   border-right: 0;
 }
-.applicant-selection-list-content-table__td {
+.applicant-list-content-table__td {
   border: 0.5px solid #A0A0A0;
   color: #272727;
   font-size: 0.75rem;
   vertical-align: middle;
   padding: 16px;
 }
-.applicant-selection-list-content-table__td a {
+.applicant-list-content-table__td a {
   color: #3A87FD;
 }
-.applicant-selection-list-content-table__td__btn {
+.applicant-list-content-table__td__btn {
   display: flex;
   align-items: center;
   gap: 8px;
 }
-.applicant-selection-list-content-table__td__btn button {
+.applicant-list-content-table__td__btn button {
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -5428,32 +5238,32 @@ input[type=date]::after {
   font-size: 0.625rem;
   padding: 8px 24px;
 }
-.applicant-selection-list-content-table__td__btn__approval {
+.applicant-list-content-table__td__btn__approval {
   background-color: #3A87FD;
   color: #fff;
 }
-.applicant-selection-list-content-table__td__btn__delete {
+.applicant-list-content-table__td__btn__delete {
   border: 1px solid #A0A0A0;
 }
-.applicant-selection-list-content-pageList {
+.applicant-list-content-pageList {
   padding: 0 10px;
 }
-.applicant-selection-list-content-pageList:first-child {
+.applicant-list-content-pageList:first-child {
   padding-right: 20px;
   padding-left: 0;
 }
-.applicant-selection-list-content-pageList:last-child {
+.applicant-list-content-pageList:last-child {
   padding-left: 20px;
 }
-.applicant-selection-list-content-pageList__inner {
+.applicant-list-content-pageList__inner {
   display: flex;
   align-items: center;
   padding-top: 24px;
 }
-.applicant-selection-list-content-pageList__link {
+.applicant-list-content-pageList__link {
   color: #A5A5A5;
   font-family: "Jost", sans-serif;
 }
-.applicant-selection-list-content-pageList__prev__link, .applicant-selection-list-content-pageList__next__link {
+.applicant-list-content-pageList__prev__link, .applicant-list-content-pageList__next__link {
   font-size: 0.75rem;
 }/*# sourceMappingURL=styles.css.map */
