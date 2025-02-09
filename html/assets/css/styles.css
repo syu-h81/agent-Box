@@ -5266,4 +5266,162 @@ input[type=date]::after {
 }
 .applicant-list-content-pageList__prev__link, .applicant-list-content-pageList__next__link {
   font-size: 0.75rem;
+}
+.applicant-management__title__flex {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.applicant-management__title__flex span {
+  background-color: #FFAB01;
+  border-radius: 25px;
+  color: #fff;
+  padding: 6px 22px;
+  display: flex;
+  font-size: 0.625em;
+  align-items: center;
+  justify-content: center;
+}
+.applicant-management__content {
+  border: 1px solid #A0A0A0;
+  border-radius: 5px;
+  padding: 24px;
+}
+.applicant-management__content__inner {
+  display: flex;
+  gap: 16px;
+  padding-top: 48px;
+}
+.applicant-management__content__basicInfo__title__inner {
+  border-bottom: 1px solid #A0A0A0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+.applicant-management__content__basicInfo__title__flex {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.applicant-management__content__basicInfo__title__flex span span {
+  color: #272727;
+}
+.applicant-management__content__basicInfo__list__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.applicant-management__content__basicInfo__item {
+  width: 47%;
+  border-bottom: 1px solid #A0A0A0;
+  display: flex;
+  align-items: center;
+  padding: 32px 0 24px 0;
+}
+.applicant-management__content__basicInfo__item__label {
+  width: 160px;
+  color: #A0A0A0;
+  font-size: 0.75em;
+}
+.applicant-management__content__memo__inner {
+  padding-top: 48px;
+}
+.applicant-management__content__memo__title__inner {
+  border-bottom: 1px solid #A0A0A0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+.applicant-management__content__memo__area {
+  letter-spacing: 0.5px;
+  line-height: 27.75px;
+  padding-top: 32px;
+}
+.applicant-management__content__memo__btn {
+  width: 160px;
+  border: 1px solid #A0A0A0;
+  border-radius: 5px;
+  font-size: 0.75em;
+  padding: 15px 0;
+  margin: 0 auto;
+  margin-top: 48px;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.applicant-management__content__sidebar {
+  border: 1px solid #A0A0A0;
+  border-radius: 5px;
+}
+.applicant-management__content__sidebar__title__inner {
+  border-bottom: 1px solid #A0A0A0;
+  padding: 24px 0;
+  margin: 0 24px;
+}
+.applicant-management__content__sidebar__msg__box {
+  padding: 24px;
+  padding-top: 32px;
+}
+.applicant-management__content__sidebar__msg__box__unitas {
+  background-color: #F7F7F5;
+}
+.applicant-management__content__sidebar__msg__box__name {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.applicant-management__content__sidebar__msg__box__name__unitas {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.applicant-management__content__sidebar__msg__box__name span:last-child {
+  color: #A0A0A0;
+  font-size: 0.75em;
+  font-family: "Jost", sans-serif;
+  margin-left: 16px;
+}
+.applicant-management__content__sidebar__msg__box__show {
+  padding-top: 16px;
+  width: 86%;
+  margin-left: auto;
+}
+.applicant-management__content__sidebar__msg__box__show__unitas {
+  margin-left: 0;
+}
+.applicant-management__content__sidebar__msg__box__show p {
+  letter-spacing: 0.5px;
+  line-height: 27.75px;
+}
+.applicant-management__content__sidebar__msg__box__show__icon {
+  padding-top: 12px;
+}
+.applicant-management__content__sidebar__msg__box__show__icon img {
+  width: 12px;
+}
+.applicant-management__content__sidebar__msg__box__textarea {
+  border: 1px solid #A0A0A0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 5px;
+  margin-top: 32px;
+  height: 120px;
+  padding: 15px;
+}
+.applicant-management__content__sidebar__msg__box__textarea textarea {
+  width: 100%;
+  height: 70px;
+}
+.applicant-management__content__sidebar__msg__box__textarea__icons {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: auto;
+}
+.applicant-management__content__sidebar__msg__box__textarea__icon img {
+  width: 14px;
+  height: auto;
 }/*# sourceMappingURL=styles.css.map */
