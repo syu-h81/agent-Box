@@ -181,6 +181,20 @@ $(function() {
     $('.seeker-register-sidebar-log__delete__confirm__inner').fadeToggle();
     $('.seeker-register-sidebar-log__delete__complete__inner').fadeToggle();
   });
+
+  //ポップアップのボタン発火の機能
+  /*$('.a').on('click', function() {
+    $('.popup-confirm-inner').fadeToggle();
+  });*/
+  //ポップアップのキャンセルボタンの機能
+  $('.popup-confirm-body-cancel-btn').on('click', function() {
+    $('.popup-confirm-inner').fadeToggle();
+  });
+  //ポップアップの完了ボタンの機能
+  $('.popup-confirm-body-decision-btn').on('click', function() {
+    $('.popup-confirm-inner').fadeToggle();
+    $('.popup-completion-inner').fadeToggle();
+  });
 });
 
 $(document).ready(function() {

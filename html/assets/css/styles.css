@@ -426,6 +426,101 @@ time {
   font-family: "Jost", sans-serif;
 }
 
+.popup-confirm-inner {
+  display: none;
+}
+.popup-confirm-block {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.popup-confirm-body {
+  background-color: #fff;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 48px;
+  padding: 120px 96px;
+  position: relative;
+}
+.popup-confirm-body-heading {
+  font-size: 1.25em;
+  text-align: center;
+}
+.popup-confirm-body-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding-top: 48px;
+}
+.popup-confirm-body-btn {
+  width: 160px;
+  border-radius: 5px;
+  font-size: 0.75em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+}
+.popup-confirm-body-cancel-btn {
+  border: 1px solid #A0A0A0;
+  color: #5D5B5B;
+}
+.popup-confirm-body-decision-btn {
+  background-color: #3A87FD;
+  color: #fff;
+}
+.popup-confirm-body-delete-btn {
+  background-color: #E10004;
+  color: #fff;
+}
+.popup-completion-inner {
+  display: none;
+}
+.popup-completion-block {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.popup-completion-body {
+  background-color: #fff;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 48px;
+  padding: 120px 96px;
+  position: relative;
+}
+.popup-completion-body-heading {
+  font-size: 1.25em;
+  text-align: center;
+}
+.popup-completion-body-btn {
+  width: 160px;
+  border: 1px solid #A0A0A0;
+  border-radius: 5px;
+  color: #5D5B5B;
+  font-size: 0.75em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  margin-top: 48px;
+}
+
 .header {
   width: 240px;
   background-color: #fff;
@@ -5272,10 +5367,30 @@ input[type=date]::after {
   align-items: center;
   gap: 32px;
 }
-.applicant-management__title__flex span {
-  background-color: #FFAB01;
+.applicant-management__title__flex__category {
   border-radius: 25px;
-  color: #fff;
+  color: #fff !important;
+  padding: 6px 22px;
+  display: flex;
+  font-size: 0.625em;
+  align-items: center;
+  justify-content: center;
+}
+.applicant-management__title__flex__category__interview {
+  background-color: #FFAB01;
+}
+.applicant-management__title__flex__category__offer {
+  background-color: #FE6250;
+}
+.applicant-management__title__flex__category__offer__inner {
+  display: flex;
+  display: none;
+  align-items: center;
+  gap: 16px;
+}
+.applicant-management__title__flex__category__consent {
+  border: 1px solid #A0A0A0;
+  border-radius: 25px;
   padding: 6px 22px;
   display: flex;
   font-size: 0.625em;
@@ -5286,6 +5401,7 @@ input[type=date]::after {
   border: 1px solid #A0A0A0;
   border-radius: 5px;
   padding: 24px;
+  width: 65%;
 }
 .applicant-management__content__inner {
   display: flex;
@@ -5339,7 +5455,90 @@ input[type=date]::after {
   line-height: 27.75px;
   padding-top: 32px;
 }
-.applicant-management__content__memo__btn {
+.applicant-management__content__detail__inner {
+  padding-top: 72px;
+}
+.applicant-management__content__detail__list__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.applicant-management__content__detail__item {
+  width: 47%;
+  border-bottom: 1px solid #A0A0A0;
+  display: flex;
+  align-items: center;
+  padding: 32px 0 24px 0;
+}
+.applicant-management__content__detail__item__label {
+  width: 160px;
+  color: #A0A0A0;
+  font-size: 0.75em;
+}
+.applicant-management__content__detail__item__value {
+  width: 100%;
+}
+.applicant-management__content__detail__item__intention, .applicant-management__content__detail__item__passRate, .applicant-management__content__detail__item__caComment, .applicant-management__content__detail__item__session, .applicant-management__content__detail__item__recommend, .applicant-management__content__detail__item__introduce, .applicant-management__content__detail__item__caution, .applicant-management__content__detail__item__selectionFB {
+  width: 100%;
+  line-height: 27.75px;
+}
+.applicant-management__content__detail__item__upload {
+  width: 100%;
+  align-items: flex-start;
+}
+.applicant-management__content__detail__item__upload__body {
+  width: 100%;
+}
+.applicant-management__content__detail__item__upload__body__resume, .applicant-management__content__detail__item__upload__body__history {
+  text-align: center;
+}
+.applicant-management__content__detail__item__upload__body__resume__inner span, .applicant-management__content__detail__item__upload__body__history__inner span {
+  color: #A0A0A0;
+  font-size: 0.75rem;
+  display: block;
+  margin-top: 12px;
+}
+.applicant-management__content__detail__item__upload__body__resume__flex, .applicant-management__content__detail__item__upload__body__history__flex {
+  width: 100%;
+  padding: 32px 90px;
+  border: 1px dotted #A0A0A0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.applicant-management__content__detail__item__upload__body__resume__text, .applicant-management__content__detail__item__upload__body__history__text {
+  color: #A0A0A0;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 27.75px;
+}
+.applicant-management__content__detail__item__upload__body__resume__input, .applicant-management__content__detail__item__upload__body__history__input {
+  padding-top: 16px;
+}
+.applicant-management__content__detail__item__upload__body__resume__input__btn, .applicant-management__content__detail__item__upload__body__history__input__btn {
+  background-color: #8F8F8F;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 0.75rem;
+  padding: 8px 20px;
+  width: 276px;
+  margin: 0 auto;
+}
+.applicant-management__content__detail__item__upload__body__resume__input input, .applicant-management__content__detail__item__upload__body__history__input input {
+  display: none;
+}
+.applicant-management__content__detail__item__upload__body__resume__supplyment, .applicant-management__content__detail__item__upload__body__history__supplyment {
+  color: #A0A0A0;
+  font-size: 0.75rem;
+  padding-top: 26px;
+}
+.applicant-management__content__detail__item__upload__body__history__inner {
+  padding-top: 32px;
+}
+.applicant-management__content__btn {
   width: 160px;
   border: 1px solid #A0A0A0;
   border-radius: 5px;
@@ -5355,6 +5554,7 @@ input[type=date]::after {
 .applicant-management__content__sidebar {
   border: 1px solid #A0A0A0;
   border-radius: 5px;
+  width: 35%;
 }
 .applicant-management__content__sidebar__title__inner {
   border-bottom: 1px solid #A0A0A0;
@@ -5363,10 +5563,26 @@ input[type=date]::after {
 }
 .applicant-management__content__sidebar__msg__box {
   padding: 24px;
-  padding-top: 32px;
+  padding-top: 0;
+}
+.applicant-management__content__sidebar__msg__box__first {
+  padding-top: 24px;
 }
 .applicant-management__content__sidebar__msg__box__unitas {
   background-color: #F7F7F5;
+  padding: 24px;
+  padding-top: 32px;
+}
+.applicant-management__content__sidebar__msg__box__date {
+  width: 130px;
+  background-color: #E6E6E6;
+  border-radius: 25px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 0;
+  margin: 48px auto;
 }
 .applicant-management__content__sidebar__msg__box__name {
   display: flex;
