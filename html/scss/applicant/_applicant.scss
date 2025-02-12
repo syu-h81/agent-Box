@@ -795,4 +795,65 @@
       }
     }
   }
+  //応募選考管理_一括応募ページのcss
+  &-bulkReq {
+    &__content {
+      &__inner {
+        padding-top: 40px;
+      }
+      &__names {
+        border-bottom: 1px solid #A0A0A0;
+        display: flex;
+        font-size: 1.25em;
+        padding-bottom: 24px;
+      }
+      &__name {
+        width: 25%;
+      }
+      &__option {
+        width: 21%;
+        &__inner {
+          display: flex;
+          gap: 20px;
+          padding-top: 32px;
+        }
+        select {
+          border: 1px solid #A0A0A0;
+          border-radius: 5px;
+          padding: 15px;
+          margin: 25px 0;
+          width: 100%;
+        }
+        &__box__first {
+          margin: 0;
+        }
+        &__plus {
+          padding-top: 16px;
+          text-align: center;
+          img {
+            width: 13px;
+          }
+        }
+      }
+      &__arrow__icon {
+        margin-top: 38px;
+        img {
+          width: 6px;
+        }
+      }
+      &__apply__btn {
+        width: 195px;
+        height: 41px;
+        background-color: #3A87FD;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 0.75em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 80px;
+      }
+    }
+  }
 }

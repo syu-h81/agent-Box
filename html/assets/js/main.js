@@ -182,18 +182,60 @@ $(function() {
     $('.seeker-register-sidebar-log__delete__complete__inner').fadeToggle();
   });
 
-  //ポップアップのボタン発火の機能
+  //////ポップアップのボタン発火の機能
   /*$('.a').on('click', function() {
     $('.popup-confirm-inner').fadeToggle();
   });*/
-  //ポップアップのキャンセルボタンの機能
+  //共通ポップアップのキャンセルボタンの機能
   $('.popup-confirm-body-cancel-btn').on('click', function() {
     $('.popup-confirm-inner').fadeToggle();
   });
-  //ポップアップの完了ボタンの機能
+  //共通ポップアップの完了ボタンの機能
   $('.popup-confirm-body-decision-btn').on('click', function() {
     $('.popup-confirm-inner').fadeToggle();
     $('.popup-completion-inner').fadeToggle();
+  });
+
+  //応募選考管理_一括応募_複数社目 求職者オプションの追加
+  $('#option-seeker-plus').on('click', function() {
+    $(this).before(`
+      <select class='applicant-bulkReq__content__option__box__first' name='seeker' onchange='changeColor(this)'>
+        <option value=''>オプション</option>
+        <option value=''>山田太郎</option>
+        <option value=''>山田華子</option>
+        <option value=''>山田麻子</option>
+        <option value=''>山田次郎</option>
+      </select>
+    `);
+  });
+  //応募選考管理_一括応募_複数社目 企業名オプションの追加
+  $('#option-company-plus').on('click', function() {
+    $(this).before(`
+      <select name="company" id="" onchange="changeColor(this)">
+        <option value="">オプション</option>
+        <option value="">株式会社サイバーエージェント</option>
+      </select>
+    `);
+  });
+  //応募選考管理_一括応募_複数社目 求人オプションの追加
+  $('#option-recruit-plus').on('click', function() {
+    $(this).before(`
+      <select name="recruit" id="" onchange="changeColor(this)">
+        <option value="">オプション</option>
+      </select>
+    `);
+  });
+  //応募選考管理_一括応募_複数社目 求人オプションの追加
+  $('#option-reservation-plus').on('click', function() {
+    $(this).before(`
+      <select name="reservation" id="" onchange="changeColor(this)">
+        <option value="">オプション</option>
+      </select>
+    `);
+  });
+  //応募選考管理_一括応募_複数社目 ポップアップの表示機能
+  $('#bulkBtn').on('click', function() {
+    $('.popup-confirm-inner').fadeToggle();
   });
 });
 
