@@ -60,7 +60,7 @@
                 </div>
                 <ul class="header-nav__subList">
                   <li class="header-nav__subList__item"><a href="applicant-list.php">応募選考一覧</a></li>
-                  <li class="header-nav__subList__item"><a href="">保留選考一覧</a></li>
+                  <li class="header-nav__subList__item"><a href="applicant-onhold-list.php">保留選考一覧</a></li>
                 </ul>
               </li>
               <li class="header-nav__item header-nav__item__seeker">

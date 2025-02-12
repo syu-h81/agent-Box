@@ -1,4 +1,4 @@
-<?php $title="B_001_応募選考管理-保留応募一覧" ?>
+<?php $title="応募選考管理-保留応募一覧" ?>
 <?php require_once dirname(__FILE__).'/header.php'; ?>
   <main class="main">
     <div class="main-container">

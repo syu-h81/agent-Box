@@ -1,4 +1,4 @@
-<?php $title="応募選考管理_選考一覧_フィルター適用後" ?>
+<?php $title="応募選考管理_選考一覧" ?>
 <?php session_start() ?>
 <?php require_once dirname(__FILE__).'/header.php'; ?>
   <main class="main">
@@ -40,7 +40,7 @@
         <div class="applicant-list__inner applicant-inner">
           <div class="applicant-list__block applicant-block">
             <div class="applicant-list__title__inner applicant-title-inner">
-              <h2>保留応募一覧</h2>
+              <h2>選考一覧</h2>
             </div>
             <div class="applicant-list-content__inner applicant-content-inner">
               <div class="applicant-list-content-register__inner">
