@@ -115,7 +115,7 @@
             <div class="popup-completion-block">
               <div class="popup-completion-body">
                 <div class="popup-completion-body-heading">応募完了しました</div>
-                <a href="applicant-bulkRequest.php" class="popup-completion-body-btn">
+                <a href="applicant-bulkrequest.php" class="popup-completion-body-btn">
                   <button>戻る</button>
                 </a>
               </div>
