@@ -195,6 +195,15 @@ $(function() {
     $('.popup-confirm-inner').fadeToggle();
     $('.popup-completion-inner').fadeToggle();
   });
+  //共通ポップアップの削除キャンセルボタンの機能
+  $('.popup-confirm-body-delete-cancel-btn').on('click', function() {
+    $('.popup-confirm-delete-inner').fadeToggle();
+  });
+  //共通ポップアップの削除ボタンの機能
+  $('.popup-confirm-body-delete-btn').on('click', function() {
+    $('.popup-confirm-delete-inner').fadeToggle();
+    $('.popup-completion-delete-inner').fadeToggle();
+  });
 
   //応募選考管理_一括応募_複数社目 求職者オプションの追加
   $('#option-seeker-plus').on('click', function() {
@@ -236,6 +245,14 @@ $(function() {
   //応募選考管理_一括応募_複数社目 ポップアップの表示機能
   $('#bulkBtn').on('click', function() {
     $('.popup-confirm-inner').fadeToggle();
+  });
+  //応募選考管理-保留応募一覧ページ　応募ポップアップの表示機能
+  $('#applicant-onhold-apply-btn').on('click', function() {
+    $('.popup-confirm-inner').fadeToggle();
+  });
+  //応募選考管理-保留応募一覧ページ　削除ポップアップの表示機能
+  $('#applicant-onhold-delete-btn').on('click', function() {
+    $('.popup-confirm-delete-inner').fadeToggle();
   });
 });
 
